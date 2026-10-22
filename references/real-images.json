@@ -1,0 +1,106 @@
+[
+  {
+    "file": "assets/images/real-makera-story.jpg",
+    "title": "Makera官方叙事配图：桌面制造场景",
+    "source_page": "https://www.makera.com/pages/about-us",
+    "image_url": "https://www.makera.com/cdn/shop/files/001.png?v=1748413366",
+    "credit": "图片版权归原品牌/原权利人所有；官网资料引用，未发现开放再许可。公开发行前需逐图确认授权。",
+    "image_type": "官方叙事配图，非本书AI生成；拍摄/合成方式未披露，不作为技术事实证据",
+    "downloaded": true,
+    "bytes": 13679235,
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-farsoon-team.jpg",
+    "title": "Farsoon官方工厂设备照片",
+    "source_page": "https://www.farsoon-gl.com/about/",
+    "image_url": "https://www.farsoon-gl.com/style/img/about_01left.jpg",
+    "credit": "图片版权归原品牌/原权利人所有；官网资料引用，未发现开放再许可。公开发行前需逐图确认授权。",
+    "image_type": "官方工厂照片，非本书AI生成",
+    "downloaded": true,
+    "bytes": 71478,
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-sovol-sv08.jpg",
+    "title": "Sovol SV08 官方产品图",
+    "source_page": "https://www.sovol3d.com/products/sovol-sv08-3d-printer",
+    "image_url": "https://www.sovol3d.com/cdn/shop/files/Sovol_SV08_CoreXY_3D_Printer_Main_Image.jpg?v=1782978460&width=1200",
+    "credit": "图片版权归原品牌/原权利人所有；官网资料引用，未发现开放再许可。公开发行前需逐图确认授权。",
+    "image_type": "官方真实资料图（可能含产品渲染，非本书AI生成）",
+    "downloaded": true,
+    "bytes": 172723,
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-sovol-model.png",
+    "title": "Sovol SV08 官方打印样件图",
+    "source_page": "https://www.sovol3d.com/products/sovol-sv08-3d-printer",
+    "image_url": "https://www.sovol3d.com/cdn/shop/files/SV08_Model_2.png?v=1743154322&width=1000",
+    "credit": "图片版权归原品牌/原权利人所有；官网资料引用，未发现开放再许可。公开发行前需逐图确认授权。",
+    "image_type": "官方真实资料图（可能含产品渲染，非本书AI生成）",
+    "downloaded": true,
+    "bytes": 284510,
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-makera-development.jpg",
+    "title": "Makera官方产品场景图：Carvera工作台",
+    "source_page": "https://www.makera.com/pages/about-us",
+    "image_url": "https://www.makera.com/cdn/shop/files/003.png?v=1748413364",
+    "credit": "图片版权归原品牌/原权利人所有；官网资料引用，未发现开放再许可。公开发行前需逐图确认授权。",
+    "image_type": "官方产品场景图，非本书AI生成；可能含渲染或合成",
+    "downloaded": true,
+    "bytes": 8057292,
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-makera-workshop.jpg",
+    "title": "Makera官方用户场景拼图",
+    "source_page": "https://www.makera.com/pages/about-us",
+    "image_url": "https://www.makera.com/cdn/shop/files/about.jpg?v=1748414304",
+    "credit": "图片版权归原品牌/原权利人所有；官网资料引用，未发现开放再许可。公开发行前需逐图确认授权。",
+    "image_type": "官方用户场景拼图，非本书AI生成；单图出处未另披露",
+    "downloaded": true,
+    "bytes": 86944,
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-farsoon-machine.jpg",
+    "title": "Farsoon 官方设备与样件图",
+    "source_page": "https://www.farsoon-gl.com/about/",
+    "image_url": "https://www.farsoon-gl.com/style/img/header_02.jpg?=v1",
+    "credit": "图片版权归原品牌/原权利人所有；官网资料引用，未发现开放再许可。公开发行前需逐图确认授权。",
+    "image_type": "官方真实资料图（可能含产品渲染，非本书AI生成）",
+    "downloaded": true,
+    "bytes": 67726,
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-carbon-adidas.jpg",
+    "source_page": "https://www.carbon3d.com/resources/case-study/adidas",
+    "image_url": "https://res.cloudinary.com/carbon3d/image/upload/q_auto,f_auto/v1628707096/resources/case-studies/adidas-main-banner.jpg",
+    "bytes": 36356,
+    "title": "real-carbon-adidas",
+    "credit": "官方页面图片；版权归原权利人，公开发行需确认授权。",
+    "retrieved": "2026-10-22",
+    "embedded": true
+  },
+  {
+    "file": "assets/images/real-nasa-copper.jpg",
+    "title": "NASA全尺寸铜合金火箭发动机部件",
+    "source_page": "https://www.nasa.gov/technology/nasa-3-d-prints-first-full-scale-copper-rocket-engine-part/",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2015/04/elg3952.jpg",
+    "credit": "NASA/MSFC；依据NASA媒体使用准则保留署名，不表示NASA背书。",
+    "image_type": "NASA真实照片",
+    "retrieved": "2026-10-22",
+    "embedded": true
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "title": "美国能源部《How 3D Printers Work》",
+    "url": "https://www.energy.gov/articles/how-3d-printers-work",
+    "chapter": "01",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "SME《Additive Manufacturing Glossary》",
+    "url": "https://www.sme.org/additive-manufacturing-glossary",
+    "chapter": "01",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "ASME《#261 Stereolithography》",
+    "url": "https://www.asme.org/about-asme/engineering-history/landmarks/261-stereolithography",
+    "chapter": "01",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "NIST《Additive Manufacturing Technologies》",
+    "url": "https://www.nist.gov/additive-manufacturing/research-areas/technologies",
+    "chapter": "01",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "UltiMaker《Introduction to FFF 3D printing》",
+    "url": "https://ultimaker.com/learn/introduction-to-fff-3d-printing/",
+    "chapter": "02",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Prusa《First layer issues》",
+    "url": "https://help.prusa3d.com/article/first-layer-issues_1804",
+    "chapter": "02",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Prusa《Composite materials》",
+    "url": "https://help.prusa3d.com/article/composite-materials-filled-with-carbon-kevlar-or-glass_167387",
+    "chapter": "02",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Markforged《CFR 3D Printing》",
+    "url": "https://markforged.com/resources/10x-stronger",
+    "chapter": "02",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "NIST《Vat Photopolymerization》",
+    "url": "https://www.nist.gov/additive-manufacturing/research-areas/technologies/vat-photopolymerization",
+    "chapter": "03",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Formlabs《Guide to Stereolithography》",
+    "url": "https://formlabs.com/blog/ultimate-guide-to-stereolithography-sla-3d-printing/",
+    "chapter": "03",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Formlabs《Model orientation best practices》",
+    "url": "https://formlabs.com/support/Model-Orientation/",
+    "chapter": "03",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Carbon《DLS Technology》",
+    "url": "https://www.carbon3d.com/carbon-dls-technology",
+    "chapter": "03",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "EOS《Selective Laser Sintering》",
+    "url": "https://www.eos.info/about-us/what-we-do/sls",
+    "chapter": "04",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Formlabs《Selective Laser Sintering: Complete Guide》",
+    "url": "https://formlabs.com/blog/what-is-selective-laser-sintering/",
+    "chapter": "04",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "HP《Comparing Binder jetting, Material Jetting, Multi Jet Fusion and SLS》",
+    "url": "https://www.hp.com/us-en/printers/3d-printers/learning-center/3d-print-binder-vs-material-jetting.html",
+    "chapter": "04",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "EOS《Post-Processing in 3D Printing》",
+    "url": "https://www.eos.info/enablement/polymer-post-processing",
+    "chapter": "04",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Fraunhofer IFAM《Additive Manufacturing》",
+    "url": "https://www.ifam.fraunhofer.de/en/technologies/additive-manufacturing.html",
+    "chapter": "05",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "EOS《EU Project InShaPe》",
+    "url": "https://www.eos.info/press-media/press-center/press-releases/2022/eu-project-inshape",
+    "chapter": "05",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Fraunhofer IFAM《Additive Manufacturing》",
+    "url": "https://www.ifam.fraunhofer.de/en/technologies/additive-manufacturing.html",
+    "chapter": "05",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "NIST《Directed Energy Deposition》",
+    "url": "https://www.nist.gov/additive-manufacturing/research-areas/technologies/directed-energy-deposition",
+    "chapter": "05",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "TRUMPF《Laser Metal Deposition》",
+    "url": "https://www.trumpf.com/en_INT/solutions/applications/additive-manufacturing/laser-metal-deposition/",
+    "chapter": "05",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Siemens《Binder jetting》",
+    "url": "https://www.siemens.com/en-gb/technology/binder-jetting/",
+    "chapter": "05",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Stratasys《PolyJet Technology》",
+    "url": "https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/polyjet-technology/",
+    "chapter": "06",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Fabrisonic《What is UAM?》",
+    "url": "https://fabrisonic.com/uam/",
+    "chapter": "06",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Lithoz《LCM Technology》",
+    "url": "https://www.lithoz.com/en/technology/lcm-technology/",
+    "chapter": "06",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Fraunhofer HTL《Stereolithographic Process》",
+    "url": "https://www.htl.fraunhofer.de/en/ResearchAreas/additive-manufacturing/stereolithography-process.html",
+    "chapter": "06",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Natural Machines《Users》",
+    "url": "https://www.naturalmachines.com/users",
+    "chapter": "06",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "COBOD《How it works》",
+    "url": "https://cobod.com/how-it-works/",
+    "chapter": "06",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "CELLINK《Cell and tissue models》",
+    "url": "https://www.cellink.com/cell-tissue-models/",
+    "chapter": "06",
+    "usage": "本章紧邻段落事实依据；官方或专业机构原始资料",
+    "accessed": "2026-10-22"
+  }
+]

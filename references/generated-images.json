@@ -1,0 +1,58 @@
+[
+  {
+    "file": "assets/images/01-cover.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Museum quality still life of terracotta printed porous vase, cream resin abstract arch, charcoal nylon lattice bracket, precision milled silver aluminum with curled chips. Warm ivory, daylight, no logos or text.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/02-extrusion.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Six extrusion concepts: layered vase, infill coupon, amber lampshade, black flexible lattice sole, coarse pellet stool, continuous fiber beam cutaway. 3x2 ivory editorial plate.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/03-resin.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Six photopolymer concepts: ornament, amber enclosure, polished transparent dome, supported part, blue castable rings, burgundy perforated lamp. 3x2 ivory plate.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/04-powder-metal.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Six powder bed concepts: nylon chain, nylon duct, elastomer lattice sphere, titanium topology bracket, copper channel cutaway, partly machined rough metal part. 3x2 ivory plate.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/05-materials.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Twelve tangible samples in 4x3 grid: PLA, PETG, ASA, TPU, nylon, carbon composite, PEEK, resin, titanium, copper, ceramic, wood-filled composite. No labels or real brand claims.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/06-cnc.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Six conceptual blank and finished pairs: turning brass, milled aluminum pocket, wire EDM steel profile, routed wood relief, cut plate silhouette, waterjet glass. 3x2 ivory plate.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/07-same-part.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Same simple L bracket in FFF, gray resin, white nylon, rough titanium, milled aluminum, metal printing with machined mounting faces. Consistent scale and camera, no labels.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/08-design.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Six aesthetic printing concepts: pleated lamp, translucent branching vessel, layered clay vase, architectural arches, lattice cuff, gyroid cube. 3x2 ivory editorial plate.",
+    "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  }
+]

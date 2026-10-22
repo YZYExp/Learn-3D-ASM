@@ -1,0 +1,373 @@
+[
+  {
+    "title": "Prusa公司介绍",
+    "url": "https://www.prusa3d.com/page/about-us_77/",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "拓竹公司介绍",
+    "url": "https://bambulab.cn/zh-cn/about-us",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Anycubic支持中心",
+    "url": "https://www.anycubic.com/SupportCenter",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "QIDI产品与文档",
+    "url": "https://wiki.qidi3d.com/",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Flashforge手册",
+    "url": "https://wiki.flashforge.com/en/adventurer-series/manual",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Prusa十周年回顾",
+    "url": "https://blog.prusa3d.com/celebrating-10-years-of-prusa-research_68570/",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "品牌官网",
+    "url": "https://www.sovol3d.com/products/sovol-sv08-3d-printer",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "创想十周年访谈",
+    "url": "https://www.creality.com/blog/creality-ceo-on-the-brands-10-year-anniversary",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "ELEGOO品牌故事",
+    "url": "https://www.elegoo.com/pages/about",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Voron项目介绍",
+    "url": "https://docs.vorondesign.com/about.html",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Rat Rig文档",
+    "url": "https://wiki.ratrig.com/",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "SV08官方仓库",
+    "url": "https://github.com/Sovol3d/SV08",
+    "chapter": "12",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Formlabs",
+    "url": "https://formlabs.com/",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Raise3D Pro3",
+    "url": "https://www.raise3d.com/pro3-series/",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Raise3D DF2",
+    "url": "https://raise3d.com/df2/",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "EOS",
+    "url": "https://www.eos.info/about-us/who-we-are",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "HP MJF技术",
+    "url": "https://www.hp.com/us-en/printers/3d-printers/products/multi-jet-technology.html",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Stratasys工艺目录",
+    "url": "https://www.stratasys.com/en/3d-printing-technologies/",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "3D Systems材料与工艺",
+    "url": "https://www.3dsystems.com/materials/metal",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Markforged连续纤维资料",
+    "url": "https://web-objects.markforged.com/craft/materials/CompositesV5.2.pdf",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "MIT对Formlabs的回顾",
+    "url": "https://news.mit.edu/2014/affordable-precision-3-d-printing-pros-0603",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Formlabs十周年回顾",
+    "url": "https://formlabs.com/blog/formlabs-10-years/",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "官方合并公告",
+    "url": "https://www.makerbot.com/stories/ultimaker-and-makerbot-announce-closing-of-merger/",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "EOS历史",
+    "url": "https://www.eos.info/about-us/who-we-are/history",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "2017年合作公告",
+    "url": "https://www.carbon3d.com/news/press-releases/adidas-unveils-industrys-first-application-of-digital-light-synthesis-with-futurecraft-4d",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Carbon应用资料",
+    "url": "https://www.carbon3d.com/resources/case-study/adidas",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "2025年完成公告",
+    "url": "https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Announces-Closing-of-Markforged-Acquisition/default.aspx",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "2026年拟收购公告",
+    "url": "https://investors.stratasys.com/news-events/press-releases/detail/984/stratasys-to-acquire-markforged-inc-expanding-aerospace",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Nano关于Desktop Metal破产的声明",
+    "url": "https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Statement-Regarding-Desktop-Metal-Bankruptcy-and-Strategic-Decision-Not-to-Acquire-Assets/default.aspx",
+    "chapter": "13",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "BLT官方",
+    "url": "https://www.xa-blt.com/en/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Farsoon公司介绍",
+    "url": "https://www.farsoon-gl.com/about/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Eplus3D公司历史",
+    "url": "https://www.eplus3d.com/our-history/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "UnionTech",
+    "url": "https://www.uniontech3d.com/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "先临简介",
+    "url": "https://www.shining3d.cn/news/article_xianlinsanweijianjie",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "LuxCreo技术平台",
+    "url": "https://luxcreo.com/technology/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "eSUN集团介绍",
+    "url": "https://www.esungroup.net/about-esun/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Polymaker介绍",
+    "url": "https://polymaker.com/about-polymaker/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "BLT公司信息",
+    "url": "https://www.xa-blt.com/en/career/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "2026年材料生态公告",
+    "url": "https://www.farsoon-gl.com/news/farsoon-expands-open-materials-ecosystem-with-alm-high-performance-polymer-powders-for-industrial-pbf-production/",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Eplus3D十周年活动",
+    "url": "https://www.eplus3d.com/eplus3d-celebrates-a-decade-of-innovation-at-the-global-partners-summit-2024.html",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "UnionTech二十年回顾",
+    "url": "https://www.uniontech3d.com/uniontech-promoting-innovation-with-technology-and-development-with-innovation-for-20-years.html",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "LuxCreo应用问答",
+    "url": "https://luxcreo.com/faq",
+    "chapter": "14",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "DMG MORI混合加工",
+    "url": "https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Mazak INTEGREX",
+    "url": "https://www.mazak.com/sg-en/products/integrex-i-neo/",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "FANUC设备目录",
+    "url": "https://www.fanuc.co.jp/en/product/robomachine/",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "SYIL X7",
+    "url": "https://in.syil.com/x7",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Onefinity",
+    "url": "https://www.onefinitycnc.com/",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Langmuir MR-1",
+    "url": "https://www.langmuirsystems.com/pages/mr1",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Haas历史",
+    "url": "https://haascnc.com/about/history",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Makera官方故事",
+    "url": "https://www.makera.com/pages/about-us",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Carbide 3D公司介绍",
+    "url": "https://carbide3d.com/about/",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "Okuma技术说明",
+    "url": "https://www.okuma.com/thermo-friendly-concept",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  },
+  {
+    "title": "DMG MORI产品说明",
+    "url": "https://www.dmgmori.co.jp/en/products/machine/?id=3592",
+    "chapter": "15",
+    "verified": "官方页面或官方搜索索引核查",
+    "accessed": "2026-10-22"
+  }
+]

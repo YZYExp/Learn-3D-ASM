@@ -1,0 +1,274 @@
+[
+  {
+    "id": "M01",
+    "chapter": "07.md",
+    "title": "Prusa Research，Filament Material Guide",
+    "urls": [
+      "https://help.prusa3d.com/filament-material-guide"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "M02",
+    "chapter": "07.md",
+    "title": "INTAMSYS，Industrial 3D Printing Filaments & Materials",
+    "urls": [
+      "https://www.intamsys.com/materials?list=1"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "M03",
+    "chapter": "07.md",
+    "title": "Prusa Research，Material guide（复合料与各材料专题）",
+    "urls": [
+      "https://help.prusa3d.com/category/material-guide_220"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "M04",
+    "chapter": "07.md",
+    "title": "Formlabs，3D printing post-processing FAQs",
+    "urls": [
+      "https://formlabs.com/global/support/3d-printing-post-processing-faqs/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "M05",
+    "chapter": "07.md",
+    "title": "EOS，Metal Powder for 3D Printing",
+    "urls": [
+      "https://www.eos.info/metal-solutions/metal-materials"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "M06",
+    "chapter": "07.md",
+    "title": "ExOne，Polymer / ceramic printing process information",
+    "urls": [
+      "https://www.exone.com/en/3d-printing-solutions_overview/3dp-solutions_polymer/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "W01",
+    "chapter": "08.md",
+    "title": "3MF Consortium，FAQ",
+    "urls": [
+      "https://3mf.io/resources/faq/",
+      "https://3mf.io/spec/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "W02",
+    "chapter": "08.md",
+    "title": "Prusa Research，Object orientation",
+    "urls": [
+      "https://help.prusa3d.com/article/object-orientation_1658"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "W03",
+    "chapter": "08.md",
+    "title": "Prusa Research，Support material",
+    "urls": [
+      "https://help.prusa3d.com/article/support-material_1698"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "W04",
+    "chapter": "08.md",
+    "title": "Formlabs，Model orientation best practices for SLA printing",
+    "urls": [
+      "https://formlabs.com/support/Model-Orientation/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "W05",
+    "chapter": "08.md",
+    "title": "Prusa Research，Drying filament",
+    "urls": [
+      "https://help.prusa3d.com/article/drying-filament_332086"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "W06",
+    "chapter": "08.md",
+    "title": "Formlabs，3D printing post-processing FAQs",
+    "urls": [
+      "https://formlabs.com/global/support/3d-printing-post-processing-faqs/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "S01",
+    "chapter": "09.md",
+    "title": "Sandvik Coromant，Metal cutting knowledge",
+    "urls": [
+      "https://www.sandvik.coromant.com/en-gb/knowledge"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "S02",
+    "chapter": "09.md",
+    "title": "JLC CNC，What Is EDM? How Electrical Discharge Machining Works",
+    "urls": [
+      "https://jlccnc.com/blog/what-is-edm-electrical-discharge-machining"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "S03",
+    "chapter": "09.md",
+    "title": "TRUMPF，Laser cutting",
+    "urls": [
+      "https://www.trumpf.com/en_US/solutions/applications/laser-cutting/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "S04",
+    "chapter": "09.md",
+    "title": "OMAX，How do waterjets work?",
+    "urls": [
+      "https://www.omax.com/en/learn/how-does-waterjet-work/",
+      "https://knowledgebase.omax.com/protomax/content/401434/abrasive-waterjet-overview.htm"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "S05",
+    "chapter": "09.md",
+    "title": "The Open University，Photochemical Machining",
+    "urls": [
+      "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/manupedia/photochemical-machining-photo-fabrication-chemical-milling"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "H01",
+    "chapter": "10.md",
+    "title": "Protolabs，Custom Manufacturing Services",
+    "urls": [
+      "https://www.protolabs.com/en-gb/services/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "H02",
+    "chapter": "10.md",
+    "title": "DMG MORI，LASERTEC 65 DED hybrid 2nd Generation",
+    "urls": [
+      "https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid-2nd"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "H03",
+    "chapter": "10.md",
+    "title": "ExOne，3D printing solutions overview",
+    "urls": [
+      "https://www.exone.com/en/3d-printing-solutions_overview/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "H04",
+    "chapter": "10.md",
+    "title": "Nikon SLM Solutions，Metal 3D Printing’s Impact on the Casting Industry",
+    "urls": [
+      "https://nikon-slm-solutions.com/addictive-additive/the-casting-industry-meets-the-future-with-integrated-3d-printing/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "A01",
+    "chapter": "11.md",
+    "title": "Formlabs，Model orientation best practices for SLS printing",
+    "urls": [
+      "https://formlabs.com/uk/support/Model-orientation-best-practices-for-SLS-printing/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "A02",
+    "chapter": "11.md",
+    "title": "Formlabs，Polishing Clear Resin for a transparent finish",
+    "urls": [
+      "https://formlabs.com/support/Polishing-Clear-Resin-for-a-Transparent-Finish/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "A03",
+    "chapter": "11.md",
+    "title": "3MF Consortium，Materials and Properties Extension",
+    "urls": [
+      "https://3mf.io/spec/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "A04",
+    "chapter": "11.md",
+    "title": "Formlabs，Guide to Post-Processing and Finishing SLA Resin 3D Prints",
+    "urls": [
+      "https://formlabs.com/blog/post-processing-and-finishing-sla-prints/"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "A05",
+    "chapter": "11.md",
+    "title": "Autodesk，Generative Design overview",
+    "urls": [
+      "https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  },
+  {
+    "id": "A06",
+    "chapter": "11.md",
+    "title": "Dassault Systèmes，TA.TAMU Installation",
+    "urls": [
+      "https://www.3ds.com/design/tatamu"
+    ],
+    "use": "正文相邻引用；工艺概念或案例核查",
+    "checked_at": "2026-10-22"
+  }
+]
