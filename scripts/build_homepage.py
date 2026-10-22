@@ -1,6 +1,6 @@
 """Build the homepage and full reader from the same chapter Markdown as the PDF."""
 from pathlib import Path
-import re, json, shutil, html, argparse
+import re, json, shutil, html, argparse, hashlib
 from collections import Counter
 import markdown
 
@@ -96,6 +96,12 @@ def main():
     (out/'references').mkdir(exist_ok=True)
     for source in (ROOT/'references').iterdir():
         if source.is_file() and source.suffix in {'.md','.json'}:shutil.copy2(source,out/'references'/source.name)
+    # Release URLs change with content so a cached script cannot mask new chapters.
+    rendered=index.read_text()
+    for asset in ['style.css','app.js','content.js']:
+        version=hashlib.sha256((out/asset).read_bytes()).hexdigest()[:12]
+        rendered=rendered.replace('"'+asset+'"','"'+asset+'?v='+version+'"')
+    index.write_text(rendered)
     (out/'.nojekyll').write_text('')
     if args.mobile_preview:
         (out/'mobile-preview.html').write_text('<!doctype html><html lang="zh"><meta charset="utf-8"><title>390px reading preview</title><style>body{margin:0;background:#ccc}iframe{display:block;width:390px;height:950px;border:0;margin:20px auto}</style><iframe title="手机阅读预览" src="index.html#read/02"></iframe></html>')
