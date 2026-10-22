@@ -27,7 +27,7 @@ python scripts/build_homepage.py
 
 - [应用覆盖索引](references/application-coverage.md)与[逐图清单](references/image-catalog.json)。
 - 首页新增六个图像入口，或从[导读的任务表](chapters/00.md)进入相应章节。
-- 当前整本86页，58张图，146个资料链接；新增17张图已嵌入书稿和阅读页。
+- 当前整本86页，58张图，145个资料链接；新增17张图已嵌入书稿和阅读页。
 
 ## 阅读顺序
 

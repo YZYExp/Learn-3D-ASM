@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 from PIL import Image
 from pypdf import PdfReader
-import json
+import json,re
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT/'build/homepage'
@@ -15,6 +15,8 @@ class Links(HTMLParser):
             if key not in ('src', 'href') or not value:
                 continue
             url = urlsplit(value)
+            if url.scheme in ('http','https') and re.search(r'[，。；、\s]',value):
+                raise ValueError(f'Prose punctuation captured in source URL: {value}')
             if url.scheme or url.netloc or not url.path:
                 continue
             if url.path.startswith('/'):
@@ -44,4 +46,6 @@ assert len(pdfs) == 19
 for path in pdfs:
     assert len(PdfReader(path).pages) > 0, path
 assert (SITE/'.nojekyll').exists()
+for source in json.loads((SITE/'references/all-sources.json').read_text()):
+    assert not re.search(r'[，。；、\s]',source['url']), source['url']
 print(f'Validated {len(chapters)} chapters, {len(images)} images and {len(pdfs)} PDFs.')

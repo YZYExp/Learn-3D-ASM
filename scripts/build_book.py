@@ -33,7 +33,7 @@ styles={
 }
 SOURCES=[];URLID={};PAGE_AUDIT=[]
 def source(title,url):
- url=url.rstrip('。，；、')
+ url=re.split(r'[，。；、\s]',url,maxsplit=1)[0].rstrip('。，；、')
  if url not in URLID:
   URLID[url]=len(SOURCES)+1;SOURCES.append({'id':len(SOURCES)+1,'title':title,'url':url})
  return URLID[url]
@@ -51,6 +51,7 @@ class RefP(Paragraph):
 def para(s,kind='body',defs=None):
  refs=[];defs=defs or {};tokens={}
  def mark(title,url):
+  url=re.split(r'[，。；、\s]',url,maxsplit=1)[0].rstrip('。，；、')
   n=source(title,url);refs.append(n);key=f'ZZTOKEN{len(tokens)}ZZ';tokens[key]=f'<super><a href="{html.escape(url,quote=True)}" color="#b94e2c">[{n}]</a></super>';return key
  s=re.sub(r'\[([^\]]+)\]\((https?://[^\s)]+)\)',lambda m:mark(m[1],m[2]),s)
  for k,(title,url) in defs.items():s=s.replace('['+k+']',mark(title,url)) if '['+k+']' in s else s

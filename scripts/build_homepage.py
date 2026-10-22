@@ -29,7 +29,7 @@ SUMMARIES=[
 def chapter_html(text,chapter_id):
     lines=text.splitlines();title=lines[0].removeprefix('# ');body='\n'.join(lines[1:]);definitions={}
     for m in re.finditer(r'^-\s*\[([^\]]+)\]\s*(.*?)[：:]\s*(https?://\S+)',body,re.M):
-        definitions[m[1]]=(m[2],m[3])
+        definitions[m[1]]=(m[2],re.split(r'[，。；、\s]',m[3],maxsplit=1)[0])
     # Retain the chapter bibliography and make its in-text references clickable.
     for key,(label,url) in definitions.items():
         body=re.sub(r'(?<!-)\['+re.escape(key)+r'\](?!\()',lambda m:'['+key+']('+url+')',body)
