@@ -1,0 +1,122 @@
+[
+  {
+    "id": "fff",
+    "chapter": "02",
+    "title": "一根丝如何逐层变成阶梯件",
+    "steps": [
+      {
+        "file": "assets/images/step-fff-01.png",
+        "title": "原料进入热端",
+        "explanation": "丝材由送料机构送进热端，受热软化后才可从喷嘴挤出；此时平台上还没有零件。"
+      },
+      {
+        "file": "assets/images/step-fff-02.png",
+        "title": "沿截面路径铺下首层",
+        "explanation": "喷嘴一边移动、一边挤出塑料，把当前截面转成连续线条。首层先附着平台，随后冷却定形。图中侧视只画出一道线的截面。"
+      },
+      {
+        "file": "assets/images/step-fff-03.png",
+        "title": "新层连接旧层",
+        "explanation": "平台与喷嘴改变相对高度，下一层路径落到上一层上。新挤出的材料与已有塑料结合；截面变窄后，上部自然形成台阶。"
+      },
+      {
+        "file": "assets/images/step-fff-04.png",
+        "title": "取件并修整",
+        "explanation": "完成全部路径后，零件冷却并从平台取下。这个示例没有悬空区；其他几何如使用支撑，还需去支撑与修整。"
+      }
+    ],
+    "source_refs": [
+      "https://ultimaker.com/learn/introduction-to-fff-3d-printing/"
+    ]
+  },
+  {
+    "id": "vat",
+    "chapter": "03",
+    "title": "一槽液体如何长出一个固体",
+    "steps": [
+      {
+        "file": "assets/images/step-vat-01.png",
+        "title": "平台靠近槽底",
+        "explanation": "图示采用典型倒置结构：液体在槽中，平台靠近透明槽底，预留首层成形所需间隙。间隙在图中刻意夸大，实际由设备控制。"
+      },
+      {
+        "file": "assets/images/step-vat-02.png",
+        "title": "光只固化需要的截面",
+        "explanation": "光透过槽底照到目标区域，引发树脂固化。第一层连接平台；后续层连接已有零件。图中橙色表示固化材料，不是把整槽液体一起变硬。"
+      },
+      {
+        "file": "assets/images/step-vat-03.png",
+        "title": "分离、补液，再曝光",
+        "explanation": "平台带着已有结构抬升，使新层与槽底分离；树脂流入腾出的空间，平台再到下一次曝光位置。重复这一循环，零件从平台向下延长，同时随平台上移。图示简化了早期附着层。"
+      },
+      {
+        "file": "assets/images/step-vat-04.png",
+        "title": "清洗与后固化",
+        "explanation": "取下的零件表面仍可能带有未固化树脂。按材料要求清洗和后固化，再去支撑与修整；具体先后顺序和条件应遵循对应材料流程。"
+      }
+    ],
+    "source_refs": [
+      "https://formlabs.com/blog/ultimate-guide-to-stereolithography-sla-3d-printing/"
+    ]
+  },
+  {
+    "id": "sls",
+    "chapter": "04",
+    "title": "SLS：激光怎样在粉中留下形状",
+    "steps": [
+      {
+        "file": "assets/images/step-sls-01.png",
+        "title": "铺平薄粉层",
+        "explanation": "铺粉器把预热的高分子粉末摊成薄层。松散粉末本身不是成品，平台上也不会一次出现完整三维形状。"
+      },
+      {
+        "file": "assets/images/step-sls-02.png",
+        "title": "激光扫描当前截面",
+        "explanation": "激光只扫描当前截面需要的区域，使粉末受热结合；周围未被选中的粉末仍保持松散。橙色区域只是这一层，不是整个零件。"
+      },
+      {
+        "file": "assets/images/step-sls-03.png",
+        "title": "下降、铺粉、重复",
+        "explanation": "成形平台下降一层，铺粉器覆盖新粉，激光再次扫描。新结合的截面连接下面已有材料；旁边的松粉包围并支承它，零件逐渐埋入粉床。"
+      },
+      {
+        "file": "assets/images/step-sls-04.png",
+        "title": "先冷却，再取出",
+        "explanation": "构建结束后按工艺受控冷却，再清除松粉，才露出同一阶梯件。必要时还要喷砂、染色或平滑；封闭腔体中的粉不会自行消失。"
+      }
+    ],
+    "source_refs": [
+      "https://formlabs.com/blog/what-is-selective-laser-sintering/"
+    ]
+  },
+  {
+    "id": "mjf",
+    "chapter": "04",
+    "title": "MJF：液体标记与热能怎样配合",
+    "steps": [
+      {
+        "file": "assets/images/step-mjf-01.png",
+        "title": "铺好聚合物粉层",
+        "explanation": "起点同样是一层高分子粉末。后面的液体主要用于调节局部热响应，而不是承担成品的主要体积。"
+      },
+      {
+        "file": "assets/images/step-mjf-02.png",
+        "title": "先给截面做功能标记",
+        "explanation": "喷头按截面选择性沉积功能剂。图中橙区表示已标记的粉，尚不等于固体零件；边界附近还可使用细化剂控制热行为，图中省略其细小分布。"
+      },
+      {
+        "file": "assets/images/step-mjf-03.png",
+        "title": "施加热能并逐层累积",
+        "explanation": "红外热能与功能剂配合，让目标粉区熔结并连接前一层。之后平台下降、重新铺粉、喷剂、加热，重复形成三维形状。它不是用胶水把冷粉粘在一起。"
+      },
+      {
+        "file": "assets/images/step-mjf-04.png",
+        "title": "冷却清粉后才能使用",
+        "explanation": "构建完成后依系统流程冷却、取出并清粉，露出与前图对应的阶梯件。表面处理和尺寸检验仍是制造链的一部分。"
+      }
+    ],
+    "source_refs": [
+      "https://www.hp.com/us-en/printers/3d-printers/learning-center/3d-print-binder-vs-material-jetting.html"
+    ]
+  }
+]

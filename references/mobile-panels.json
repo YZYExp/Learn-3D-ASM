@@ -1,0 +1,1202 @@
+{
+  "core-fff-orientation.png": {
+    "panels": [
+      {
+        "file": "assets/panels/core-fff-orientation-01.png",
+        "alt": "层内受力",
+        "title": "层内受力",
+        "caption": "层面与拉力平行，力主要沿层内路径传递。绿色短箭头是构建 Z 方向；性能仍受孔隙、路径和结合质量影响。",
+        "region": [
+          70,
+          220,
+          970,
+          790
+        ]
+      },
+      {
+        "file": "assets/panels/core-fff-orientation-02.png",
+        "alt": "跨层间受力",
+        "title": "跨层间受力",
+        "caption": "把同一观察方向下的层面转过来：拉力跨越层间界面。橙线强调可能较弱的一个界面，不能由摆放直接推算强度。",
+        "region": [
+          1030,
+          220,
+          1930,
+          790
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "core-fiber-forms.png": {
+    "panels": [
+      {
+        "file": "assets/panels/core-fiber-forms-01.png",
+        "alt": "短切纤维",
+        "title": "短切纤维",
+        "caption": "橙色短段分散在聚合物基体中；挤出流动可能让它们定向，但它们不是贯穿整个零件的连续纤维束。",
+        "region": [
+          70,
+          220,
+          970,
+          760
+        ]
+      },
+      {
+        "file": "assets/panels/core-fiber-forms-02.png",
+        "alt": "连续纤维",
+        "title": "连续纤维",
+        "caption": "橙色纤维束沿规划路线连续铺放。孔、转角和纤维可铺放方向会约束增强效果；并非所有方向同样强。",
+        "region": [
+          1030,
+          220,
+          1930,
+          760
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "core-material-properties.png": {
+    "panels": [
+      {
+        "file": "assets/panels/core-material-properties-01.png",
+        "alt": "强度：何时破坏？",
+        "title": "强度：何时破坏？",
+        "caption": "看材料达到屈服或断裂时承受的应力。必须同时说明拉伸、压缩等测试方式和判据。",
+        "region": [
+          65,
+          220,
+          635,
+          750
+        ]
+      },
+      {
+        "file": "assets/panels/core-material-properties-02.png",
+        "alt": "刚度：变形多少？",
+        "title": "刚度：变形多少？",
+        "caption": "同几何、同约束、同载荷，结构变形越小，刚度越大。材料常用弹性模量描述，零件还受形状影响。",
+        "region": [
+          715,
+          220,
+          1285,
+          750
+        ]
+      },
+      {
+        "file": "assets/panels/core-material-properties-03.png",
+        "alt": "韧性：吸收多少能量？",
+        "title": "韧性：吸收多少能量？",
+        "caption": "到断裂为止，应力—应变曲线下的面积表示单位体积吸收的能量。图是概念示意，没有实测数值。",
+        "region": [
+          1365,
+          220,
+          1935,
+          750
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "core-resin-exposure.png": {
+    "panels": [
+      {
+        "file": "assets/panels/core-resin-exposure-01.png",
+        "alt": "SLA：光点扫描",
+        "title": "SLA：光点扫描",
+        "caption": "激光光点沿一层的路径依次扫描，选中的液态树脂固化。图为典型下照式简化剖面。",
+        "region": [
+          65,
+          220,
+          635,
+          1050
+        ]
+      },
+      {
+        "file": "assets/panels/core-resin-exposure-02.png",
+        "alt": "DLP：图像投影",
+        "title": "DLP：图像投影",
+        "caption": "投影光机把一幅层图像投向树脂，选中的区域固化。不同机型的运动结构可不同。",
+        "region": [
+          715,
+          220,
+          1285,
+          1050
+        ]
+      },
+      {
+        "file": "assets/panels/core-resin-exposure-03.png",
+        "alt": "MSLA：掩膜透光",
+        "title": "MSLA：掩膜透光",
+        "caption": "背光经过 LCD 掩膜，只有允许透光的区域让树脂固化。三种名称并不唯一决定上照或下照结构。",
+        "region": [
+          1365,
+          220,
+          1935,
+          1050
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "core-sls-mjf.png": {
+    "panels": [
+      {
+        "file": "assets/panels/core-sls-mjf-01.png",
+        "alt": "SLS：激光供热",
+        "title": "SLS：激光供热",
+        "caption": "激光在预热粉床上扫描，让选区颗粒连接。周围未连接粉末支撑已成形区域；还需要铺粉、下降和冷却循环。",
+        "region": [
+          70,
+          220,
+          970,
+          890
+        ]
+      },
+      {
+        "file": "assets/panels/core-sls-mjf-02.png",
+        "alt": "MJF：功能剂配合红外供热",
+        "title": "MJF：功能剂配合红外供热",
+        "caption": "先喷功能剂，再施加红外热能，选区熔合。液体不是胶水。这里把先后动作并列展开，不能当作机头实际布局。",
+        "region": [
+          1030,
+          220,
+          1930,
+          890
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "diagram-01-routes.png": {
+    "panels": [
+      {
+        "file": "assets/panels/diagram-01-routes-01.png",
+        "alt": "增材：逐层增加",
+        "title": "增材：逐层增加",
+        "caption": "将材料逐层连接，内部可设计为空腔，但要处理支撑或排粉。",
+        "region": [
+          65,
+          200,
+          565,
+          850
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-01-routes-02.png",
+        "alt": "减材：去掉多余",
+        "title": "减材：去掉多余",
+        "caption": "工具必须能接近需要去除的区域，可达性限制最终几何。",
+        "region": [
+          650,
+          200,
+          1150,
+          850
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-01-routes-03.png",
+        "alt": "成形：重新分配",
+        "title": "成形：重新分配",
+        "caption": "通过模具、压力或材料流动重新分配材料，而不是只靠加或减。",
+        "region": [
+          1235,
+          200,
+          1735,
+          850
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "diagram-02-principles.png": {
+    "panels": [
+      {
+        "file": "assets/panels/diagram-02-principles-01.png",
+        "alt": "材料挤出",
+        "title": "材料挤出",
+        "caption": "喷嘴沿规划路径放下材料，再连接下一层；具体阶段见各章后续步骤图。",
+        "region": [
+          65,
+          200,
+          565,
+          860
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-02-principles-02.png",
+        "alt": "槽式光聚合",
+        "title": "槽式光聚合",
+        "caption": "光选择性固化液态树脂；这一幅是家族概念概览，不是具体设备结构图。",
+        "region": [
+          650,
+          200,
+          1150,
+          860
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-02-principles-03.png",
+        "alt": "粉末床熔融",
+        "title": "粉末床熔融",
+        "caption": "先铺粉，再用热能连接选区；新粉层覆盖后继续构建。具体循环见粉床工艺章节。",
+        "region": [
+          1235,
+          200,
+          1735,
+          860
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "diagram-04-limits.png": {
+    "panels": [
+      {
+        "file": "assets/panels/diagram-04-limits-01.png",
+        "alt": "支撑接触面",
+        "title": "支撑接触面",
+        "caption": "临时支撑需要拆走，接触处常留痕迹，要留出工具接近空间。",
+        "region": [
+          65,
+          210,
+          565,
+          880
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-04-limits-02.png",
+        "alt": "封闭腔中的粉末",
+        "title": "封闭腔中的粉末",
+        "caption": "内腔若没有合适出口，松散粉末就可能留在里面；设计时要验证清理路径。",
+        "region": [
+          650,
+          210,
+          1150,
+          880
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-04-limits-03.png",
+        "alt": "刀具留下的内圆角",
+        "title": "刀具留下的内圆角",
+        "caption": "旋转刀具有半径，不能在内侧直接切出任意尖角；图中圆环强调刀具占据的空间。",
+        "region": [
+          1235,
+          210,
+          1735,
+          880
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "diagram-05-greenpart.png": {
+    "panels": [
+      {
+        "file": "assets/panels/diagram-05-greenpart-01.png",
+        "alt": "1 打印生坯",
+        "title": "1 打印生坯",
+        "caption": "金属粉末被粘结剂临时固定成形，打印出来的还不是致密金属件。",
+        "region": [
+          65,
+          260,
+          450,
+          830
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-05-greenpart-02.png",
+        "alt": "2 清粉与脱脂",
+        "title": "2 清粉与脱脂",
+        "caption": "先清除松散粉末，再按体系处理粘结剂。不同体系可能有额外固化或脱脂步骤。",
+        "region": [
+          495,
+          260,
+          880,
+          830
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-05-greenpart-03.png",
+        "alt": "3 烧结",
+        "title": "3 烧结",
+        "caption": "金属颗粒在受控热过程中连接并致密化，外形通常随之收缩。",
+        "region": [
+          925,
+          260,
+          1310,
+          830
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-05-greenpart-04.png",
+        "alt": "4 精加工与检验",
+        "title": "4 精加工与检验",
+        "caption": "对关键表面和尺寸加工、检验，确认缺陷与材料状态符合用途。",
+        "region": [
+          1355,
+          260,
+          1740,
+          830
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "diagram-06-quality.png": {
+    "panels": [
+      {
+        "file": "assets/panels/diagram-06-quality-01.png",
+        "alt": "数字模型",
+        "title": "数字模型",
+        "caption": "单位、封闭性和壁厚会影响几何误差。",
+        "region": [
+          65,
+          210,
+          880,
+          520
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-06-quality-02.png",
+        "alt": "成形方向",
+        "title": "成形方向",
+        "caption": "层间性能、支撑位置、表面与强度要一起考虑。",
+        "region": [
+          920,
+          210,
+          1735,
+          520
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-06-quality-03.png",
+        "alt": "后处理",
+        "title": "后处理",
+        "caption": "清洗、固化与热处理仍会改变尺寸和材料状态。",
+        "region": [
+          65,
+          560,
+          880,
+          870
+        ]
+      },
+      {
+        "file": "assets/panels/diagram-06-quality-04.png",
+        "alt": "使用与测量",
+        "title": "使用与测量",
+        "caption": "按实际用途检查温度、吸湿与量具条件，不能把层高当作零件精度。",
+        "region": [
+          920,
+          560,
+          1735,
+          870
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-industrial-metal-feed.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-industrial-metal-feed-01.png",
+        "alt": "LPBF：先铺粉床",
+        "title": "LPBF：先铺粉床",
+        "caption": "整层预铺金属粉末，再由激光选择性熔化；构建平台逐层下降。",
+        "region": [
+          80,
+          250,
+          730,
+          1100
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-metal-feed-02.png",
+        "alt": "送粉激光 DED",
+        "title": "送粉激光 DED",
+        "caption": "粉末随喷头送入局部熔池，通常不需要整层粉床。",
+        "region": [
+          775,
+          250,
+          1425,
+          1100
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-metal-feed-03.png",
+        "alt": "送丝 DED：激光示例",
+        "title": "送丝 DED：激光示例",
+        "caption": "连续丝材直接进入熔池；这幅用激光举例，送丝 DED 也可使用电弧或电子束。材料供给方式和能量源是两个问题。",
+        "region": [
+          1470,
+          250,
+          2120,
+          1100
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-industrial-metal-postprocess.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-industrial-metal-postprocess-01.png",
+        "alt": "1 冷却与清粉",
+        "title": "1 冷却与清粉",
+        "caption": "回收松散粉末，确认内腔可以清理。",
+        "region": [
+          80,
+          300,
+          465,
+          990
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-metal-postprocess-02.png",
+        "alt": "2 热处理",
+        "title": "2 热处理",
+        "caption": "示例是在基板上去应力；具体热处理按合金、几何和规范制定。",
+        "region": [
+          494,
+          300,
+          879,
+          990
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-metal-postprocess-03.png",
+        "alt": "3 分离与去支撑",
+        "title": "3 分离与去支撑",
+        "caption": "从基板分离，移除支撑并修整接触区。",
+        "region": [
+          908,
+          300,
+          1293,
+          990
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-metal-postprocess-04.png",
+        "alt": "4 加工与表面处理",
+        "title": "4 加工与表面处理",
+        "caption": "加工配合面、螺纹等，再按需要磨削、喷丸或进行其他表面处理。",
+        "region": [
+          1322,
+          300,
+          1707,
+          990
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-metal-postprocess-05.png",
+        "alt": "5 检验与放行",
+        "title": "5 检验与放行",
+        "caption": "检查尺寸、表面、内部缺陷和材料性能，保留追溯记录。此流程不是统一操作规程，检验也应贯穿制造。",
+        "region": [
+          1736,
+          300,
+          2121,
+          990
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-industrial-jet-sheet.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-industrial-jet-sheet-01.png",
+        "alt": "材料喷射",
+        "title": "材料喷射",
+        "caption": "喷出的液滴就是成形或支撑材料，落位后由 UV 固化，再逐层叠加。与向整床粉末喷粘结剂不同。",
+        "region": [
+          80,
+          270,
+          1060,
+          890
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-jet-sheet-02.png",
+        "alt": "UAM 超声金属箔结合",
+        "title": "UAM 超声金属箔结合",
+        "caption": "金属箔在压力和横向超声振动作用下固态结合，可与 CNC 交替构造内外形状；不能把所有片材叠层都当作 UAM。",
+        "region": [
+          1100,
+          270,
+          2080,
+          890
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-industrial-cutting-motion.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-industrial-cutting-motion-01.png",
+        "alt": "车削：工件旋转",
+        "title": "车削：工件旋转",
+        "caption": "车刀进给，形成轴等回转表面。",
+        "region": [
+          80,
+          270,
+          1060,
+          670
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-cutting-motion-02.png",
+        "alt": "铣削：刀具旋转",
+        "title": "铣削：刀具旋转",
+        "caption": "工件与刀具相对进给，刀齿依次去除材料。",
+        "region": [
+          1140,
+          270,
+          2120,
+          670
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-cutting-motion-03.png",
+        "alt": "钻削：旋转并轴向进给",
+        "title": "钻削：旋转并轴向进给",
+        "caption": "用于造孔，后续可按需要扩、铰或镗。",
+        "region": [
+          80,
+          720,
+          1060,
+          1120
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-cutting-motion-04.png",
+        "alt": "磨削：砂轮旋转",
+        "title": "磨削：砂轮旋转",
+        "caption": "砂轮上的大量磨粒切削，图中工件往复进给。实际设备可有更多轴与运动组合。",
+        "region": [
+          1140,
+          720,
+          2120,
+          1120
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-industrial-nontraditional-cutting.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-industrial-nontraditional-cutting-01.png",
+        "alt": "成形电火花",
+        "title": "成形电火花",
+        "caption": "成形电极与工件之间留有间隙，在工作液中脉冲放电蚀除材料。典型要求工件导电。",
+        "region": [
+          80,
+          280,
+          570,
+          1120
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-nontraditional-cutting-02.png",
+        "alt": "线切割",
+        "title": "线切割",
+        "caption": "细丝是电极，沿轮廓放电，不是锯条。图为连续送丝示例，典型要求工件导电。",
+        "region": [
+          600,
+          280,
+          1090,
+          1120
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-nontraditional-cutting-03.png",
+        "alt": "激光切割",
+        "title": "激光切割",
+        "caption": "局部热过程配合辅助气体形成割缝；材料不必导电，但要匹配材料、波长和参数。",
+        "region": [
+          1120,
+          280,
+          1610,
+          1120
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-nontraditional-cutting-04.png",
+        "alt": "磨料水射流",
+        "title": "磨料水射流",
+        "caption": "高压水携带磨粒，高速射流与磨粒侵蚀材料；还要考虑割缝锥度和脆性损伤。",
+        "region": [
+          1640,
+          280,
+          2130,
+          1120
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-industrial-ceramic-chain.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-industrial-ceramic-chain-01.png",
+        "alt": "1 光成形",
+        "title": "1 光成形",
+        "caption": "陶瓷颗粒与光敏体系混合，曝光固定逐层几何。",
+        "region": [
+          80,
+          300,
+          570,
+          1070
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-ceramic-chain-02.png",
+        "alt": "2 清洗与生坯",
+        "title": "2 清洗与生坯",
+        "caption": "清除未固化浆料；此时的生坯仍含有机结合相。",
+        "region": [
+          600,
+          300,
+          1090,
+          1070
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-ceramic-chain-03.png",
+        "alt": "3 脱脂",
+        "title": "3 脱脂",
+        "caption": "受控热过程移除有机组分，避免裂纹与变形。",
+        "region": [
+          1120,
+          300,
+          1610,
+          1070
+        ]
+      },
+      {
+        "file": "assets/panels/supp-industrial-ceramic-chain-04.png",
+        "alt": "4 烧结",
+        "title": "4 烧结",
+        "caption": "颗粒结合并致密化，通常产生收缩，再按需要精加工。图中虚框仅作生坯外形参照，不表示固定收缩率。",
+        "region": [
+          1640,
+          300,
+          2130,
+          1070
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-workflow-01-cad-mesh-slice.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-workflow-01-cad-mesh-slice-01.png",
+        "alt": "1 CAD 实体",
+        "title": "1 CAD 实体",
+        "caption": "同一个圆柱可用圆柱面和封闭体积表达，还可保留尺寸、参数和建模关系。",
+        "region": [
+          85,
+          245,
+          705,
+          1120
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-01-cad-mesh-slice-02.png",
+        "alt": "2 STL 三角网格",
+        "title": "2 STL 三角网格",
+        "caption": "三角片近似曲面，这里刻意画粗以便看清；网格三角形不是打印层。",
+        "region": [
+          735,
+          245,
+          1355,
+          1120
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-01-cad-mesh-slice-03.png",
+        "alt": "3 切片与路径",
+        "title": "3 切片与路径",
+        "caption": "把模型分成层，并生成外壁和填充等路径。层距为教学放大；STL 通常不统一记录单位、颜色与材料。",
+        "region": [
+          1395,
+          245,
+          2015,
+          1120
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-workflow-02-hybrid-part.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-workflow-02-hybrid-part-01.png",
+        "alt": "1 近净成形",
+        "title": "1 近净成形",
+        "caption": "先增加所需体积，关键面留出待切除的余量。层纹仍可见。",
+        "region": [
+          100,
+          245,
+          700,
+          1100
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-02-hybrid-part-02.png",
+        "alt": "2 定位与精加工",
+        "title": "2 定位与精加工",
+        "caption": "夹具约束零件，刀具接近安装面并加工；装夹基准与刀具可达性要提前安排。",
+        "region": [
+          790,
+          245,
+          1390,
+          1100
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-02-hybrid-part-03.png",
+        "alt": "3 检查关键尺寸",
+        "title": "3 检查关键尺寸",
+        "caption": "测头接触加工面，核对图纸要求。打印完成不等于零件完成。",
+        "region": [
+          1440,
+          245,
+          2040,
+          1100
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-workflow-03-clear-surface.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-workflow-03-clear-surface-01.png",
+        "alt": "1 打印后毛面",
+        "title": "1 打印后毛面",
+        "caption": "表面起伏让光线分散，层纹和支撑痕会影响外观。",
+        "region": [
+          90,
+          245,
+          670,
+          1110
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-03-clear-surface-02.png",
+        "alt": "2 逐级打磨",
+        "title": "2 逐级打磨",
+        "caption": "更细的表面仍可能有雾感；打磨还可能改变边缘与尺寸。",
+        "region": [
+          750,
+          245,
+          1330,
+          1110
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-03-clear-surface-03.png",
+        "alt": "3 抛光或适合的涂覆",
+        "title": "3 抛光或适合的涂覆",
+        "caption": "表面更平滑，常能更清晰，但内部缺陷、吸收、厚度和曲率仍起作用，不保证成为成像光学件。",
+        "region": [
+          1410,
+          245,
+          1990,
+          1110
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-workflow-04-batch-cost.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-workflow-04-batch-cost-01.png",
+        "alt": "只做一件",
+        "title": "只做一件",
+        "caption": "这一件承担整次数据、编程和工装等准备工作，还要制造、后处理与测量。",
+        "region": [
+          80,
+          250,
+          590,
+          1060
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-04-batch-cost-02.png",
+        "alt": "一次做一批",
+        "title": "一次做一批",
+        "caption": "同一份准备工作由这批合格件共同分担；下面只画一份代表性的单件工作，每一件都仍要制造、后处理和检验。图形面积不表示金额，也没有标出成本交叉点。",
+        "region": [
+          750,
+          250,
+          2010,
+          1060
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "supp-workflow-05-removal-access.png": {
+    "panels": [
+      {
+        "file": "assets/panels/supp-workflow-05-removal-access-01.png",
+        "alt": "支撑怎样拆",
+        "title": "支撑怎样拆",
+        "caption": "先画出悬垂下方的临时支撑，再留出手和工具的接近空间；支撑接触面可能需要修整。",
+        "region": [
+          100,
+          245,
+          980,
+          1090
+        ]
+      },
+      {
+        "file": "assets/panels/supp-workflow-05-removal-access-02.png",
+        "alt": "粉末怎样出",
+        "title": "粉末怎样出",
+        "caption": "封闭空腔增加贯通出口，才有清粉机会。出口位置、尺寸和清理方法仍需验证，并不是画了孔就一定能清干净。",
+        "region": [
+          1110,
+          245,
+          1990,
+          1090
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "case-polymer-fff-positioning.png": {
+    "panels": [
+      {
+        "file": "assets/panels/case-polymer-fff-positioning-01.png",
+        "alt": "1 模板找到边缘",
+        "title": "1 模板找到边缘",
+        "caption": "绿色模板贴合灰色工件，先定义两个定位基准。此图是通用练习，不是品牌工装复刻。",
+        "region": [
+          75,
+          235,
+          675,
+          1085
+        ]
+      },
+      {
+        "file": "assets/panels/case-polymer-fff-positioning-02.png",
+        "alt": "2 窗口约束位置",
+        "title": "2 窗口约束位置",
+        "caption": "窗口限定标记的位置和朝向；接触面应避免损伤工件。",
+        "region": [
+          800,
+          235,
+          1400,
+          1085
+        ]
+      },
+      {
+        "file": "assets/panels/case-polymer-fff-positioning-03.png",
+        "alt": "3 验证重复使用",
+        "title": "3 验证重复使用",
+        "caption": "检查贴合、重复定位、抓握、可视性、磨损、变形和清洁。此模板不承担钻削载荷。",
+        "region": [
+          1525,
+          235,
+          2125,
+          1085
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "case-polymer-resin-indirect.png": {
+    "panels": [
+      {
+        "file": "assets/panels/case-polymer-resin-indirect-01.png",
+        "alt": "牙模：1 打印模型",
+        "title": "牙模：1 打印模型",
+        "caption": "打印得到实体牙模。",
+        "region": [
+          75,
+          255,
+          675,
+          685
+        ]
+      },
+      {
+        "file": "assets/panels/case-polymer-resin-indirect-02.png",
+        "alt": "牙模：2 热成形片材",
+        "title": "牙模：2 热成形片材",
+        "caption": "片材在模型上热成形，继承表面形状。",
+        "region": [
+          800,
+          255,
+          1400,
+          685
+        ]
+      },
+      {
+        "file": "assets/panels/case-polymer-resin-indirect-03.png",
+        "alt": "牙模：3 脱模修边",
+        "title": "牙模：3 脱模修边",
+        "caption": "最终佩戴件是热成形片材，不是打印牙模本身。",
+        "region": [
+          1525,
+          255,
+          2125,
+          685
+        ]
+      },
+      {
+        "file": "assets/panels/case-polymer-resin-indirect-04.png",
+        "alt": "铸造：1 树脂型样",
+        "title": "铸造：1 树脂型样",
+        "caption": "先打印可铸造的树脂型样。",
+        "region": [
+          75,
+          800,
+          675,
+          1230
+        ]
+      },
+      {
+        "file": "assets/panels/case-polymer-resin-indirect-05.png",
+        "alt": "铸造：2 型腔与浇注",
+        "title": "铸造：2 型腔与浇注",
+        "caption": "包埋后烧除型样，留下型腔，再浇注金属。",
+        "region": [
+          800,
+          800,
+          1400,
+          1230
+        ]
+      },
+      {
+        "file": "assets/panels/case-polymer-resin-indirect-06.png",
+        "alt": "铸造：3 金属首饰",
+        "title": "铸造：3 金属首饰",
+        "caption": "金属首饰还需要修整。此图省略支撑、清洗、浇道和具体温控。",
+        "region": [
+          1525,
+          800,
+          2125,
+          1230
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "case-industrial-metal-applications.png": {
+    "panels": [
+      {
+        "file": "assets/panels/case-industrial-metal-applications-01.png",
+        "alt": "LPBF：内部路线",
+        "title": "LPBF：内部路线",
+        "caption": "通用冷板示意：内部通道负责带走热，安装面另有要求；交付前要清粉、机加工和检漏。",
+        "region": [
+          85,
+          275,
+          705,
+          1110
+        ]
+      },
+      {
+        "file": "assets/panels/case-industrial-metal-applications-02.png",
+        "alt": "DED：局部加材",
+        "title": "DED：局部加材",
+        "caption": "通用轴类修复示意：在需要处补材，保留仍可用基体，再加工和验证界面、尺寸与服役要求。",
+        "region": [
+          790,
+          275,
+          1410,
+          1110
+        ]
+      },
+      {
+        "file": "assets/panels/case-industrial-metal-applications-03.png",
+        "alt": "粘结剂喷射：批量组织",
+        "title": "粘结剂喷射：批量组织",
+        "caption": "通用阀体或接头示意：组织一批复杂小金属件，要一起考虑打印、烧结收缩、密封与检验。不是品牌产品图纸。",
+        "region": [
+          1495,
+          275,
+          2115,
+          1110
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "case-industrial-ceramic-core-role.png": {
+    "panels": [
+      {
+        "file": "assets/panels/case-industrial-ceramic-core-role-01.png",
+        "alt": "1 制作并烧结陶瓷芯",
+        "title": "1 制作并烧结陶瓷芯",
+        "caption": "陶瓷芯的形状定义未来通道，需要控制烧结尺寸与强度。",
+        "region": [
+          80,
+          275,
+          680,
+          1100
+        ]
+      },
+      {
+        "file": "assets/panels/case-industrial-ceramic-core-role-02.png",
+        "alt": "2 金属包围芯体",
+        "title": "2 金属包围芯体",
+        "caption": "芯体占据不应被金属填满的空间；这一步的金属成形属于后续铸造。",
+        "region": [
+          800,
+          275,
+          1400,
+          1100
+        ]
+      },
+      {
+        "file": "assets/panels/case-industrial-ceramic-core-role-03.png",
+        "alt": "3 去芯留下通道",
+        "title": "3 去芯留下通道",
+        "caption": "去掉芯体后，空腔继承它的大致形状，还要清理和检测。打印的是中间工具，不代表最终金属件变成陶瓷。",
+        "region": [
+          1520,
+          275,
+          2120,
+          1100
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "case-subtractive-part-features.png": {
+    "panels": [
+      {
+        "file": "assets/panels/case-subtractive-part-features-01.png",
+        "alt": "轴承套圈",
+        "title": "轴承套圈",
+        "caption": "回转和接触表面常经过车削、热处理、相应磨削与精整。外圆、内孔、端面或滚道各有要求。",
+        "region": [
+          80,
+          250,
+          1080,
+          730
+        ]
+      },
+      {
+        "file": "assets/panels/case-subtractive-part-features-02.png",
+        "alt": "外壳与孔板",
+        "title": "外壳与孔板",
+        "caption": "铣削与钻孔协同处理凹槽、安装基准和孔的位置；先判断刀具能否接近。",
+        "region": [
+          1120,
+          250,
+          2120,
+          730
+        ]
+      },
+      {
+        "file": "assets/panels/case-subtractive-part-features-03.png",
+        "alt": "线切割模具",
+        "title": "线切割模具",
+        "caption": "封闭内轮廓需安排穿丝，拐角仍受丝径与放电间隙限制。",
+        "region": [
+          80,
+          770,
+          1080,
+          1250
+        ]
+      },
+      {
+        "file": "assets/panels/case-subtractive-part-features-04.png",
+        "alt": "蚀刻薄片",
+        "title": "蚀刻薄片",
+        "caption": "比较厚度、平整、边缘、残留与清洁，适用于理解薄垫片、网片和细密轮廓。",
+        "region": [
+          1120,
+          770,
+          2120,
+          1250
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "case-subtractive-hybrid-access.png": {
+    "panels": [
+      {
+        "file": "assets/panels/case-subtractive-hybrid-access-01.png",
+        "alt": "1 先加工开放内表面",
+        "title": "1 先加工开放内表面",
+        "caption": "内部仍开放时，刀具可以接近通道表面，预先标明基准和余量。",
+        "region": [
+          80,
+          260,
+          730,
+          1190
+        ]
+      },
+      {
+        "file": "assets/panels/case-subtractive-hybrid-access-02.png",
+        "alt": "2 增材期间安排加工",
+        "title": "2 增材期间安排加工",
+        "caption": "随着材料逐步增加，按可达性安排工序；封口方法需要单独设计。",
+        "region": [
+          775,
+          260,
+          1425,
+          1190
+        ]
+      },
+      {
+        "file": "assets/panels/case-subtractive-hybrid-access-03.png",
+        "alt": "3 封闭后处理外部",
+        "title": "3 封闭后处理外部",
+        "caption": "内部封闭后，常规刀具可能再也无法到达。外部关键面仍需检验；此图解释可达性，不是可直接执行的打印路线。",
+        "region": [
+          1470,
+          260,
+          2120,
+          1190
+        ]
+      }
+    ],
+    "note": "分图取自同一张原创示意；顺序、色彩与原图一致。并非实际比例或操作参数。"
+  },
+  "diagram-03-families.png": {
+    "cards": [
+      {
+        "title": "材料挤出",
+        "caption": "连续挤出丝、粒料或浆料；例：FFF、颗粒、直写。"
+      },
+      {
+        "title": "槽式光聚合",
+        "caption": "选择性固化槽内树脂；例：SLA、DLP、MSLA。"
+      },
+      {
+        "title": "粉末床熔融",
+        "caption": "用热能连接铺好的粉末；例：SLS、MJF、LPBF。"
+      },
+      {
+        "title": "材料喷射",
+        "caption": "在目标位置喷射成形材料，可用于多材料和全彩模型。"
+      },
+      {
+        "title": "粘结剂喷射",
+        "caption": "向粉末喷粘结剂，先做出生坯；可涉及金属、砂型和陶瓷。"
+      },
+      {
+        "title": "定向能量沉积",
+        "caption": "送料与局部热源协同；送粉、送丝及修复。"
+      },
+      {
+        "title": "片材叠层",
+        "caption": "连接片材，再形成轮廓；涉及纸、聚合物和金属箔。"
+      }
+    ],
+    "note": "材料不等于工艺，商品名也不等于新的工艺家族。"
+  }
+}

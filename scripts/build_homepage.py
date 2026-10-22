@@ -5,6 +5,7 @@ from collections import Counter
 import markdown
 
 ROOT=Path(__file__).resolve().parents[1]
+MOBILE_PANELS=json.loads((ROOT/'references/mobile-panels.json').read_text())
 SUMMARIES=[
  '阅读路线、图像类型与资料日期。',
  '先看材料怎样改变，再理解七大工艺家族与发展脉络。',
@@ -42,7 +43,22 @@ def chapter_html(text,chapter_id):
         if j<len(src) and src[j].startswith('图：'):cap=src[j];i=j
         alt=re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',cap)[:150]
         caption=markdown.markdown(cap)
-        out.append('\n<figure><img loading="lazy" decoding="async" tabindex="0" role="button" aria-label="放大图片" src="'+html.escape(path.replace('../',''),quote=True)+'" alt="'+html.escape(alt,quote=True)+'"><figcaption>'+caption+'</figcaption></figure>\n')
+        name=Path(path).name
+        alternate=MOBILE_PANELS.get(name)
+        classes='process-step' if name.startswith('step-') else ''
+        if alternate:classes+=' responsive-figure'
+        def image_tag(image_path,image_alt,extra=''):
+            return '<img loading="lazy" decoding="async" tabindex="0" role="button" aria-label="放大图片" '+extra+' src="'+html.escape(image_path,quote=True)+'" alt="'+html.escape(image_alt,quote=True)+'">'
+        full=image_tag(path.replace('../',''),alt,'class="diagram-overview"' if alternate else '')
+        mobile=''
+        if alternate:
+            parts=[]
+            for panel in alternate.get('panels',[]):
+                parts.append('<section class="mobile-panel"><h4>'+html.escape(panel['title'])+'</h4>'+image_tag(panel['file'],panel['alt'])+'<p>'+html.escape(panel['caption'])+'</p></section>')
+            for card in alternate.get('cards',[]):
+                parts.append('<section class="mobile-panel text-panel"><h4>'+html.escape(card['title'])+'</h4><p>'+html.escape(card['caption'])+'</p></section>')
+            mobile='<div class="mobile-diagram"><p class="panel-guide">分图阅读 · 从上往下看</p>'+''.join(parts)+'<p class="panel-note">'+html.escape(alternate['note'])+'</p></div>'
+        out.append('\n<figure class="'+classes.strip()+'">'+full+mobile+'<figcaption>'+caption+'</figcaption></figure>\n')
         i+=1
     result=markdown.markdown('\n'.join(out),extensions=['tables','fenced_code'])
     result=re.sub(r'<a href="(https?://[^"]+)"',r'<a target="_blank" rel="noopener noreferrer" href="\1"',result)
@@ -50,7 +66,7 @@ def chapter_html(text,chapter_id):
     return title,result
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,default=ROOT/'build/homepage');args=parser.parse_args();out=args.out.resolve();out.mkdir(parents=True,exist_ok=True)
+    parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,default=ROOT/'build/homepage');parser.add_argument('--mobile-preview',action='store_true',help='Build an unlinked 390px iframe for visual QA');args=parser.parse_args();out=args.out.resolve();out.mkdir(parents=True,exist_ok=True)
     for p in (ROOT/'web').iterdir():
         if p.is_file():shutil.copy2(p,out/p.name)
     index=out/'index.html'
@@ -81,6 +97,8 @@ def main():
     for source in (ROOT/'references').iterdir():
         if source.is_file() and source.suffix in {'.md','.json'}:shutil.copy2(source,out/'references'/source.name)
     (out/'.nojekyll').write_text('')
+    if args.mobile_preview:
+        (out/'mobile-preview.html').write_text('<!doctype html><html lang="zh"><meta charset="utf-8"><title>390px reading preview</title><style>body{margin:0;background:#ccc}iframe{display:block;width:390px;height:950px;border:0;margin:20px auto}</style><iframe title="手机阅读预览" src="index.html#read/02"></iframe></html>')
     # Validate every embedded local image and download target before publication.
     for ch in chapters:
         for src in re.findall(r'src="([^"]+)"',ch['html']):

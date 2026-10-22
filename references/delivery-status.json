@@ -1,14 +1,14 @@
 {
-  "edition": "1.1-application-supplement",
+  "edition": "1.2-mobile-process-sequences",
   "date": "2026-10-22",
-  "physical_pdf_pages": 86,
+  "physical_pdf_pages": 140,
   "main_chapters": 16,
   "chapter_files_including_guide_and_appendix": 18,
-  "unique_embedded_images": 58,
+  "unique_embedded_images": 114,
   "AI_illustrations": 11,
-  "original_diagrams": 28,
+  "original_diagrams": 84,
   "real_source_images": 19,
-  "source_urls": 145,
+  "source_urls": 146,
   "missing_images": 0,
   "replacement_glyphs": 0,
   "html_generated": true,
@@ -19,5 +19,11 @@
   "pages_url": "https://yzyexp.github.io/Learn-3D-ASM/",
   "application_cases_and_typical_tasks": 25,
   "author_worked_examples": 1,
-  "application_images_added": 17
+  "application_images_added": 17,
+  "continuous_process_sequences": 14,
+  "process_stage_images": 56,
+  "mobile_overview_diagrams": 28,
+  "mobile_panel_derivatives": 86,
+  "web_ci_independent_of_pdf": true,
+  "pdf_ci_workflow": ".github/workflows/pdf.yml"
 }

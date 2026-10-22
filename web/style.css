@@ -15,3 +15,30 @@ body.reading{background:#fffdf8}.reading .site-header{height:78px;background:rgb
 .application-card .tiny-label{color:#a54f36;margin-top:16px}
 @media(max-width:850px){.application-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:540px){.application-grid{grid-template-columns:1fr;gap:28px}}
+
+/* Mobile diagrams use explicitly bounded panels, not a shrunken horizontal strip. */
+.mobile-diagram{display:none}
+.book-prose .process-step{max-width:780px;margin-left:auto;margin-right:auto}
+.book-prose .process-step img{max-height:none;aspect-ratio:12/11}
+.book-prose .process-step figcaption{font-size:16px;line-height:1.85}
+@media(max-width:800px){
+ .book-prose .responsive-figure>.diagram-overview{display:none}
+ .book-prose .mobile-diagram{display:block}
+ .book-prose .mobile-panel{margin:24px 0 32px;padding:0 0 24px;border-bottom:1px solid var(--line)}
+ .book-prose .mobile-panel h4{font-size:18px;line-height:1.65;margin:0 0 13px;font-weight:600;color:var(--ink)}
+ .book-prose .mobile-panel img{max-height:none;width:100%;height:auto;margin:0}
+ .book-prose .mobile-panel p{font-size:16px;line-height:1.9;margin:16px 0 0}
+ .book-prose .text-panel{padding:20px;background:#f1f1e8;border:0}
+ .book-prose .panel-guide,.book-prose .panel-note{font-size:16px;line-height:1.85}
+ .book-prose .panel-guide{color:var(--accent);margin-bottom:22px}
+ .book-prose .panel-note{color:var(--muted)}
+ .book-prose figcaption{font-size:16px;line-height:1.9}
+}
+@media(max-width:620px){
+ .reader-main{padding-left:18px;padding-right:18px}
+ .book-prose{font-size:16px}
+ .large-type .book-prose{font-size:18px}
+ .book-prose figure{margin-left:0;margin-right:0}
+ .book-prose .process-step{margin-top:26px;margin-bottom:34px}
+ .book-prose .process-step figcaption{padding:0}
+}

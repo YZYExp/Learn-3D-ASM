@@ -52,7 +52,7 @@ https://ultimaker.com/learn/ford-reinventing-efficient-manufacturing-using-3d-pr
 
 https://www.nist.gov/additive-manufacturing/research-areas/technologies/vat-photopolymerization
 
-[14] 资料：Formlabs《Guide to Stereolithography》
+[14] 工艺依据
 
 https://formlabs.com/blog/ultimate-guide-to-stereolithography-sla-3d-printing/
 
@@ -136,446 +136,450 @@ https://www.nasa.gov/centers-and-facilities/marshall/nasas-innovative-rocket-noz
 
 https://www.siemens.com/en-gb/technology/binder-jetting/
 
-[35] HP，2022，John Deere Metal Jet生产应用公告
+[35] HP，Metal Jet工艺说明
+
+https://www.hp.com/us-en/printers/3d-printers/products/metal-jet.html
+
+[36] HP，2022，John Deere Metal Jet生产应用公告
 
 https://www.hp.com/us-en/newsroom/press-releases/2022/new-hp-jet-fusion-s400-metal-jet-s100.html
 
-[36] GKN Powder Metallurgy，Fuel Bypass Components应用说明
+[37] GKN Powder Metallurgy，Fuel Bypass Components应用说明
 
 https://www.gknpm.com/en/about-us/our-businesses/gkn-additive/
 
-[37] 资料：Stratasys《PolyJet Technology》
+[38] 资料：Stratasys《PolyJet Technology》
 
 https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/polyjet-technology/
 
-[38] Stratasys，2018，Audi全彩多材料尾灯原型
+[39] Stratasys，2018，Audi全彩多材料尾灯原型
 
 https://investors.stratasys.com/news-events/press-releases/detail/466/audi-adopts-stratasys-full-color-multi-material-3d-printing
 
-[39] Fabrisonic UAM
+[40] Fabrisonic UAM
 
 https://fabrisonic.com/uam/
 
-[40] NASA Spinoff，2021，Fabrisonic超声增材换热器与嵌入传感器
+[41] NASA Spinoff，2021，Fabrisonic超声增材换热器与嵌入传感器
 
 https://spinoff.nasa.gov/ultrasonic-welding-additive-manufacturing
 
-[41] Lithoz LCM
+[42] Lithoz LCM
 
 https://www.lithoz.com/en/technology/lcm-technology/
 
-[42] 资料：Fraunhofer HTL《Stereolithographic Process》
+[43] 资料：Fraunhofer HTL《Stereolithographic Process》
 
 https://www.htl.fraunhofer.de/en/ResearchAreas/additive-manufacturing/stereolithography-process.html
 
-[43] Lithoz，2025，Safran陶瓷铸造芯设备安装公告
+[44] Lithoz，2025，Safran陶瓷铸造芯设备安装公告
 
 https://www.lithoz.com/en/lithoz-has-installed-cerafab-s65-printers-to-build-casting-parts-for-safran-aircraft-engines/
 
-[44] 资料：Natural Machines《Users》
+[45] 资料：Natural Machines《Users》
 
 https://www.naturalmachines.com/users
 
-[45] 资料：COBOD《How it works》
+[46] 资料：COBOD《How it works》
 
 https://cobod.com/how-it-works/
 
-[46] COBOD，2024，海德堡IT Server Hotel项目启用报道
+[47] COBOD，2024，海德堡IT Server Hotel项目启用报道
 
 https://cobod.com/europes-largest-3d-printed-building-unveiled/
 
-[47] 资料：CELLINK《Cell and tissue models》
+[48] 资料：CELLINK《Cell and tissue models》
 
 https://www.cellink.com/cell-tissue-models/
 
-[48] Harvard Wyss，2019，SWIFT组织灌流研究
+[49] Harvard Wyss，2019，SWIFT组织灌流研究
 
 https://wyss.harvard.edu/news/a-swifter-way-towards-3d-printed-organs/
 
-[49] Princeton 材料术语说明
+[50] Princeton 材料术语说明
 
 https://www.princeton.edu/~humcomp/sophlab/m%26mgl_13.htm
 
-[50] Penn State 聚合物力学课程
+[51] Penn State 聚合物力学课程
 
 https://courses.ems.psu.edu/matse202/book/export/html/698
 
-[51] Prusa Research，Filament Material Guide
+[52] Prusa Research，Filament Material Guide
 
 https://help.prusa3d.com/filament-material-guide
 
-[52] INTAMSYS，Industrial 3D Printing Filaments & Materials
+[53] INTAMSYS，Industrial 3D Printing Filaments & Materials
 
 https://www.intamsys.com/materials?list=1
 
-[53] Prusa Research，Material guide（复合料与各材料专题）
+[54] Prusa Research，Material guide（复合料与各材料专题）
 
 https://help.prusa3d.com/category/material-guide_220
 
-[54] Formlabs，3D printing post-processing FAQs
+[55] Formlabs，3D printing post-processing FAQs
 
 https://formlabs.com/global/support/3d-printing-post-processing-faqs/
 
-[55] EOS，Metal Powder for 3D Printing
+[56] EOS，Metal Powder for 3D Printing
 
 https://www.eos.info/metal-solutions/metal-materials
 
-[56] ExOne，Polymer / ceramic printing process information
+[57] ExOne，Polymer / ceramic printing process information
 
 https://www.exone.com/en/3d-printing-solutions_overview/3dp-solutions_polymer/
 
-[57] 3MF Consortium，FAQ
+[58] 3MF Consortium，FAQ
 
 https://3mf.io/resources/faq/
 
-[58] Prusa Research，Support material
+[59] Prusa Research，Support material
 
 https://help.prusa3d.com/article/support-material_1698
 
-[59] Prusa Research，Object orientation
+[60] Prusa Research，Object orientation
 
 https://help.prusa3d.com/article/object-orientation_1658
 
-[60] Prusa Research，Drying filament
+[61] Prusa Research，Drying filament
 
 https://help.prusa3d.com/article/drying-filament_332086
 
-[61] Sandvik Coromant，Metal cutting knowledge
+[62] Sandvik Coromant，Metal cutting knowledge
 
 https://www.sandvik.coromant.com/en-gb/knowledge
 
-[62] AgieCharmilles 成形 EDM
+[63] AgieCharmilles 成形 EDM
 
 https://www.agiecharmilles.com/die-sinking-edm
 
-[63] Makino 线切割
+[64] Makino 线切割
 
 https://www.makino.com/resources/content-library/videos/archive/makino-duo-series-wire-edm-with-up-to-62-lower-wire-consumption/166
 
-[64] TRUMPF 激光切割
+[65] TRUMPF 激光切割
 
 https://www.trumpf.com/en_US/solutions/applications/laser-cutting/
 
-[65] OMAX 水刀
+[66] OMAX 水刀
 
 https://www.omax.com/en/learn/how-does-waterjet-work/
 
-[66] JLC CNC，What Is EDM? How Electrical Discharge Machining Works
+[67] JLC CNC，What Is EDM? How Electrical Discharge Machining Works
 
 https://jlccnc.com/blog/what-is-edm-electrical-discharge-machining
 
-[67] The Open University，Photochemical Machining
+[68] The Open University，Photochemical Machining
 
 https://www.open.edu/openlearn/science-maths-technology/engineering-technology/manupedia/photochemical-machining-photo-fabrication-chemical-milling
 
-[68] Norton／Saint-Gobain Abrasives，Technical Solutions for Grinding in the Bearing Market，套圈制造与磨削章节
-
-https://www.nortonabrasives.com/en-gb/resources/document/technical-solutions-grinding-bearing-market
-
-[69] DMG MORI，High-precision manufacturing technology for modern everyday life，2026-04-19
-
-https://en.dmgmori.com/news-and-media/news/nws2664-knee-implants
-
-[70] Sandvik Coromant，CoroDrill DE10，应用与加工记录
-
-https://www.sandvik.coromant.com/en-us/tools/drilling-tools/exchangeable-tip-drills/corodrill-de10
-
-[71] Makino，UPV-5，精冲与精密冲压模具应用
+[69] Makino，UPV-5，精冲与精密冲压模具应用
 
 https://www.makino.com.sg/en-us/machine-technology/machines/wire-edm/upv-5
 
-[72] Makino，EDM—When Milling Just Won’t Cut It，成形EDM与制孔说明
+[70] Norton／Saint-Gobain Abrasives，Technical Solutions for Grinding in the Bearing Market，套圈制造与磨削章节
+
+https://www.nortonabrasives.com/en-gb/resources/document/technical-solutions-grinding-bearing-market
+
+[71] DMG MORI，High-precision manufacturing technology for modern everyday life，2026-04-19
+
+https://en.dmgmori.com/news-and-media/news/nws2664-knee-implants
+
+[72] Sandvik Coromant，CoroDrill DE10，应用与加工记录
+
+https://www.sandvik.coromant.com/en-us/tools/drilling-tools/exchangeable-tip-drills/corodrill-de10
+
+[73] Makino，EDM—When Milling Just Won’t Cut It，成形EDM与制孔说明
 
 https://www.makino.com/en-us/machine-technology/machining-process/edm
 
-[73] Alpine Laser，How a start-up makes life-saving medical devices，2023-01-13
+[74] Alpine Laser，How a start-up makes life-saving medical devices，2023-01-13
 
 https://alpinelaser.com/how-a-start-up-makes-life-saving-medical-devices/
 
-[74] OMAX，Revolutionizing the Bit and Spur Business with the ProtoMax，2025-04-30
+[75] OMAX，Revolutionizing the Bit and Spur Business with the ProtoMax，2025-04-30
 
 https://www.omax.com/en/customer-successes/revolutionizing-bit-and-spur-business-protomax/
 
-[75] Precision Micro，Medical device manufacturer partners with Precision Micro to increase etched shim production
+[76] Precision Micro，Medical device manufacturer partners with Precision Micro to increase etched shim production
 
 https://www.precisionmicro.com/medical-manufacturer-turns-to-etching-for-metal-shim-manufacture/
 
-[76] Protolabs，Custom Manufacturing Services
+[77] Protolabs，Custom Manufacturing Services
 
 https://www.protolabs.com/en-gb/services/
 
-[77] DMG MORI，LASERTEC 65 DED hybrid 2nd Generation
+[78] DMG MORI，LASERTEC 65 DED hybrid 2nd Generation
 
 https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid-2nd
 
-[78] ExOne，3D printing solutions overview
+[79] ExOne，3D printing solutions overview
 
 https://www.exone.com/en/3d-printing-solutions_overview/
 
-[79] Sulzer，Sulzer creates a hybrid additive manufacturing process to minimize lead time on components for Chevron
+[80] Sulzer，Sulzer creates a hybrid additive manufacturing process to minimize lead time on components for Chevron
 
 https://www.sulzer.com/en/shared/case-studies/chevron-hybrid-machining
 
-[80] Nikon SLM Solutions，Metal 3D Printing’s Impact on the Casting Industry
+[81] Nikon SLM Solutions，Metal 3D Printing’s Impact on the Casting Industry
 
 https://nikon-slm-solutions.com/addictive-additive/the-casting-industry-meets-the-future-with-integrated-3d-printing/
 
-[81] Formlabs，Model orientation best practices for SLS printing
+[82] Formlabs，Model orientation best practices for SLS printing
 
 https://formlabs.com/uk/support/Model-orientation-best-practices-for-SLS-printing/
 
-[82] Formlabs，Polishing Clear Resin for a transparent finish
+[83] Formlabs，Polishing Clear Resin for a transparent finish
 
 https://formlabs.com/support/Polishing-Clear-Resin-for-a-Transparent-Finish/
 
-[83] 3MF Consortium，Materials and Properties Extension
+[84] 3MF Consortium，Materials and Properties Extension
 
 https://3mf.io/spec/
 
-[84] Formlabs，Guide to Post-Processing and Finishing SLA Resin 3D Prints
+[85] Formlabs，Guide to Post-Processing and Finishing SLA Resin 3D Prints
 
 https://formlabs.com/blog/post-processing-and-finishing-sla-prints/
 
-[85] Autodesk，Generative Design overview
+[86] Autodesk，Generative Design overview
 
 https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW
 
-[86] Dassault Systèmes，TA.TAMU Installation
+[87] Dassault Systèmes，TA.TAMU Installation
 
 https://www.3ds.com/design/tatamu
 
-[87] Prusa公司介绍
+[88] Prusa公司介绍
 
 https://www.prusa3d.com/page/about-us_77/
 
-[88] 拓竹公司介绍
+[89] 拓竹公司介绍
 
 https://bambulab.cn/zh-cn/about-us
 
-[89] Anycubic支持中心
+[90] Anycubic支持中心
 
 https://www.anycubic.com/SupportCenter
 
-[90] QIDI产品与文档
+[91] QIDI产品与文档
 
 https://wiki.qidi3d.com/
 
-[91] Flashforge手册
+[92] Flashforge手册
 
 https://wiki.flashforge.com/en/adventurer-series/manual
 
-[92] Prusa十周年回顾
+[93] Prusa十周年回顾
 
 https://blog.prusa3d.com/celebrating-10-years-of-prusa-research_68570/
 
-[93] 创想十周年访谈
+[94] 创想十周年访谈
 
 https://www.creality.com/blog/creality-ceo-on-the-brands-10-year-anniversary
 
-[94] ELEGOO品牌故事
+[95] ELEGOO品牌故事
 
 https://www.elegoo.com/pages/about
 
-[95] 品牌官网
+[96] 品牌官网
 
 https://www.sovol3d.com/products/sovol-sv08-3d-printer
 
-[96] Voron项目介绍
+[97] Voron项目介绍
 
 https://docs.vorondesign.com/about.html
 
-[97] Rat Rig文档
+[98] Rat Rig文档
 
 https://wiki.ratrig.com/
 
-[98] SV08官方仓库
+[99] SV08官方仓库
 
 https://github.com/Sovol3d/SV08
 
-[99] Formlabs
+[100] Formlabs
 
 https://formlabs.com/
 
-[100] Raise3D Pro3
+[101] Raise3D Pro3
 
 https://www.raise3d.com/pro3-series/
 
-[101] Raise3D DF2
+[102] Raise3D DF2
 
 https://raise3d.com/df2/
 
-[102] EOS
+[103] EOS
 
 https://www.eos.info/about-us/who-we-are
 
-[103] HP MJF技术
+[104] HP MJF技术
 
 https://www.hp.com/us-en/printers/3d-printers/products/multi-jet-technology.html
 
-[104] Stratasys工艺目录
+[105] Stratasys工艺目录
 
 https://www.stratasys.com/en/3d-printing-technologies/
 
-[105] 3D Systems材料与工艺
+[106] 3D Systems材料与工艺
 
 https://www.3dsystems.com/materials/metal
 
-[106] Markforged连续纤维资料
+[107] Markforged连续纤维资料
 
 https://web-objects.markforged.com/craft/materials/CompositesV5.2.pdf
 
-[107] MIT对Formlabs的回顾
+[108] MIT对Formlabs的回顾
 
 https://news.mit.edu/2014/affordable-precision-3-d-printing-pros-0603
 
-[108] Formlabs十周年回顾
+[109] Formlabs十周年回顾
 
 https://formlabs.com/blog/formlabs-10-years/
 
-[109] 官方合并公告
+[110] 官方合并公告
 
 https://www.makerbot.com/stories/ultimaker-and-makerbot-announce-closing-of-merger/
 
-[110] Carbon原案例
+[111] Carbon原案例
 
 https://www.carbon3d.com/resources/case-study/adidas
 
-[111] 2017年合作公告
+[112] 2017年合作公告
 
 https://www.carbon3d.com/news/press-releases/adidas-unveils-industrys-first-application-of-digital-light-synthesis-with-futurecraft-4d
 
-[112] Formlabs收购Micronics公告
+[113] Formlabs收购Micronics公告
 
 https://formlabs.com/company/press/formlabs-acquires-micronics/
 
-[113] Meltio公司介绍
+[114] Meltio公司介绍
 
 https://meltio3d.com/about-us/
 
-[114] Airtech合作公告
+[115] Airtech合作公告
 
 https://www.airtech.com/index.php/airtech-and-caracol-announce-their-partnership
 
-[115] Lithoz LCM技术
+[116] Lithoz LCM技术
 
 https://lithoz.com/en/technology/
 
-[116] 2025年完成公告
+[117] 2025年完成公告
 
 https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Announces-Closing-of-Markforged-Acquisition/default.aspx
 
-[117] 2026年拟收购公告
+[118] 2026年拟收购公告
 
 https://investors.stratasys.com/news-events/press-releases/detail/984/stratasys-to-acquire-markforged-inc-expanding-aerospace
 
-[118] Nano关于Desktop Metal破产的声明
+[119] Nano关于Desktop Metal破产的声明
 
 https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Statement-Regarding-Desktop-Metal-Bankruptcy-and-Strategic-Decision-Not-to-Acquire-Assets/default.aspx
 
-[119] BLT官方
+[120] BLT官方
 
 https://www.xa-blt.com/en/
 
-[120] Farsoon公司介绍
+[121] Farsoon公司介绍
 
 https://www.farsoon-gl.com/about/
 
-[121] Eplus3D公司历史
+[122] Eplus3D公司历史
 
 https://www.eplus3d.com/our-history/
 
-[122] UnionTech
+[123] UnionTech
 
 https://www.uniontech3d.com/
 
-[123] 先临简介
+[124] 先临简介
 
 https://www.shining3d.cn/news/article_xianlinsanweijianjie
 
-[124] LuxCreo技术平台
+[125] LuxCreo技术平台
 
 https://luxcreo.com/technology/
 
-[125] eSUN集团介绍
+[126] eSUN集团介绍
 
 https://www.esungroup.net/about-esun/
 
-[126] Polymaker介绍
+[127] Polymaker介绍
 
 https://polymaker.com/about-polymaker/
 
-[127] BLT公司信息
+[128] BLT公司信息
 
 https://www.xa-blt.com/en/career/
 
-[128] 2026年材料生态公告
+[129] 2026年材料生态公告
 
 https://www.farsoon-gl.com/news/farsoon-expands-open-materials-ecosystem-with-alm-high-performance-polymer-powders-for-industrial-pbf-production/
 
-[129] Eplus3D十周年活动
+[130] Eplus3D十周年活动
 
 https://www.eplus3d.com/eplus3d-celebrates-a-decade-of-innovation-at-the-global-partners-summit-2024.html
 
-[130] UnionTech二十年回顾
+[131] UnionTech二十年回顾
 
 https://www.uniontech3d.com/uniontech-promoting-innovation-with-technology-and-development-with-innovation-for-20-years.html
 
-[131] LuxCreo应用问答
+[132] LuxCreo应用问答
 
 https://luxcreo.com/faq
 
-[132] Makera原文
+[133] Makera原文
 
 https://www.makera.com/pages/about-us
 
-[133] DMG MORI混合加工
+[134] DMG MORI混合加工
 
 https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid
 
-[134] Mazak INTEGREX
+[135] Mazak INTEGREX
 
 https://www.mazak.com/sg-en/products/integrex-i-neo/
 
-[135] FANUC设备目录
+[136] FANUC设备目录
 
 https://www.fanuc.co.jp/en/product/robomachine/
 
-[136] SYIL X7
+[137] SYIL X7
 
 https://in.syil.com/x7
 
-[137] Onefinity
+[138] Onefinity
 
 https://www.onefinitycnc.com/
 
-[138] Langmuir MR-1
+[139] Langmuir MR-1
 
 https://www.langmuirsystems.com/pages/mr1
 
-[139] Haas历史
+[140] Haas历史
 
 https://haascnc.com/about/history
 
-[140] Carbide 3D公司介绍
+[141] Carbide 3D公司介绍
 
 https://carbide3d.com/about/
 
-[141] Okuma技术说明
+[142] Okuma技术说明
 
 https://www.okuma.com/thermo-friendly-concept
 
-[142] DMG MORI产品说明
+[143] DMG MORI产品说明
 
 https://www.dmgmori.co.jp/en/products/machine/?id=3592
 
-[143] help.prusa3d.com
+[144] help.prusa3d.com
 
 https://help.prusa3d.com/
 
-[144] formlabs.com
+[145] formlabs.com
 
 https://formlabs.com/blog/
 
-[145] 3mf.io
+[146] 3mf.io
 
 https://3mf.io/

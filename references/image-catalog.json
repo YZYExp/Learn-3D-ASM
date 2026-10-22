@@ -424,6 +424,510 @@
     "metadata": "references/real-images.json"
   },
   {
+    "file": "assets/images/step-binder-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "bcecfc91c6be496da75331163da7ede8b572387299fbdbf9a5cd70f801b9a296"
+  },
+  {
+    "file": "assets/images/step-binder-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "929be9ee2702aae7dfda8e606d4a87ec38aa9e3ce88322d74e0ea311940e704b"
+  },
+  {
+    "file": "assets/images/step-binder-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "495e18f862a70b632037b9c26b31b3ccdde2161ce1113565ac7ca747f58e94bb"
+  },
+  {
+    "file": "assets/images/step-binder-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "0e5c1aec6012bd807b15092ff20c0511d57d78545d543525ac988211d071f816"
+  },
+  {
+    "file": "assets/images/step-ded-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "4d27beb68f7d8626a04b41ac20e78ff49378989a0cbc6a4e569e2e4c865df611"
+  },
+  {
+    "file": "assets/images/step-ded-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "521d6e89f77d32243924a69e42941d10efdf05e292a3b4523f57ebb202b32366"
+  },
+  {
+    "file": "assets/images/step-ded-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "feec350abf3ee62e3f0aacfff1446eb875646d9e5f199aea7fb490d7d1d461c2"
+  },
+  {
+    "file": "assets/images/step-ded-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "416a4e8664484e91570139ff85a01394284ee0b5557238938d3858a6d2d89f88"
+  },
+  {
+    "file": "assets/images/step-edm-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "cff74aeadb017ae692936a4dea9db639c77f5f6a7d26a19eb471c73fcc664b6a"
+  },
+  {
+    "file": "assets/images/step-edm-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "2da37ba0a0d623f9c393acc4d94b2332d2d95bdc93d6ef28681c953317255d02"
+  },
+  {
+    "file": "assets/images/step-edm-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "2b0dcac98f63d894e3a5142c786aa81c6ffb8d16db3a222fdfffbf38a2509006"
+  },
+  {
+    "file": "assets/images/step-edm-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "9c856d519989fdc1b2a71f23f290c3ad0d736106a43eff905d23026a1c60c581"
+  },
+  {
+    "file": "assets/images/step-fff-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "5bb033a8d33b9497daa4972510d558ffdccbce4fb734fb26e09753dfb96b5fc2"
+  },
+  {
+    "file": "assets/images/step-fff-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "13b3ebe4e0feea82ee42daf43dc5c7872afdb300812968c1cd76d84b7b4a405a"
+  },
+  {
+    "file": "assets/images/step-fff-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "6943ec719bfd39fc1f7def0e7364dc97c6ffe3466557654c9df3caf17f95a88d"
+  },
+  {
+    "file": "assets/images/step-fff-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "b262202fbe7a79934d1f9046025c0c8cff9dfde334ed473dd3d0b9f9caa42f36"
+  },
+  {
+    "file": "assets/images/step-jet-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "2a8b8abc21c9f5265d28f202a15f38d9a949f35fb932429adb3bdecb8bdc1972"
+  },
+  {
+    "file": "assets/images/step-jet-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "86ae54187e3bafbd1f475aa64f9308ece190c8474e686b6f005b9ed18f04c3ac"
+  },
+  {
+    "file": "assets/images/step-jet-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "92d9a82ab267c26b0a700b3066d7dc584af080be7ff39888a4c70f21b7b6f6a6"
+  },
+  {
+    "file": "assets/images/step-jet-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "856b2c48d24fc7793c291bb8dc8b7d68b3e010db5c4c2a26dbf8de31df424630"
+  },
+  {
+    "file": "assets/images/step-laser-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "bfec5a1426a1cea5331b87cd34b112a22b55e57036f60e87c4a685d636519474"
+  },
+  {
+    "file": "assets/images/step-laser-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "d812f4ec82e78f5939d540b27dbdaa1f3b00514c85e56612545d1878b1f309ce"
+  },
+  {
+    "file": "assets/images/step-laser-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "be4938c02e69c9878f186b6fe2070c5799f5b06f300824b27db6b35638772915"
+  },
+  {
+    "file": "assets/images/step-laser-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "37aed3b7842a7d481f59650c91e50a75214b6c5c7a2052372fed653c279bf9bd"
+  },
+  {
+    "file": "assets/images/step-lpbf-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "d9cee8726b5fa09e8a72ed795f430af9aafe45497667c5c53f69d86bd897836d"
+  },
+  {
+    "file": "assets/images/step-lpbf-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "94d2bee39bd22b91eb75d6264ebf0b4fdfe74fc636f2f7374adecfaa93565d30"
+  },
+  {
+    "file": "assets/images/step-lpbf-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "6bf16a8f556592988200e957b36beef8cdcb5b1b85ac8d7bf26cb2251bf7f50a"
+  },
+  {
+    "file": "assets/images/step-lpbf-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "665c31ec830346407b9af8030650b39d1491dbde74ed605a6b5e08e50caba260"
+  },
+  {
+    "file": "assets/images/step-milling-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "419650948fbed9b81d3c09ede9bee8000e02762f4c2ddd9bf099f6a1ad60d2e7"
+  },
+  {
+    "file": "assets/images/step-milling-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "5c14d9cc767fb16d5e9277c7046267dd4743b98e547ec977e66fbcfcdec3546e"
+  },
+  {
+    "file": "assets/images/step-milling-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "1a0064a9e783f97e6a0810f68d811630f12329052c71cb27ba61717fbdc17af9"
+  },
+  {
+    "file": "assets/images/step-milling-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "c3dc07eab24ae9383c8efa1ed935ed3c539e81f0a4ad69bc515d7e8fe70fb002"
+  },
+  {
+    "file": "assets/images/step-mjf-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "6d38f005a2c807f56aaf5c97c3d9f62f0354bbff51a6331b6aac01deeaa96883"
+  },
+  {
+    "file": "assets/images/step-mjf-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "00a1b958d123f24dca4d0cebd4525d9c6b5298d066b129fb8ebbd0775973a04b"
+  },
+  {
+    "file": "assets/images/step-mjf-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "922945546292d77dcced41b6234c1fe453173967b78c41d521c4c8600fa58494"
+  },
+  {
+    "file": "assets/images/step-mjf-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "78c1b5a13ac52c1ac9ab384d9a3557c6fced8a9eeacae2449f47f7e991176fe3"
+  },
+  {
+    "file": "assets/images/step-sls-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "9e4ff39c2ab92480f2a39df77034cd38b908c77c4fc58559075817d86f7aa631"
+  },
+  {
+    "file": "assets/images/step-sls-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "329810ed5728aec8fe263cf086b7de40a712fcb3e24efb3e9ff857ef243b6f62"
+  },
+  {
+    "file": "assets/images/step-sls-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "69582986b02c01bbe578eef81173960b0f6ce4f10271feb477736781bcff5e7c"
+  },
+  {
+    "file": "assets/images/step-sls-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "45518f3b3b14578a52fe50435eac12338ab058797edbffbe9673d3ad7c89ca2c"
+  },
+  {
+    "file": "assets/images/step-turning-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "49123adff94b6cda1376f00daab0755d1892e27b106aaf0dc6c66c0982f5de03"
+  },
+  {
+    "file": "assets/images/step-turning-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "47b75dc3c800442d19b52012e1abefe0008ad6b07cd9ba6771a7121b71636981"
+  },
+  {
+    "file": "assets/images/step-turning-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "06330d3f8ec6b302416a236774e0ac5a6eec0a5d843bb4a4b116a93ddfab6d01"
+  },
+  {
+    "file": "assets/images/step-turning-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "c6c553ad8004c5814fee14d81f33a3ec5ba6273487386587cd9cd101507dcb73"
+  },
+  {
+    "file": "assets/images/step-uam-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "808acd61118b0b9415b8382cf00d96796051c6df67cb9910bd8accc99198b9d3"
+  },
+  {
+    "file": "assets/images/step-uam-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "12c629ee031f6cd394aff3c4867d92b40484a04020db6388a90eaac48c2cbf5d"
+  },
+  {
+    "file": "assets/images/step-uam-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "c187a01e379bb6d9b0c5b6016e68ceaf7467c1a14a71a1cbeacbb112bcb5a39a"
+  },
+  {
+    "file": "assets/images/step-uam-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-industrial.json",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "6d21687020103215399dd687f33b358b07f01be5c8f004ed56e466609cd48e55"
+  },
+  {
+    "file": "assets/images/step-vat-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "bf7679fdd4287ef9ee092cd3eb5bbcef0d849e5eb4bd044f8f7fa18a9251688c"
+  },
+  {
+    "file": "assets/images/step-vat-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "1c03ed12b40319b41d10e142ab54aca926b850cce83842f6162d6d22ca369607"
+  },
+  {
+    "file": "assets/images/step-vat-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "aca0825b8e9cb762606bd33af4858fb5e2703f5f600485edb17fa9c3e84ccc6f"
+  },
+  {
+    "file": "assets/images/step-vat-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-polymer.json",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "8ccf732a0846922c67fb25dabbef4d17205220232b6349ae2e246c0ade663de1"
+  },
+  {
+    "file": "assets/images/step-waterjet-01.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "ad7620648b8667243c545ac7add58b114b21ef4ab071f2dafe9d4efee4088cef"
+  },
+  {
+    "file": "assets/images/step-waterjet-02.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "7c49e64381daa307bd6c482c30146525f9e30b266c72ad41d15eadb3a3e908f5"
+  },
+  {
+    "file": "assets/images/step-waterjet-03.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "0d50fde65896a6458cb60dbefe77e385de663fa4e430bfe0317a9fee5abaf9eb"
+  },
+  {
+    "file": "assets/images/step-waterjet-04.png",
+    "kind": "diagram",
+    "metadata": "references/process-sequences-cutting.json",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "d998328444071145dbf2ba25bae9eb22a256d4884491733538c7518bd9137cdf"
+  },
+  {
     "file": "assets/images/supp-industrial-ceramic-chain.png",
     "kind": "diagram",
     "chapters": [

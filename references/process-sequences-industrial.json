@@ -1,0 +1,152 @@
+[
+  {
+    "id": "lpbf",
+    "chapter": "05",
+    "title": "激光粉末床熔融 LPBF",
+    "steps": [
+      {
+        "file": "assets/images/step-lpbf-01.png",
+        "title": "薄粉层铺到基板上",
+        "explanation": "起点是金属基板上铺好的薄粉层。粉末还没有成为零件，激光接下来只处理当前截面。"
+      },
+      {
+        "file": "assets/images/step-lpbf-02.png",
+        "title": "激光只熔化选中的位置",
+        "explanation": "橙色薄带表示第一层已熔化并凝固的区域。激光移动形成熔池，熔池冷却后与下面金属结合；未扫描粉末仍然松散。"
+      },
+      {
+        "file": "assets/images/step-lpbf-03.png",
+        "title": "下降、铺粉、扫描：逐层长高",
+        "explanation": "平台下降一个层厚，铺粉机构补上一层粉，激光再扫描新截面。图中绿色保留之前凝固的材料，橙色是本轮新增层；重复后得到台阶形实体。"
+      },
+      {
+        "file": "assets/images/step-lpbf-04.png",
+        "title": "取出后，还要完成工艺链",
+        "explanation": "打印结束后移除松粉，按验证路线进行热处理、与基板分离、必要的去支撑和精加工，再检验。此台阶示例没有画悬垂，不能据此推断真实金属件都不需要支撑。"
+      }
+    ],
+    "source_refs": [
+      "PROC05LPBF"
+    ]
+  },
+  {
+    "id": "ded",
+    "chapter": "05",
+    "title": "送粉激光定向能量沉积 DED",
+    "steps": [
+      {
+        "file": "assets/images/step-ded-01.png",
+        "title": "粉末被送到基体表面",
+        "explanation": "这里示范激光送粉DED，不代表电弧送丝等全部DED路线。粉末沿喷嘴送到激光与基体相遇处，零件下面一直保留同一块基体。"
+      },
+      {
+        "file": "assets/images/step-ded-02.png",
+        "title": "在移动熔池里形成一道",
+        "explanation": "激光在基体表面产生局部熔池，送入的粉末被熔化并加入其中。沉积头移动后，后方熔池凝固，留下与基体结合的第一道。"
+      },
+      {
+        "file": "assets/images/step-ded-03.png",
+        "title": "在旧道上面沉积新道",
+        "explanation": "沉积头升高，继续沿既有沉积道增加材料。绿色是已凝固的各层，橙色是本轮新增道；路径与高度反复更新，形成带层纹的毛坯。"
+      },
+      {
+        "file": "assets/images/step-ded-04.png",
+        "title": "毛坯再加工，达到尺寸",
+        "explanation": "DED沉积不必直接给出最终表面。图中虚线是留下的加工余量，实线是铣削后的轮廓；还需要按任务核查结合、材料状态和尺寸。"
+      }
+    ],
+    "source_refs": [
+      "PROC05DED"
+    ]
+  },
+  {
+    "id": "binder",
+    "chapter": "05",
+    "title": "金属黏结剂喷射",
+    "steps": [
+      {
+        "file": "assets/images/step-binder-01.png",
+        "title": "铺开松散金属粉末",
+        "explanation": "起点仍是一层松散金属粉，但本路线打印阶段不依赖激光把粉末熔化。"
+      },
+      {
+        "file": "assets/images/step-binder-02.png",
+        "title": "选择性喷黏结剂",
+        "explanation": "喷头只在当前截面需要的位置喷入黏结剂，把那里粉末黏在一起。紫色表示被黏结的粉区，不是液态金属。"
+      },
+      {
+        "file": "assets/images/step-binder-03.png",
+        "title": "去掉松粉，露出脆弱生坯",
+        "explanation": "反复铺粉和喷射，按工艺固化后清除周围松粉，得到保持形状的生坯。生坯仍含黏结体系，搬运强度和最终金属零件不同。"
+      },
+      {
+        "file": "assets/images/step-binder-04.png",
+        "title": "脱脂、烧结后才是金属件",
+        "explanation": "生坯进入经过设计的脱脂、烧结路线。黏结体系被移除，金属颗粒在烧结中结合、致密化，外形通常收缩；虚线只是原轮廓示意，不是通用收缩率。后续仍可能需要精加工和检验。"
+      }
+    ],
+    "source_refs": [
+      "PROC05BINDER"
+    ]
+  },
+  {
+    "id": "jet",
+    "chapter": "06",
+    "title": "材料喷射：PolyJet 类光敏材料",
+    "steps": [
+      {
+        "file": "assets/images/step-jet-01.png",
+        "title": "液滴材料从喷孔出发",
+        "explanation": "平台上尚无零件。喷头中既有构成模型的光敏材料，也可有专用支撑材料；这与向粉床喷助剂的MJF不同。"
+      },
+      {
+        "file": "assets/images/step-jet-02.png",
+        "title": "喷射后用 UV 固化",
+        "explanation": "模型液滴与支撑液滴落到各自位置，再由UV照射固化为一层。图中橙色是模型首层，灰色是支撑层，实际配方颜色与图示无关。"
+      },
+      {
+        "file": "assets/images/step-jet-03.png",
+        "title": "模型和支撑一起逐层建立",
+        "explanation": "平台按层下降，喷射与固化持续重复。前面固化的层一直留在原处；灰色支撑承托将要成为横梁的模型材料，避免它在空中凭空形成。"
+      },
+      {
+        "file": "assets/images/step-jet-04.png",
+        "title": "清除支撑，露出模型空隙",
+        "explanation": "按具体支撑体系清理后，横梁下原被支撑占据的位置变成空隙。所得是光敏材料模型，不能只凭外观相似就认为它拥有最终量产材料的长期性能。"
+      }
+    ],
+    "source_refs": [
+      "PROC06JET"
+    ]
+  },
+  {
+    "id": "uam",
+    "chapter": "06",
+    "title": "超声增材制造 UAM",
+    "steps": [
+      {
+        "file": "assets/images/step-uam-01.png",
+        "title": "铺下一条固态金属箔",
+        "explanation": "起点是金属基体和一条固态金属箔。箔材保持薄片形态，不需要像熔融挤出那样从喷嘴流出来。"
+      },
+      {
+        "file": "assets/images/step-uam-02.png",
+        "title": "压力与超声让界面结合",
+        "explanation": "超声滚轮向下施压，并在界面施加高频振动。界面表层的变形与接触促成冶金结合；这里不画熔池，因为UAM属于固相结合路线。"
+      },
+      {
+        "file": "assets/images/step-uam-03.png",
+        "title": "叠层后铣出一个凹槽",
+        "explanation": "继续结合箔材得到较厚实体，再用机加工开槽。剖面中的空白是被铣走的金属；加工发生在封闭通道之前，刀具此时能够接近槽内部。"
+      },
+      {
+        "file": "assets/images/step-uam-04.png",
+        "title": "继续叠箔，封成内部通道",
+        "explanation": "后续箔层覆盖并结合到槽口周围的金属上，把开放槽变成内部通道。图为原理剖面而非实际悬跨工艺参数；完成后仍需结合具体任务检查界面和密封。"
+      }
+    ],
+    "source_refs": [
+      "PROC06UAM"
+    ]
+  }
+]

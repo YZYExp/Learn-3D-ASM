@@ -15,8 +15,9 @@
 主页源文件位于`web/`，构建方式：
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-web.txt
 python scripts/build_homepage.py
+python scripts/validate_site.py
 ```
 
 默认输出到忽略的`build/homepage/`；也可使用`--out <目录>`指定静态托管目录。无运行时CDN、框架依赖或外部图片请求。部署资料见[web/README.md](web/README.md)。
@@ -27,7 +28,13 @@ python scripts/build_homepage.py
 
 - [应用覆盖索引](references/application-coverage.md)与[逐图清单](references/image-catalog.json)。
 - 首页新增六个图像入口，或从[导读的任务表](chapters/00.md)进入相应章节。
-- 当前整本86页，58张图，145个资料链接；新增17张图已嵌入书稿和阅读页。
+- 当前整本140页，114张图，146个资料链接；新增17张图已嵌入书稿和阅读页。
+
+## 手机原理图修订
+
+14种工艺新增56张单独步骤图，按“起始 → 作用 → 累积或去除 → 完成与后处理”向下阅读，保留同一观察方向与前一步结构。28张原有横向图解在手机上改为86张竖排分图，并配可缩放字号的文字说明。分图为同一原图的阅读视图，不重复计入114张图。
+
+步骤图记录见`references/process-sequences-*.json`；分图区域、用途和说明见`references/mobile-panels.json`。绘图脚本`draw_steps_*.py`使用同一套`process_card.py`，`draw_mobile_panels.py`可复现分图。
 
 ## 阅读顺序
 
@@ -56,7 +63,7 @@ python scripts/build_homepage.py
 
 - `pdf/Manufacturing_Atlas.pdf`：整本阅读版，封面和目录之后使用正文页码。
 - `pdf/chapters/00.pdf` 至 `pdf/chapters/17.pdf`：独立章节PDF。
-- `assets/images/`：实际嵌入的58张图片。11张AI教学示意、28张原创图解、19张真实来源图片。部分图片在不同位置复用。
+- `assets/images/`：实际嵌入的114张图片。11张AI教学示意、84张原创图解、19张真实来源图片。部分图片在不同位置复用。
 - `references/all-sources.json` 与 `bibliography.md`：全书来源索引。
 - `references/real-images.json` 与 `image-rights.md`：真实图片来源与权利说明。
 - `references/generated-images.json` 与单独prompt文件：生成插画的创作简报、用途及提示。
@@ -94,4 +101,6 @@ python scripts/sync_pdfs.py
 
 ## CI与GitHub Pages
 
-[查看构建与部署](https://github.com/YZYExp/Learn-3D-ASM/actions/workflows/pages.yml)。Push到main自动构建19份PDF、18个在线章节，校验全部图片与全部本地链接，再部署GitHub Pages。PR只构建校验。工作流也支持手动运行；不需要个人访问令牌。首次在[Pages设置](https://github.com/YZYExp/Learn-3D-ASM/settings/pages)将Source设为GitHub Actions。私有仓库需账户套餐支持Pages。
+[查看网页构建与部署](https://github.com/YZYExp/Learn-3D-ASM/actions/workflows/pages.yml)。Push到main独立构建与校验18个在线章节，并随站提供仓库中已审阅的19份PDF；PR只校验。网页只依赖`requirements-web.txt`，无需字体或整书排版工具。
+
+[PDF导出工作流](https://github.com/YZYExp/Learn-3D-ASM/actions/workflows/pdf.yml)在书稿、图源或导出脚本更新时独立运行，也支持手动运行。它检查PDF完整性并上传30天保留的Actions阅读包（下载需GitHub登录）。公开站点的PDF下载直接来自本仓库`pdf/`，修订后须运行`sync_pdfs.py`同步并提交。PDF照片使用适合文档的压缩副本，原创精确图解保持无损，网页图源保持原文件。

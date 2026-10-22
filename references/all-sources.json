@@ -66,7 +66,7 @@
   },
   {
     "id": 14,
-    "title": "资料：Formlabs《Guide to Stereolithography》",
+    "title": "工艺依据",
     "url": "https://formlabs.com/blog/ultimate-guide-to-stereolithography-sla-3d-printing/"
   },
   {
@@ -171,556 +171,561 @@
   },
   {
     "id": 35,
+    "title": "HP，Metal Jet工艺说明",
+    "url": "https://www.hp.com/us-en/printers/3d-printers/products/metal-jet.html"
+  },
+  {
+    "id": 36,
     "title": "HP，2022，John Deere Metal Jet生产应用公告",
     "url": "https://www.hp.com/us-en/newsroom/press-releases/2022/new-hp-jet-fusion-s400-metal-jet-s100.html"
   },
   {
-    "id": 36,
+    "id": 37,
     "title": "GKN Powder Metallurgy，Fuel Bypass Components应用说明",
     "url": "https://www.gknpm.com/en/about-us/our-businesses/gkn-additive/"
   },
   {
-    "id": 37,
+    "id": 38,
     "title": "资料：Stratasys《PolyJet Technology》",
     "url": "https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/polyjet-technology/"
   },
   {
-    "id": 38,
+    "id": 39,
     "title": "Stratasys，2018，Audi全彩多材料尾灯原型",
     "url": "https://investors.stratasys.com/news-events/press-releases/detail/466/audi-adopts-stratasys-full-color-multi-material-3d-printing"
   },
   {
-    "id": 39,
+    "id": 40,
     "title": "Fabrisonic UAM",
     "url": "https://fabrisonic.com/uam/"
   },
   {
-    "id": 40,
+    "id": 41,
     "title": "NASA Spinoff，2021，Fabrisonic超声增材换热器与嵌入传感器",
     "url": "https://spinoff.nasa.gov/ultrasonic-welding-additive-manufacturing"
   },
   {
-    "id": 41,
+    "id": 42,
     "title": "Lithoz LCM",
     "url": "https://www.lithoz.com/en/technology/lcm-technology/"
   },
   {
-    "id": 42,
+    "id": 43,
     "title": "资料：Fraunhofer HTL《Stereolithographic Process》",
     "url": "https://www.htl.fraunhofer.de/en/ResearchAreas/additive-manufacturing/stereolithography-process.html"
   },
   {
-    "id": 43,
+    "id": 44,
     "title": "Lithoz，2025，Safran陶瓷铸造芯设备安装公告",
     "url": "https://www.lithoz.com/en/lithoz-has-installed-cerafab-s65-printers-to-build-casting-parts-for-safran-aircraft-engines/"
   },
   {
-    "id": 44,
+    "id": 45,
     "title": "资料：Natural Machines《Users》",
     "url": "https://www.naturalmachines.com/users"
   },
   {
-    "id": 45,
+    "id": 46,
     "title": "资料：COBOD《How it works》",
     "url": "https://cobod.com/how-it-works/"
   },
   {
-    "id": 46,
+    "id": 47,
     "title": "COBOD，2024，海德堡IT Server Hotel项目启用报道",
     "url": "https://cobod.com/europes-largest-3d-printed-building-unveiled/"
   },
   {
-    "id": 47,
+    "id": 48,
     "title": "资料：CELLINK《Cell and tissue models》",
     "url": "https://www.cellink.com/cell-tissue-models/"
   },
   {
-    "id": 48,
+    "id": 49,
     "title": "Harvard Wyss，2019，SWIFT组织灌流研究",
     "url": "https://wyss.harvard.edu/news/a-swifter-way-towards-3d-printed-organs/"
   },
   {
-    "id": 49,
+    "id": 50,
     "title": "Princeton 材料术语说明",
     "url": "https://www.princeton.edu/~humcomp/sophlab/m%26mgl_13.htm"
   },
   {
-    "id": 50,
+    "id": 51,
     "title": "Penn State 聚合物力学课程",
     "url": "https://courses.ems.psu.edu/matse202/book/export/html/698"
   },
   {
-    "id": 51,
+    "id": 52,
     "title": "Prusa Research，Filament Material Guide",
     "url": "https://help.prusa3d.com/filament-material-guide"
   },
   {
-    "id": 52,
+    "id": 53,
     "title": "INTAMSYS，Industrial 3D Printing Filaments & Materials",
     "url": "https://www.intamsys.com/materials?list=1"
   },
   {
-    "id": 53,
+    "id": 54,
     "title": "Prusa Research，Material guide（复合料与各材料专题）",
     "url": "https://help.prusa3d.com/category/material-guide_220"
   },
   {
-    "id": 54,
+    "id": 55,
     "title": "Formlabs，3D printing post-processing FAQs",
     "url": "https://formlabs.com/global/support/3d-printing-post-processing-faqs/"
   },
   {
-    "id": 55,
+    "id": 56,
     "title": "EOS，Metal Powder for 3D Printing",
     "url": "https://www.eos.info/metal-solutions/metal-materials"
   },
   {
-    "id": 56,
+    "id": 57,
     "title": "ExOne，Polymer / ceramic printing process information",
     "url": "https://www.exone.com/en/3d-printing-solutions_overview/3dp-solutions_polymer/"
   },
   {
-    "id": 57,
+    "id": 58,
     "title": "3MF Consortium，FAQ",
     "url": "https://3mf.io/resources/faq/"
   },
   {
-    "id": 58,
+    "id": 59,
     "title": "Prusa Research，Support material",
     "url": "https://help.prusa3d.com/article/support-material_1698"
   },
   {
-    "id": 59,
+    "id": 60,
     "title": "Prusa Research，Object orientation",
     "url": "https://help.prusa3d.com/article/object-orientation_1658"
   },
   {
-    "id": 60,
+    "id": 61,
     "title": "Prusa Research，Drying filament",
     "url": "https://help.prusa3d.com/article/drying-filament_332086"
   },
   {
-    "id": 61,
+    "id": 62,
     "title": "Sandvik Coromant，Metal cutting knowledge",
     "url": "https://www.sandvik.coromant.com/en-gb/knowledge"
   },
   {
-    "id": 62,
+    "id": 63,
     "title": "AgieCharmilles 成形 EDM",
     "url": "https://www.agiecharmilles.com/die-sinking-edm"
   },
   {
-    "id": 63,
+    "id": 64,
     "title": "Makino 线切割",
     "url": "https://www.makino.com/resources/content-library/videos/archive/makino-duo-series-wire-edm-with-up-to-62-lower-wire-consumption/166"
   },
   {
-    "id": 64,
+    "id": 65,
     "title": "TRUMPF 激光切割",
     "url": "https://www.trumpf.com/en_US/solutions/applications/laser-cutting/"
   },
   {
-    "id": 65,
+    "id": 66,
     "title": "OMAX 水刀",
     "url": "https://www.omax.com/en/learn/how-does-waterjet-work/"
   },
   {
-    "id": 66,
+    "id": 67,
     "title": "JLC CNC，What Is EDM? How Electrical Discharge Machining Works",
     "url": "https://jlccnc.com/blog/what-is-edm-electrical-discharge-machining"
   },
   {
-    "id": 67,
+    "id": 68,
     "title": "The Open University，Photochemical Machining",
     "url": "https://www.open.edu/openlearn/science-maths-technology/engineering-technology/manupedia/photochemical-machining-photo-fabrication-chemical-milling"
   },
   {
-    "id": 68,
-    "title": "Norton／Saint-Gobain Abrasives，Technical Solutions for Grinding in the Bearing Market，套圈制造与磨削章节",
-    "url": "https://www.nortonabrasives.com/en-gb/resources/document/technical-solutions-grinding-bearing-market"
-  },
-  {
     "id": 69,
-    "title": "DMG MORI，High-precision manufacturing technology for modern everyday life，2026-04-19",
-    "url": "https://en.dmgmori.com/news-and-media/news/nws2664-knee-implants"
-  },
-  {
-    "id": 70,
-    "title": "Sandvik Coromant，CoroDrill DE10，应用与加工记录",
-    "url": "https://www.sandvik.coromant.com/en-us/tools/drilling-tools/exchangeable-tip-drills/corodrill-de10"
-  },
-  {
-    "id": 71,
     "title": "Makino，UPV-5，精冲与精密冲压模具应用",
     "url": "https://www.makino.com.sg/en-us/machine-technology/machines/wire-edm/upv-5"
   },
   {
+    "id": 70,
+    "title": "Norton／Saint-Gobain Abrasives，Technical Solutions for Grinding in the Bearing Market，套圈制造与磨削章节",
+    "url": "https://www.nortonabrasives.com/en-gb/resources/document/technical-solutions-grinding-bearing-market"
+  },
+  {
+    "id": 71,
+    "title": "DMG MORI，High-precision manufacturing technology for modern everyday life，2026-04-19",
+    "url": "https://en.dmgmori.com/news-and-media/news/nws2664-knee-implants"
+  },
+  {
     "id": 72,
+    "title": "Sandvik Coromant，CoroDrill DE10，应用与加工记录",
+    "url": "https://www.sandvik.coromant.com/en-us/tools/drilling-tools/exchangeable-tip-drills/corodrill-de10"
+  },
+  {
+    "id": 73,
     "title": "Makino，EDM—When Milling Just Won’t Cut It，成形EDM与制孔说明",
     "url": "https://www.makino.com/en-us/machine-technology/machining-process/edm"
   },
   {
-    "id": 73,
+    "id": 74,
     "title": "Alpine Laser，How a start-up makes life-saving medical devices，2023-01-13",
     "url": "https://alpinelaser.com/how-a-start-up-makes-life-saving-medical-devices/"
   },
   {
-    "id": 74,
+    "id": 75,
     "title": "OMAX，Revolutionizing the Bit and Spur Business with the ProtoMax，2025-04-30",
     "url": "https://www.omax.com/en/customer-successes/revolutionizing-bit-and-spur-business-protomax/"
   },
   {
-    "id": 75,
+    "id": 76,
     "title": "Precision Micro，Medical device manufacturer partners with Precision Micro to increase etched shim production",
     "url": "https://www.precisionmicro.com/medical-manufacturer-turns-to-etching-for-metal-shim-manufacture/"
   },
   {
-    "id": 76,
+    "id": 77,
     "title": "Protolabs，Custom Manufacturing Services",
     "url": "https://www.protolabs.com/en-gb/services/"
   },
   {
-    "id": 77,
+    "id": 78,
     "title": "DMG MORI，LASERTEC 65 DED hybrid 2nd Generation",
     "url": "https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid-2nd"
   },
   {
-    "id": 78,
+    "id": 79,
     "title": "ExOne，3D printing solutions overview",
     "url": "https://www.exone.com/en/3d-printing-solutions_overview/"
   },
   {
-    "id": 79,
+    "id": 80,
     "title": "Sulzer，Sulzer creates a hybrid additive manufacturing process to minimize lead time on components for Chevron",
     "url": "https://www.sulzer.com/en/shared/case-studies/chevron-hybrid-machining"
   },
   {
-    "id": 80,
+    "id": 81,
     "title": "Nikon SLM Solutions，Metal 3D Printing’s Impact on the Casting Industry",
     "url": "https://nikon-slm-solutions.com/addictive-additive/the-casting-industry-meets-the-future-with-integrated-3d-printing/"
   },
   {
-    "id": 81,
+    "id": 82,
     "title": "Formlabs，Model orientation best practices for SLS printing",
     "url": "https://formlabs.com/uk/support/Model-orientation-best-practices-for-SLS-printing/"
   },
   {
-    "id": 82,
+    "id": 83,
     "title": "Formlabs，Polishing Clear Resin for a transparent finish",
     "url": "https://formlabs.com/support/Polishing-Clear-Resin-for-a-Transparent-Finish/"
   },
   {
-    "id": 83,
+    "id": 84,
     "title": "3MF Consortium，Materials and Properties Extension",
     "url": "https://3mf.io/spec/"
   },
   {
-    "id": 84,
+    "id": 85,
     "title": "Formlabs，Guide to Post-Processing and Finishing SLA Resin 3D Prints",
     "url": "https://formlabs.com/blog/post-processing-and-finishing-sla-prints/"
   },
   {
-    "id": 85,
+    "id": 86,
     "title": "Autodesk，Generative Design overview",
     "url": "https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW"
   },
   {
-    "id": 86,
+    "id": 87,
     "title": "Dassault Systèmes，TA.TAMU Installation",
     "url": "https://www.3ds.com/design/tatamu"
   },
   {
-    "id": 87,
+    "id": 88,
     "title": "Prusa公司介绍",
     "url": "https://www.prusa3d.com/page/about-us_77/"
   },
   {
-    "id": 88,
+    "id": 89,
     "title": "拓竹公司介绍",
     "url": "https://bambulab.cn/zh-cn/about-us"
   },
   {
-    "id": 89,
+    "id": 90,
     "title": "Anycubic支持中心",
     "url": "https://www.anycubic.com/SupportCenter"
   },
   {
-    "id": 90,
+    "id": 91,
     "title": "QIDI产品与文档",
     "url": "https://wiki.qidi3d.com/"
   },
   {
-    "id": 91,
+    "id": 92,
     "title": "Flashforge手册",
     "url": "https://wiki.flashforge.com/en/adventurer-series/manual"
   },
   {
-    "id": 92,
+    "id": 93,
     "title": "Prusa十周年回顾",
     "url": "https://blog.prusa3d.com/celebrating-10-years-of-prusa-research_68570/"
   },
   {
-    "id": 93,
+    "id": 94,
     "title": "创想十周年访谈",
     "url": "https://www.creality.com/blog/creality-ceo-on-the-brands-10-year-anniversary"
   },
   {
-    "id": 94,
+    "id": 95,
     "title": "ELEGOO品牌故事",
     "url": "https://www.elegoo.com/pages/about"
   },
   {
-    "id": 95,
+    "id": 96,
     "title": "品牌官网",
     "url": "https://www.sovol3d.com/products/sovol-sv08-3d-printer"
   },
   {
-    "id": 96,
+    "id": 97,
     "title": "Voron项目介绍",
     "url": "https://docs.vorondesign.com/about.html"
   },
   {
-    "id": 97,
+    "id": 98,
     "title": "Rat Rig文档",
     "url": "https://wiki.ratrig.com/"
   },
   {
-    "id": 98,
+    "id": 99,
     "title": "SV08官方仓库",
     "url": "https://github.com/Sovol3d/SV08"
   },
   {
-    "id": 99,
+    "id": 100,
     "title": "Formlabs",
     "url": "https://formlabs.com/"
   },
   {
-    "id": 100,
+    "id": 101,
     "title": "Raise3D Pro3",
     "url": "https://www.raise3d.com/pro3-series/"
   },
   {
-    "id": 101,
+    "id": 102,
     "title": "Raise3D DF2",
     "url": "https://raise3d.com/df2/"
   },
   {
-    "id": 102,
+    "id": 103,
     "title": "EOS",
     "url": "https://www.eos.info/about-us/who-we-are"
   },
   {
-    "id": 103,
+    "id": 104,
     "title": "HP MJF技术",
     "url": "https://www.hp.com/us-en/printers/3d-printers/products/multi-jet-technology.html"
   },
   {
-    "id": 104,
+    "id": 105,
     "title": "Stratasys工艺目录",
     "url": "https://www.stratasys.com/en/3d-printing-technologies/"
   },
   {
-    "id": 105,
+    "id": 106,
     "title": "3D Systems材料与工艺",
     "url": "https://www.3dsystems.com/materials/metal"
   },
   {
-    "id": 106,
+    "id": 107,
     "title": "Markforged连续纤维资料",
     "url": "https://web-objects.markforged.com/craft/materials/CompositesV5.2.pdf"
   },
   {
-    "id": 107,
+    "id": 108,
     "title": "MIT对Formlabs的回顾",
     "url": "https://news.mit.edu/2014/affordable-precision-3-d-printing-pros-0603"
   },
   {
-    "id": 108,
+    "id": 109,
     "title": "Formlabs十周年回顾",
     "url": "https://formlabs.com/blog/formlabs-10-years/"
   },
   {
-    "id": 109,
+    "id": 110,
     "title": "官方合并公告",
     "url": "https://www.makerbot.com/stories/ultimaker-and-makerbot-announce-closing-of-merger/"
   },
   {
-    "id": 110,
+    "id": 111,
     "title": "Carbon原案例",
     "url": "https://www.carbon3d.com/resources/case-study/adidas"
   },
   {
-    "id": 111,
+    "id": 112,
     "title": "2017年合作公告",
     "url": "https://www.carbon3d.com/news/press-releases/adidas-unveils-industrys-first-application-of-digital-light-synthesis-with-futurecraft-4d"
   },
   {
-    "id": 112,
+    "id": 113,
     "title": "Formlabs收购Micronics公告",
     "url": "https://formlabs.com/company/press/formlabs-acquires-micronics/"
   },
   {
-    "id": 113,
+    "id": 114,
     "title": "Meltio公司介绍",
     "url": "https://meltio3d.com/about-us/"
   },
   {
-    "id": 114,
+    "id": 115,
     "title": "Airtech合作公告",
     "url": "https://www.airtech.com/index.php/airtech-and-caracol-announce-their-partnership"
   },
   {
-    "id": 115,
+    "id": 116,
     "title": "Lithoz LCM技术",
     "url": "https://lithoz.com/en/technology/"
   },
   {
-    "id": 116,
+    "id": 117,
     "title": "2025年完成公告",
     "url": "https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Announces-Closing-of-Markforged-Acquisition/default.aspx"
   },
   {
-    "id": 117,
+    "id": 118,
     "title": "2026年拟收购公告",
     "url": "https://investors.stratasys.com/news-events/press-releases/detail/984/stratasys-to-acquire-markforged-inc-expanding-aerospace"
   },
   {
-    "id": 118,
+    "id": 119,
     "title": "Nano关于Desktop Metal破产的声明",
     "url": "https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Statement-Regarding-Desktop-Metal-Bankruptcy-and-Strategic-Decision-Not-to-Acquire-Assets/default.aspx"
   },
   {
-    "id": 119,
+    "id": 120,
     "title": "BLT官方",
     "url": "https://www.xa-blt.com/en/"
   },
   {
-    "id": 120,
+    "id": 121,
     "title": "Farsoon公司介绍",
     "url": "https://www.farsoon-gl.com/about/"
   },
   {
-    "id": 121,
+    "id": 122,
     "title": "Eplus3D公司历史",
     "url": "https://www.eplus3d.com/our-history/"
   },
   {
-    "id": 122,
+    "id": 123,
     "title": "UnionTech",
     "url": "https://www.uniontech3d.com/"
   },
   {
-    "id": 123,
+    "id": 124,
     "title": "先临简介",
     "url": "https://www.shining3d.cn/news/article_xianlinsanweijianjie"
   },
   {
-    "id": 124,
+    "id": 125,
     "title": "LuxCreo技术平台",
     "url": "https://luxcreo.com/technology/"
   },
   {
-    "id": 125,
+    "id": 126,
     "title": "eSUN集团介绍",
     "url": "https://www.esungroup.net/about-esun/"
   },
   {
-    "id": 126,
+    "id": 127,
     "title": "Polymaker介绍",
     "url": "https://polymaker.com/about-polymaker/"
   },
   {
-    "id": 127,
+    "id": 128,
     "title": "BLT公司信息",
     "url": "https://www.xa-blt.com/en/career/"
   },
   {
-    "id": 128,
+    "id": 129,
     "title": "2026年材料生态公告",
     "url": "https://www.farsoon-gl.com/news/farsoon-expands-open-materials-ecosystem-with-alm-high-performance-polymer-powders-for-industrial-pbf-production/"
   },
   {
-    "id": 129,
+    "id": 130,
     "title": "Eplus3D十周年活动",
     "url": "https://www.eplus3d.com/eplus3d-celebrates-a-decade-of-innovation-at-the-global-partners-summit-2024.html"
   },
   {
-    "id": 130,
+    "id": 131,
     "title": "UnionTech二十年回顾",
     "url": "https://www.uniontech3d.com/uniontech-promoting-innovation-with-technology-and-development-with-innovation-for-20-years.html"
   },
   {
-    "id": 131,
+    "id": 132,
     "title": "LuxCreo应用问答",
     "url": "https://luxcreo.com/faq"
   },
   {
-    "id": 132,
+    "id": 133,
     "title": "Makera原文",
     "url": "https://www.makera.com/pages/about-us"
   },
   {
-    "id": 133,
+    "id": 134,
     "title": "DMG MORI混合加工",
     "url": "https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid"
   },
   {
-    "id": 134,
+    "id": 135,
     "title": "Mazak INTEGREX",
     "url": "https://www.mazak.com/sg-en/products/integrex-i-neo/"
   },
   {
-    "id": 135,
+    "id": 136,
     "title": "FANUC设备目录",
     "url": "https://www.fanuc.co.jp/en/product/robomachine/"
   },
   {
-    "id": 136,
+    "id": 137,
     "title": "SYIL X7",
     "url": "https://in.syil.com/x7"
   },
   {
-    "id": 137,
+    "id": 138,
     "title": "Onefinity",
     "url": "https://www.onefinitycnc.com/"
   },
   {
-    "id": 138,
+    "id": 139,
     "title": "Langmuir MR-1",
     "url": "https://www.langmuirsystems.com/pages/mr1"
   },
   {
-    "id": 139,
+    "id": 140,
     "title": "Haas历史",
     "url": "https://haascnc.com/about/history"
   },
   {
-    "id": 140,
+    "id": 141,
     "title": "Carbide 3D公司介绍",
     "url": "https://carbide3d.com/about/"
   },
   {
-    "id": 141,
+    "id": 142,
     "title": "Okuma技术说明",
     "url": "https://www.okuma.com/thermo-friendly-concept"
   },
   {
-    "id": 142,
+    "id": 143,
     "title": "DMG MORI产品说明",
     "url": "https://www.dmgmori.co.jp/en/products/machine/?id=3592"
   },
   {
-    "id": 143,
+    "id": 144,
     "title": "help.prusa3d.com",
     "url": "https://help.prusa3d.com/"
   },
   {
-    "id": 144,
+    "id": 145,
     "title": "formlabs.com",
     "url": "https://formlabs.com/blog/"
   },
   {
-    "id": 145,
+    "id": 146,
     "title": "3mf.io",
     "url": "https://3mf.io/"
   }

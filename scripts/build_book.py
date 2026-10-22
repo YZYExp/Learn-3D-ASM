@@ -1,6 +1,7 @@
 """Build all chapter PDFs and the illustrated book directly from Markdown; no HTML output."""
 from pathlib import Path
 import re, json, html, math, os, argparse
+from io import BytesIO
 from urllib.parse import urlparse
 from reportlab import rl_config
 # Binary image streams avoid ASCII85 overhead without changing image quality.
@@ -31,6 +32,7 @@ styles={
  'cell':ParagraphStyle('cell',fontName='Book',fontSize=8.1,leading=12.6,textColor=INK,wordWrap='CJK'),
  'foot':ParagraphStyle('foot',fontName='Book',fontSize=6.4,leading=8.6,textColor=colors.HexColor('#586866'),wordWrap='CJK'),
 }
+styles['step']=ParagraphStyle('step',parent=styles['body'],keepWithNext=True,spaceBefore=6)
 SOURCES=[];URLID={};PAGE_AUDIT=[]
 def source(title,url):
  url=re.split(r'[，。；、\s]',url,maxsplit=1)[0].rstrip('。，；、')
@@ -89,7 +91,13 @@ def figure(path,cap,defs):
  if not p.exists():raise FileNotFoundError(p)
  with PILImage.open(p) as im:w,h=im.size
  scale=min(BW/w,285/h);iw=w*scale;ih=h*scale
- return KeepTogether([Spacer(1,6),Image(str(p),width=iw,height=ih),Spacer(1,6),para(cap,'cap',defs)])
+ # Photos get a document-sized derivative; precise diagrams stay lossless.
+ image_source=str(p)
+ if p.suffix.lower() in {'.jpg','.jpeg'}:
+  with PILImage.open(p) as photo:
+   photo=photo.convert('RGB');photo.thumbnail((1400,1400))
+   image_source=BytesIO();photo.save(image_source,format='JPEG',quality=78,optimize=True);image_source.seek(0)
+ return KeepTogether([Spacer(1,6),Image(image_source,width=iw,height=ih),Spacer(1,6),para(cap,'cap',defs)])
 
 def read_chapter(path):
  text=path.read_text();lines=text.splitlines();defs={}
@@ -102,9 +110,12 @@ def read_chapter(path):
  while i<len(lines):
   line=lines[i].strip()
   if line.startswith('## 本章资料'):flush();break
+  if line.startswith('<!--'):i+=1;continue
   if not line:flush();i+=1;continue
   if line.startswith('# '):flush();story.append(para(line[2:],'h1',defs));i+=1;continue
+  if line.startswith('### '):flush();story.append(para(line[4:],'h2',defs));i+=1;continue
   if line.startswith('## '):flush();story.append(para(line[3:],'h2',defs));i+=1;continue
+  if re.match(r'^\*\*第[0-9一二三四]+步',line):flush();story.append(para(line,'step',defs));i+=1;continue
   if line.startswith('!['):
    flush();m=re.match(r'!\[(.*)\]\((\.\./assets/images/[^)]+)\)',line)
    if not m:raise ValueError(line)
@@ -130,7 +141,7 @@ def read_chapter(path):
  # A section title must stay with the figure that opens its section.
  combined=[];j=0
  while j<len(story):
-  if j+1<len(story) and isinstance(story[j],Paragraph) and story[j].style.name=='h2' and isinstance(story[j+1],KeepTogether):
+  if j+1<len(story) and isinstance(story[j],Paragraph) and story[j].style.name in {'h2','step'} and isinstance(story[j+1],KeepTogether):
    combined.append(KeepTogether([story[j]]+story[j+1]._content));j+=2
   else:combined.append(story[j]);j+=1
  return combined

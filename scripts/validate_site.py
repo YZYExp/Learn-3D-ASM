@@ -3,7 +3,6 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 from PIL import Image
-from pypdf import PdfReader
 import json,re
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,13 +37,13 @@ assert {item['file'] for item in catalog} == {p.relative_to(SITE).as_posix() for
 embedded = ' '.join(chapter['html'] for chapter in chapters)
 for item in catalog:
     assert item['file'] in embedded, f'Image not embedded in book: {item["file"]}'
-for path in images:
+for path in images + list((SITE/'assets/panels').glob('*.png')):
     with Image.open(path) as image:
         image.verify()
 pdfs = list((SITE/'pdf').rglob('*.pdf'))
 assert len(pdfs) == 19
 for path in pdfs:
-    assert len(PdfReader(path).pages) > 0, path
+    assert path.read_bytes().startswith(b'%PDF-'), path
 assert (SITE/'.nojekyll').exists()
 for source in json.loads((SITE/'references/all-sources.json').read_text()):
     assert not re.search(r'[，。；、\s]',source['url']), source['url']

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "milling",
+    "chapter": "09",
+    "title": "铣削：凹槽怎样逐步出现",
+    "steps": [
+      {
+        "file": "assets/images/step-milling-01.png",
+        "title": "装夹与规划",
+        "explanation": "从上面看同一块毛坯：夹具固定材料，虚线圈出凹槽范围。凹槽下面还要留底；刀具进入、退刀和夹具避让必须先规划。[S01]"
+      },
+      {
+        "file": "assets/images/step-milling-02.png",
+        "title": "刀刃第一次去料",
+        "explanation": "圆柱铣刀绕自身轴线旋转，刀齿把接触到的金属切成切屑；相对工件向右进给后，刀后留下已经铣低的浅色槽底。浅色不是穿透板材的孔。[S01]"
+      },
+      {
+        "file": "assets/images/step-milling-03.png",
+        "title": "逐道、逐层扩展",
+        "explanation": "相邻刀路逐步覆盖更大范围，达到这一层的切深后再安排后续层。前一步的槽保留下来，刀具只继续移走剩余材料；图中刀路是概念示意，不是可直接上机的程序。[S01]"
+      },
+      {
+        "file": "assets/images/step-milling-04.png",
+        "title": "精加工与检查",
+        "explanation": "粗加工接近形状后，再精铣侧壁与底面，并去毛刺、测量。圆形刀具无法在同样路径下留下无限尖锐的内角；成品仍有底和内圆角。[S01]"
+      }
+    ],
+    "source_refs": [
+      "S01"
+    ]
+  },
+  {
+    "id": "turning",
+    "chapter": "09",
+    "title": "车削：棒料怎样变成阶梯轴",
+    "steps": [
+      {
+        "file": "assets/images/step-turning-01.png",
+        "title": "旋转棒料",
+        "explanation": "卡盘夹住棒料并带它绕蓝色中心线旋转；本组始终从侧面观察。最终要变细的右端，最初和左侧仍是同一根等直径棒料。[S01]"
+      },
+      {
+        "file": "assets/images/step-turning-02.png",
+        "title": "切入并轴向进给",
+        "explanation": "刀尖切入旋转的外圆，再沿轴向向左进给。刀尖经过之处，材料变成切屑离开，右端开始出现较小直径；不是只在棒料上表面挖一条槽。[S01]"
+      },
+      {
+        "file": "assets/images/step-turning-03.png",
+        "title": "重复走刀",
+        "explanation": "重复走刀，并按要求改变径向切入量，较小直径的段落逐渐延长到台阶位置。图中虚线保留原棒料外径，便于看出哪些材料已经离开。[S01]"
+      },
+      {
+        "file": "assets/images/step-turning-04.png",
+        "title": "完成外圆与台阶",
+        "explanation": "精车取得要求的外径、长度与肩部表面，再去毛刺并检查。图中是外圆工序完成状态；卡盘夹持区仍可能需要调头或其他工序，不把一次装夹画成整根零件全部完成。[S01]"
+      }
+    ],
+    "source_refs": [
+      "S01"
+    ]
+  },
+  {
+    "id": "edm",
+    "chapter": "09",
+    "title": "线切割：电极丝怎样围出贯通轮廓",
+    "steps": [
+      {
+        "file": "assets/images/step-edm-01.png",
+        "title": "先穿丝",
+        "explanation": "对于图示封闭内轮廓，先在轮廓起点安排穿丝孔。橙点是从板厚方向穿过的电极丝，主图保持俯视；工件必须适合这种导电放电加工。[CASE-S04]"
+      },
+      {
+        "file": "assets/images/step-edm-02.png",
+        "title": "放电打开切缝",
+        "explanation": "电极丝与工件之间保持微小放电间隙，受控脉冲局部去除材料，工作液帮助带走碎屑。丝沿计划路径前进，留下比丝径更宽的切缝，并非像锯条那样靠齿刃接触切削。[S02][CASE-S04]"
+      },
+      {
+        "file": "assets/images/step-edm-03.png",
+        "title": "沿轮廓持续切割",
+        "explanation": "丝继续沿轮廓走，已经切开的路径保留在后方；中央料块此时还由未切完的部分连着外板。实际加工需安排冲液、支承和必要的多次修切。[CASE-S04]"
+      },
+      {
+        "file": "assets/images/step-edm-04.png",
+        "title": "接住料块并取出",
+        "explanation": "最后一段连通后，接住并取出中央料块，留下贯穿板厚的开口。再清洗、检查尺寸与切面；图中转角为简化画法，实际内角仍受丝径和放电间隙限制。[CASE-S04]"
+      }
+    ],
+    "source_refs": [
+      "S02",
+      "CASE-S04"
+    ]
+  },
+  {
+    "id": "laser",
+    "chapter": "09",
+    "title": "激光：热与气流怎样打开切缝",
+    "steps": [
+      {
+        "file": "assets/images/step-laser-01.png",
+        "title": "边缘起切",
+        "explanation": "这组选择金属板的激光熔化切割，从板材外边缘起切，始终沿同一条直线前进。板材由切割台支承；封闭内轮廓通常还要解决内部起切与穿孔。[S03]"
+      },
+      {
+        "file": "assets/images/step-laser-02.png",
+        "title": "局部熔化并排出",
+        "explanation": "放大侧剖面显示：聚焦光束把局部金属加热至熔融，辅助气流将熔融材料从切缝排出。只有形成贯通去料通道，移动的作用点才会留下完整切缝。[S03]"
+      },
+      {
+        "file": "assets/images/step-laser-03.png",
+        "title": "切缝随运动增长",
+        "explanation": "作用点向前移动，前方仍是完整板材，后方已形成切缝。图中主视图保持俯视，旁边的放大图解释同一作用点的板厚方向变化；氧气反应切割等路线还有不同能量机制。[S03]"
+      },
+      {
+        "file": "assets/images/step-laser-04.png",
+        "title": "分离、清理与检查",
+        "explanation": "切至另一边后，板材分离。随后根据要求处理挂渣与边缘，检查尺寸、表面和热影响；完成分离不代表自动取得最终装配质量。[S03]"
+      }
+    ],
+    "source_refs": [
+      "S03"
+    ]
+  },
+  {
+    "id": "waterjet",
+    "chapter": "09",
+    "title": "水刀：磨粒怎样把板材冲开",
+    "steps": [
+      {
+        "file": "assets/images/step-waterjet-01.png",
+        "title": "支撑与边缘起切",
+        "explanation": "从外边缘进入，沿同一条直线切开板材；切割台支承零件和余料。本组画的是磨料水射流，不是用于某些软材料的纯水切割。[S04]"
+      },
+      {
+        "file": "assets/images/step-waterjet-02.png",
+        "title": "磨粒侵蚀材料",
+        "explanation": "水在喷头内形成高速射流并携带磨料；放大图中的橙色颗粒冲击、侵蚀材料，水流将碎屑带走。贯通切缝来自材料不断离开，不靠把整条缝熔化。[S04]"
+      },
+      {
+        "file": "assets/images/step-waterjet-03.png",
+        "title": "射流沿路径移动",
+        "explanation": "射流前进后，后方留下连续切缝，前方板材仍完整。实际射流会发生滞后与形状变化，需要把速度、路径补偿和材料厚度一起考虑；示意图不表达具体工艺参数。[S04]"
+      },
+      {
+        "file": "assets/images/step-waterjet-04.png",
+        "title": "分离、清洗与检查",
+        "explanation": "切到另一边后接住两侧板件，清洗并按要求处理边缘。检查内容包括轮廓、切缝锥度与切面条纹；用磨料水刀也不等于每种材料都能无损穿孔或得到相同表面。[S04]"
+      }
+    ],
+    "source_refs": [
+      "S04"
+    ]
+  }
+]
