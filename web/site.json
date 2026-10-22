@@ -1,0 +1,8 @@
+{
+  "project_id": "appgprj_6ad9dc1054cc8191984e756c47825611",
+  "url": "https://manufacturing-atlas.giving-macaw-4424.chatgpt.site",
+  "audience": "owner-private",
+  "canonical_source_repository": "https://github.com/YZYExp/Learn-3D-ASM",
+  "build_command": "python scripts/build_homepage.py",
+  "static_output": "build/homepage"
+}

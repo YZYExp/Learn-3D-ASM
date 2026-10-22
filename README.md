@@ -6,6 +6,21 @@
 
 **阅读整本：[PDF（55页）](pdf/Manufacturing_Atlas.pdf)** · [分章PDF](pdf/chapters/) · [图片与引用说明](references/image-rights.md)
 
+## 在线主页
+
+[打开《造物的加减法》在线阅读主页](https://manufacturing-atlas.giving-macaw-4424.chatgpt.site)
+
+主页包含工艺导览、全书搜索、18个分章阅读入口、图片放大、字号切换、阅读进度与PDF下载。站点初始采用私密访问。在线内容与PDF使用同一份Markdown主稿，不另外维护重复正文。
+
+主页源文件位于`web/`，构建方式：
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/build_homepage.py
+```
+
+默认输出到忽略的`build/homepage/`；也可使用`--out <目录>`指定静态托管目录。无运行时CDN、框架依赖或外部图片请求。部署资料见[web/README.md](web/README.md)。
+
 ## 阅读顺序
 
 | 文件 | 内容 |

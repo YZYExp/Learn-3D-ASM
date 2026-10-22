@@ -3,3 +3,4 @@ build/
 history.bundle
 __pycache__/
 *.html
+!web/index.html
