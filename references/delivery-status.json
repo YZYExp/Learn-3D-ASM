@@ -15,5 +15,6 @@
   "version_control": "GitHub: YZYExp/Learn-3D-ASM; initial empty README preserved",
   "added_teaching_diagrams": 16,
   "ci_workflow": ".github/workflows/pages.yml",
-  "pages_deployment": "Configured in workflow; requires repository Pages source: GitHub Actions"
+  "pages_deployment": "GitHub Pages deployed successfully through Actions",
+  "pages_url": "https://yzyexp.github.io/Learn-3D-ASM/"
 }
