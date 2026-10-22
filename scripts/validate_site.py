@@ -27,9 +27,15 @@ parser.feed((SITE/'index.html').read_text())
 raw = (SITE/'content.js').read_text()
 chapters = json.loads(raw.removeprefix('window.BOOK_CHAPTERS = ').rstrip(';\n'))
 assert len(chapters) == 18
+assert '{{' not in (SITE/'index.html').read_text()
 for chapter in chapters:
     parser.feed(chapter['html'])
 images = list((SITE/'assets/images').glob('*'))
+catalog = json.loads((SITE/'references/image-catalog.json').read_text())
+assert {item['file'] for item in catalog} == {p.relative_to(SITE).as_posix() for p in images}
+embedded = ' '.join(chapter['html'] for chapter in chapters)
+for item in catalog:
+    assert item['file'] in embedded, f'Image not embedded in book: {item["file"]}'
 for path in images:
     with Image.open(path) as image:
         image.verify()

@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 python scripts/build_homepage.py
 ```
 
-默认生成`build/homepage/`。可用`--out /absolute/output/directory`切换输出目录。静态输出自带18份Markdown、19份PDF、41张图片和资料说明，部署到子目录时也无需重写根路径。浏览器使用hash章节地址，刷新章节链接不依赖服务器路由。
+默认生成`build/homepage/`。可用`--out /absolute/output/directory`切换输出目录。静态输出自带18份Markdown、19份PDF、58张图片和资料说明，部署到子目录时也无需重写根路径。浏览器使用hash章节地址，刷新章节链接不依赖服务器路由。
 
 ## 发布与维护
 
@@ -39,3 +39,5 @@ python scripts/validate_site.py
 - 无外部CDN和运行时依赖；下载链接直接使用静态文件。
 
 重建后核对：18章齐全、图片链接有效、PDF下载有效、搜索结果能打开对应章节、图像对话框能关闭。真实图与AI教学示意的原始标识应始终保留。
+
+应用图卡由`references/application-entrypoints.json`生成；全部图像类别由`references/image-catalog.json`提供，构建会校验图片是否实际嵌入正文。新增案例来源及证据身份跟随资料一起发布。

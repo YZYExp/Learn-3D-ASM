@@ -1,6 +1,7 @@
 """Build the homepage and full reader from the same chapter Markdown as the PDF."""
 from pathlib import Path
 import re, json, shutil, html, argparse
+from collections import Counter
 import markdown
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -55,7 +56,20 @@ def main():
     index=out/'index.html'
     image_count=len(list((ROOT/'assets/images').glob('*')))
     source_count=len(json.loads((ROOT/'references/all-sources.json').read_text()))
-    index.write_text(index.read_text().replace('{{IMAGE_COUNT}}',str(image_count)).replace('{{SOURCE_COUNT}}',str(source_count)))
+    catalog=json.loads((ROOT/'references/image-catalog.json').read_text())
+    counts=Counter(item['kind'] for item in catalog)
+    replacements={'IMAGE_COUNT':image_count,'SOURCE_COUNT':source_count,'AI_COUNT':counts['ai'],'DIAGRAM_COUNT':counts['diagram'],'REAL_COUNT':counts['real']}
+    cards=[]
+    for item in json.loads((ROOT/'references/application-entrypoints.json').read_text()):
+        title=html.escape(item['title']);image=html.escape(item['image'],quote=True)
+        label=html.escape(item['label']);description=html.escape(item['description'])
+        credit=html.escape(item['credit']);source=html.escape(item['source'],quote=True)
+        cards.append(f'<article class="application-card"><a href="#read/{item["chapter"]}"><img src="{image}" alt="{html.escape(item["alt"],quote=True)}" loading="eager"><p class="tiny-label">{label}</p><h3>{title} ↗</h3></a><p>{description}</p><p class="application-credit">{credit} · <a href="{source}" target="_blank" rel="noopener noreferrer">图像与案例来源 ↗</a></p></article>')
+    replacements['APPLICATION_CARDS']=''.join(cards)
+    rendered=index.read_text()
+    for key,value in replacements.items():rendered=rendered.replace('{{'+key+'}}',str(value))
+    if re.search(r'\{\{[A-Z_]+\}\}',rendered):raise ValueError('Unresolved homepage template marker')
+    index.write_text(rendered)
     chapters=[]
     for p in sorted((ROOT/'chapters').glob('[0-9][0-9].md')):
         text=p.read_text();title,content=chapter_html(text,p.stem)
@@ -64,8 +78,8 @@ def main():
     for name in ['assets','pdf','chapters']:
         shutil.copytree(ROOT/name,out/name,dirs_exist_ok=True)
     (out/'references').mkdir(exist_ok=True)
-    for name in ['image-rights.md','real-images.json','bibliography.md','all-sources.json']:
-        shutil.copy2(ROOT/'references'/name,out/'references'/name)
+    for source in (ROOT/'references').iterdir():
+        if source.is_file() and source.suffix in {'.md','.json'}:shutil.copy2(source,out/'references'/source.name)
     (out/'.nojekyll').write_text('')
     # Validate every embedded local image and download target before publication.
     for ch in chapters:

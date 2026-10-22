@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-22",
+  "case_id": "teaching-desktop-sensor-enclosure",
+  "title": "桌面传感器外壳的选材、试装与改版",
+  "classification": "作者假设的教学项目，非品牌案例，未经实物测试",
+  "chapters": ["07", "08", "16"],
+  "purpose": "示范如何从用途确定本轮验收、局部试样、整件检查与可复查改版记录",
+  "material_scope": "第一轮FFF外形与装配候选；不指定通用温度、公差或认证能力",
+  "workflow": ["写验收动作", "建本轮关键特征", "编号局部配合试片", "检查整件首样", "保存单项改版及结果"],
+  "image": "assets/images/case-workbench-enclosure.jpg",
+  "image_type": "AI教学情境；几何近似，不作图纸或合格产品证据",
+  "sources": [
+    {"key": "M01", "title": "Prusa Filament Material Guide", "url": "https://help.prusa3d.com/filament-material-guide", "use": "材料应用特性和工艺条件查询"},
+    {"key": "W02", "title": "Prusa Object orientation", "url": "https://help.prusa3d.com/article/object-orientation_1658", "use": "朝向对功能、表面与支撑的影响"},
+    {"key": "W03", "title": "Prusa Support material", "url": "https://help.prusa3d.com/article/support-material_1698", "use": "支撑与去除可达性"}
+  ],
+  "evidence_boundary": "资料提供通用工艺依据；外壳需求、试片安排、诊断表和选择卡由作者设计，不声称为来源中的实测案例"
+}

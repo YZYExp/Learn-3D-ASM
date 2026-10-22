@@ -21,6 +21,14 @@ python scripts/build_homepage.py
 
 默认输出到忽略的`build/homepage/`；也可使用`--out <目录>`指定静态托管目录。无运行时CDN、框架依赖或外部图片请求。部署资料见[web/README.md](web/README.md)。
 
+## 从用途读起
+
+本次应用增补包含25项真实案例、公开展示或典型工业任务，以及桌面外壳的完整教学练习。每项解释任务、选择工艺的原因、后处理与交付条件；真实项目、研究与作者假设分别标识。
+
+- [应用覆盖索引](references/application-coverage.md)与[逐图清单](references/image-catalog.json)。
+- 首页新增六个图像入口，或从[导读的任务表](chapters/00.md)进入相应章节。
+- 当前整本86页，58张图，146个资料链接；新增17张图已嵌入书稿和阅读页。
+
 ## 阅读顺序
 
 | 文件 | 内容 |
@@ -48,7 +56,7 @@ python scripts/build_homepage.py
 
 - `pdf/Manufacturing_Atlas.pdf`：整本阅读版，封面和目录之后使用正文页码。
 - `pdf/chapters/00.pdf` 至 `pdf/chapters/17.pdf`：独立章节PDF。
-- `assets/images/`：实际嵌入的41张图片。10张AI教学示意、22张原创图解、9张真实来源图片。部分图片在不同位置复用。
+- `assets/images/`：实际嵌入的58张图片。11张AI教学示意、28张原创图解、19张真实来源图片。部分图片在不同位置复用。
 - `references/all-sources.json` 与 `bibliography.md`：全书来源索引。
 - `references/real-images.json` 与 `image-rights.md`：真实图片来源与权利说明。
 - `references/generated-images.json` 与单独prompt文件：生成插画的创作简报、用途及提示。
@@ -65,7 +73,7 @@ python scripts/prepare_font.py
 python scripts/build_book.py
 ```
 
-使用现有图片时无需再次生成图像。`draw_diagrams.py`及三个`draw_*_supplements.py`脚本可复现22张精确图解；无需图像生成API。PDF与阅读页分别由对应构建脚本生成。
+使用现有图片时无需再次生成图像。`draw_diagrams.py`及三个`draw_*_supplements.py`脚本可复现已有精确图解及应用图；无需图像生成API。PDF与阅读页分别由对应构建脚本生成。
 
 源稿与相对图片路径独立于当前运行目录。PDF将当页来源显示在页脚，标题可点击；分章Markdown保留近处链接。字体不随本包再分发，需按字体自身许可安装。
 
@@ -86,4 +94,4 @@ python scripts/sync_pdfs.py
 
 ## CI与GitHub Pages
 
-[查看构建与部署](https://github.com/YZYExp/Learn-3D-ASM/actions/workflows/pages.yml)。Push到main自动构建19份PDF、18个在线章节，校验41张图片与全部本地链接，再部署GitHub Pages。PR只构建校验。工作流也支持手动运行；不需要个人访问令牌。首次在[Pages设置](https://github.com/YZYExp/Learn-3D-ASM/settings/pages)将Source设为GitHub Actions。私有仓库需账户套餐支持Pages。
+[查看构建与部署](https://github.com/YZYExp/Learn-3D-ASM/actions/workflows/pages.yml)。Push到main自动构建19份PDF、18个在线章节，校验全部图片与全部本地链接，再部署GitHub Pages。PR只构建校验。工作流也支持手动运行；不需要个人访问令牌。首次在[Pages设置](https://github.com/YZYExp/Learn-3D-ASM/settings/pages)将Source设为GitHub Actions。私有仓库需账户套餐支持Pages。

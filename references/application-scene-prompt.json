@@ -1,0 +1,8 @@
+{
+  "file": "assets/images/case-workbench-enclosure.jpg",
+  "chapter": "08",
+  "type": "AI教学情境图",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: illustration-story. Asset type: one landscape editorial illustration for a Chinese illustrated manufacturing book chapter on moving from a digital model to a practical part. Primary request: a beautiful, credible maker workbench showing a small low-voltage desktop sensor enclosure prototype and its fit-check, with a warm ivory background, dark teal and terracotta objects matching an elegant technical atlas. At center a palm-sized rounded rectangular terracotta FFF-printed plastic housing, lid placed beside it with clear visible layer lines, two simple mounting ears and screw holes, no electronics inside; at left a modest pencil dimensional sketch on paper and a laptop with a simple CAD silhouette of the same general housing; at right a caliper resting beside a dark teal first-iteration lid and small plain paper revision notes without legible words. This is a generic author-designed teaching scene, not a real brand product or precision engineering drawing. Natural daylight, eye-level three-quarter close view, extremely refined editorial product-photography aesthetic, believable surfaces, coherent object scale, objects separated and legible, calm composition, no people or hands, no logos, no brand marks, no floating tools, no fantastical machinery, no text or labels, landscape 3:2.",
+  "limitations": "作者假设项目，非真实品牌产品或已验证工程设计；图中几何与尺寸不作为制造图纸。"
+}

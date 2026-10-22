@@ -1,14 +1,14 @@
 {
-  "edition": "1.0",
+  "edition": "1.1-application-supplement",
   "date": "2026-10-22",
-  "physical_pdf_pages": 65,
+  "physical_pdf_pages": 86,
   "main_chapters": 16,
   "chapter_files_including_guide_and_appendix": 18,
-  "unique_embedded_images": 41,
-  "AI_illustrations": 10,
-  "original_diagrams": 22,
-  "real_source_images": 9,
-  "source_urls": 121,
+  "unique_embedded_images": 58,
+  "AI_illustrations": 11,
+  "original_diagrams": 28,
+  "real_source_images": 19,
+  "source_urls": 146,
   "missing_images": 0,
   "replacement_glyphs": 0,
   "html_generated": true,
@@ -16,5 +16,8 @@
   "added_teaching_diagrams": 16,
   "ci_workflow": ".github/workflows/pages.yml",
   "pages_deployment": "GitHub Pages deployed successfully through Actions",
-  "pages_url": "https://yzyexp.github.io/Learn-3D-ASM/"
+  "pages_url": "https://yzyexp.github.io/Learn-3D-ASM/",
+  "application_cases_and_typical_tasks": 25,
+  "author_worked_examples": 1,
+  "application_images_added": 17
 }

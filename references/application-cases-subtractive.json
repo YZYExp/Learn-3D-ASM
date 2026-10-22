@@ -1,0 +1,233 @@
+{
+  "checked_on": "2026-10-22",
+  "case_count": 9,
+  "scope": "chapters/09.md and chapters/10.md",
+  "cases": [
+    {
+      "id": "CASE-S01",
+      "chapter": "09",
+      "title": "轴承套圈的工艺接力",
+      "technology": "车削、磨削与超精加工",
+      "evidence_type": "典型工业应用，非某一客户项目",
+      "scenario": "先建立回转形状，热处理后完成相应配合与滚道表面",
+      "selection_reason": "先建立回转形状，热处理后完成相应配合与滚道表面",
+      "review_dimensions": "尺寸、圆度、表面及材料状态",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "Norton / Saint-Gobain Abrasives",
+        "title": "Technical Solutions for Grinding in the Bearing Market",
+        "url": "https://www.nortonabrasives.com/en-gb/resources/document/technical-solutions-grinding-bearing-market",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-S02",
+      "chapter": "09",
+      "title": "电视外壳注塑模具",
+      "technology": "五轴铣削",
+      "evidence_type": "厂商公开展览实例，非外壳逐件铣削",
+      "scenario": "为后续注塑复制外壳准备模具曲面",
+      "selection_reason": "为后续注塑复制外壳准备模具曲面",
+      "review_dimensions": "分型、刀具可达、基准、模具表面与试模要求",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "DMG MORI",
+        "title": "High-precision manufacturing technology for modern everyday life",
+        "url": "https://en.dmgmori.com/news-and-media/news/nws2664-knee-implants",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-S03",
+      "chapter": "09",
+      "title": "孔板与不锈钢板制孔",
+      "technology": "钻削与后续孔加工",
+      "evidence_type": "厂商应用清单及加工记录",
+      "scenario": "孔径与位置要同时满足，排屑和出口状态影响稳定性",
+      "selection_reason": "孔径与位置要同时满足，排屑和出口状态影响稳定性",
+      "review_dimensions": "孔径、位置、孔壁、毛刺、清洁度",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "Sandvik Coromant",
+        "title": "CoroDrill DE10",
+        "url": "https://www.sandvik.coromant.com/en-us/tools/drilling-tools/exchangeable-tip-drills/corodrill-de10",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-S04",
+      "chapter": "09",
+      "title": "精密冲压与精冲模具部件",
+      "technology": "线切割 EDM",
+      "evidence_type": "厂商列明的典型应用",
+      "scenario": "在导电板件上加工贯通轮廓",
+      "selection_reason": "在导电板件上加工贯通轮廓",
+      "review_dimensions": "穿丝可达、拐角半径、间隙、轮廓与表层",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "Makino",
+        "title": "UPV-5 application",
+        "url": "https://www.makino.com.sg/en-us/machine-technology/machines/wire-edm/upv-5",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-S05",
+      "chapter": "09",
+      "title": "淬硬模具深窄细节",
+      "technology": "成形 EDM",
+      "evidence_type": "厂商列明的典型应用",
+      "scenario": "以成形电极加工传统切削困难的非贯通细节",
+      "selection_reason": "以成形电极加工传统切削困难的非贯通细节",
+      "review_dimensions": "电极制作与磨损、排屑、表层状态",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "Makino",
+        "title": "EDM - When Milling Just Won’t Cut It",
+        "url": "https://www.makino.com/en-us/machine-technology/machining-process/edm",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-S06",
+      "chapter": "09",
+      "title": "Alpine Laser 医疗细管平台",
+      "technology": "激光切割",
+      "evidence_type": "真实设备开发与应用案例，非医疗产品操作指南",
+      "scenario": "将薄管切为细密管状结构",
+      "selection_reason": "将薄管切为细密管状结构",
+      "review_dimensions": "细连接段、表面、清洁与产品功能验证",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "Alpine Laser",
+        "title": "How a start-up makes life-saving medical devices",
+        "url": "https://alpinelaser.com/how-a-start-up-makes-life-saving-medical-devices/",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-S07",
+      "chapter": "09",
+      "title": "Rod Teuscher 马具与银饰",
+      "technology": "磨料水射流切割",
+      "evidence_type": "厂商客户案例",
+      "scenario": "将定制图案切为平面轮廓再做贴银装配",
+      "selection_reason": "将定制图案切为平面轮廓再做贴银装配",
+      "review_dimensions": "最细连接、切缝、小片固定与外观",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "OMAX / Hypertherm",
+        "title": "Revolutionizing the Bit and Spur Business with the ProtoMax",
+        "url": "https://www.omax.com/en/customer-successes/revolutionizing-bit-and-spur-business-protomax/",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-S08",
+      "chapter": "09",
+      "title": "雾化器不锈钢垫片",
+      "technology": "光化学蚀刻",
+      "evidence_type": "厂商真实供货案例，终端客户未公开",
+      "scenario": "通过掩膜定义薄片轮廓，比较无刀刃逐边施力的路线",
+      "selection_reason": "通过掩膜定义薄片轮廓，比较无刀刃逐边施力的路线",
+      "review_dimensions": "厚度、侧蚀、平整、边缘、残留和批次一致性",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "Precision Micro",
+        "title": "Medical device manufacturer partners with Precision Micro to increase etched shim production",
+        "url": "https://www.precisionmicro.com/medical-manufacturer-turns-to-etching-for-metal-shim-manufacture/",
+        "checked_on": "2026-10-22"
+      }
+    },
+    {
+      "id": "CASE-H01",
+      "chapter": "10",
+      "title": "Sulzer / Chevron 泵叶轮",
+      "technology": "激光金属沉积与五轴铣削交替",
+      "evidence_type": "真实应用案例；厂商记录2019年现场运行及后续检查",
+      "scenario": "在封闭之前处理内部表面，再增加材料与加工",
+      "selection_reason": "在封闭之前处理内部表面，再增加材料与加工",
+      "review_dimensions": "材料/工况、可达性、基准、余量、几何、材料及整机验证",
+      "review_note": "交付评审维度是本书教学提炼，不宣称该案例已经执行所有列出的项目验收。",
+      "source": {
+        "publisher": "Sulzer",
+        "title": "Sulzer creates a hybrid additive manufacturing process to minimize lead time on components for Chevron",
+        "url": "https://www.sulzer.com/en/shared/case-studies/chevron-hybrid-machining",
+        "checked_on": "2026-10-22"
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "assets/images/case-subtractive-real-etch-design.jpg",
+      "kind": "real_official_photo",
+      "caption": "Precision Micro雾化器垫片案例中的CAD设计与数据准备场景，不是成品垫片照片。",
+      "case_ids": [
+        "CASE-S08"
+      ],
+      "source_page": "https://www.precisionmicro.com/medical-manufacturer-turns-to-etching-for-metal-shim-manufacture/",
+      "image_url": "https://www.precisionmicro.com/wp-content/uploads/2021/06/etched-nebuliser-shim.jpg",
+      "rights": "Copyright retained by Precision Micro or original rightsholder; no open redistribution license found; credited case illustration only.",
+      "width": 1000,
+      "height": 700,
+      "sha256": "038b5be1303602356605474bf2de71446b5e680605a8fae942c96b41ad9c6ee0"
+    },
+    {
+      "file": "assets/images/case-subtractive-real-hybrid-impeller.jpg",
+      "kind": "real_official_photo",
+      "caption": "Sulzer案例页展示可实现复杂几何的叶轮实例，不能认定照片就是Chevron现场运行件。",
+      "case_ids": [
+        "CASE-H01"
+      ],
+      "source_page": "https://www.sulzer.com/en/shared/case-studies/chevron-hybrid-machining",
+      "image_url": "https://www.sulzer.com/-/media/images/case_studies/sulzeremea064_pic5_1620x1080.jpg?hash=71943126456C70CC21FEA4EA49A4B1BD&mw=1620",
+      "rights": "Copyright retained by Sulzer or original rightsholder; no open redistribution license found; credited case illustration only.",
+      "width": 1620,
+      "height": 1080,
+      "sha256": "7d447014a7f528e99dea62d7e3bdc3f8a9443e7bc9d690a369dbd1eedd208eda"
+    },
+    {
+      "file": "assets/images/case-subtractive-part-features.png",
+      "kind": "original_programmatic_teaching",
+      "caption": "四类典型几何与功能面检查示意，不按比例，不是品牌零件图纸。",
+      "case_ids": [
+        "CASE-S01",
+        "CASE-S03",
+        "CASE-S04"
+      ],
+      "source_pages": [
+        "https://www.nortonabrasives.com/en-gb/resources/document/technical-solutions-grinding-bearing-market",
+        "https://www.sandvik.coromant.com/en-us/tools/drilling-tools/exchangeable-tip-drills/corodrill-de10",
+        "https://www.makino.com.sg/en-us/machine-technology/machines/wire-edm/upv-5"
+      ],
+      "generator": "scripts/draw_case_subtractive.py",
+      "rights": "Original illustration authored for this book.",
+      "width": 2200,
+      "height": 1400,
+      "sha256": "74bb5056f07e5ead421e4c153e517936cc1c5262688a44576ba1440014d09651"
+    },
+    {
+      "file": "assets/images/case-subtractive-hybrid-access.png",
+      "kind": "original_programmatic_teaching",
+      "caption": "封闭前后加工可达性的示意，不是Sulzer叶轮剖面或可直接执行的封口工艺。",
+      "case_ids": [
+        "CASE-H01"
+      ],
+      "source_pages": [
+        "https://www.sulzer.com/en/shared/case-studies/chevron-hybrid-machining"
+      ],
+      "generator": "scripts/draw_case_subtractive.py",
+      "rights": "Original illustration authored for this book.",
+      "width": 2200,
+      "height": 1400,
+      "sha256": "f3fc86d0e1d26d66c4edccf4cadc3dc1143a710e9cdbce416ab943cb566e8072"
+    }
+  ],
+  "additional_source": {
+    "id": "CASE-H02",
+    "publisher": "EOS",
+    "title": "Metal Additive Manufacturing Periphery",
+    "url": "https://www.eos.info/metal-solutions/metal-periphery"
+  },
+  "source_caution": "These are manufacturers’ primary descriptions and application guides, not independent comparative performance tests. Generic review advice is identified as the book’s teaching synthesis."
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "chapter": "08",
+    "title": "让一个外壳真正合得上",
+    "image": "assets/images/case-workbench-enclosure.jpg",
+    "label": "作者练习 · FFF",
+    "description": "从盖缘试片开始，把试装结果变成下一轮可解释的修改。",
+    "credit": "AI教学情境 · 本书假设项目",
+    "source": "references/application-workflow.json",
+    "alt": "桌面外壳试样、卡尺与草图的AI教学情境"
+  },
+  {
+    "chapter": "03",
+    "title": "打印牙模，热成形牙套",
+    "image": "assets/images/case-polymer-real-aligner-model.jpg",
+    "label": "真实案例 · SLA",
+    "description": "Modern Clear把打印用于中间模型，最终佩戴物来自下一道成形工序。",
+    "credit": "真实来源图 · Formlabs Dental / Modern Clear",
+    "source": "https://dental.formlabs.com/blog/clear-aligner-production-modern-clear/",
+    "alt": "透明热成形牙套覆盖在打印牙模上"
+  },
+  {
+    "chapter": "04",
+    "title": "把尼龙小件带进汽车装配",
+    "image": "assets/images/case-polymer-real-brose-seat-clips.jpg",
+    "label": "真实案例 · SLS",
+    "description": "Brose座椅卡扣让我们看到：用途、批次组织与检验共同决定终用件交付。",
+    "credit": "真实来源图 · Formlabs / Brose",
+    "source": "https://formlabs.com/blog/brose-sla-sls-bolster-automotive-production/",
+    "alt": "Brose案例中的SLS座椅卡扣"
+  },
+  {
+    "chapter": "05",
+    "title": "打印之后，还要经过热试验",
+    "image": "assets/images/case-industrial-ramfire-real.jpg",
+    "label": "工程验证 · DED",
+    "description": "NASA RAMFIRE的铝喷管案例，把复杂流道、材料开发与验证放在一起看。",
+    "credit": "真实来源图 · NASA / MSFC",
+    "source": "https://www.nasa.gov/centers-and-facilities/marshall/nasas-innovative-rocket-nozzle-paves-way-for-deep-space-missions/",
+    "alt": "NASA RAMFIRE铝喷管热试验"
+  },
+  {
+    "chapter": "06",
+    "title": "把流道藏进换热器",
+    "image": "assets/images/case-industrial-uam-real.jpg",
+    "label": "真实项目 · UAM",
+    "description": "Fabrisonic用金属箔叠层与机加工组织内部结构，读懂成形与加工如何配合。",
+    "credit": "真实来源图 · Fabrisonic LLC，经NASA Spinoff刊载",
+    "source": "https://spinoff.nasa.gov/ultrasonic-welding-additive-manufacturing",
+    "alt": "Fabrisonic金属换热器真实来源图片"
+  },
+  {
+    "chapter": "10",
+    "title": "在封闭之前加工叶轮内部",
+    "image": "assets/images/case-subtractive-real-hybrid-impeller.jpg",
+    "label": "真实项目 · 增减材协同",
+    "description": "沿Sulzer案例理解加工可达性；配图是官方叶轮示例，并非特指客户现场运行件。",
+    "credit": "真实来源图 · Sulzer",
+    "source": "https://www.sulzer.com/en/shared/case-studies/chevron-hybrid-machining",
+    "alt": "Sulzer官方案例页中的复杂叶轮示例"
+  }
+]

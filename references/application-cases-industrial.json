@@ -1,0 +1,249 @@
+{
+  "checked_at": "2026-10-22",
+  "cases": [
+    {
+      "id": "IND-01",
+      "chapter": "05",
+      "technology": "LPBF",
+      "case": "NASA铜合金燃烧室内衬",
+      "application": "复杂冷却通道与热壁集成",
+      "evidence_status": "2015研究制造样件；不宣称通用装机认证",
+      "sources": [
+        {
+          "key": "CASE05A",
+          "url": "https://www.nasa.gov/technology/nasa-3-d-prints-first-full-scale-copper-rocket-engine-part/"
+        }
+      ],
+      "images": [
+        "assets/images/real-nasa-copper.jpg"
+      ],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-02",
+      "chapter": "05",
+      "technology": "电子束粉床熔融 / EBM",
+      "case": "LimaCorporate Delta TT与Medacta Mpact 3D Metal髋臼杯",
+      "application": "标准型号多孔结构植入物的制造与结构评价",
+      "evidence_status": "2019原始研究中的市售样品；非患者定制、非临床优越性结论",
+      "sources": [
+        {
+          "key": "CASE05B",
+          "url": "https://link.springer.com/article/10.1186/s41205-019-0052-0"
+        }
+      ],
+      "images": [
+        "assets/images/case-industrial-ebm-cups-real.png"
+      ],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-03",
+      "chapter": "05",
+      "technology": "送粉激光DED",
+      "case": "NASA / Elementum 3D / RPM Innovations RAMFIRE",
+      "application": "大型喷管的冷却通道集成与热试验",
+      "evidence_status": "2023制造、热试验及概念验证；不宣称执行深空飞行",
+      "sources": [
+        {
+          "key": "CASE05C",
+          "url": "https://www.nasa.gov/centers-and-facilities/marshall/nasas-innovative-rocket-nozzle-paves-way-for-deep-space-missions/"
+        }
+      ],
+      "images": [
+        "assets/images/case-industrial-ramfire-real.jpg"
+      ],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-04",
+      "chapter": "05",
+      "technology": "金属黏结剂喷射",
+      "case": "John Deere / HP / GKN燃油系统阀件",
+      "application": "紧凑空间复杂功能金属零件",
+      "evidence_status": "HP 2022生产应用公告；GKN 316L MBJ应用说明，营销节省比例未采用",
+      "sources": [
+        {
+          "key": "CASE05D",
+          "url": "https://www.hp.com/us-en/newsroom/press-releases/2022/new-hp-jet-fusion-s400-metal-jet-s100.html"
+        },
+        {
+          "key": "CASE05E",
+          "url": "https://www.gknpm.com/en/about-us/our-businesses/gkn-additive/"
+        }
+      ],
+      "images": [
+        "assets/images/case-industrial-metal-applications.png"
+      ],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-05",
+      "chapter": "06",
+      "technology": "PolyJet材料喷射 / 多材料",
+      "case": "Audi J750尾灯罩原型",
+      "application": "颜色、透明区域与形状评审",
+      "evidence_status": "Stratasys 2018设计验证用途；不等同耐候量产车灯",
+      "sources": [
+        {
+          "key": "CASE06A",
+          "url": "https://investors.stratasys.com/news-events/press-releases/detail/466/audi-adopts-stratasys-full-color-multi-material-3d-printing"
+        }
+      ],
+      "images": [],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-06",
+      "chapter": "06",
+      "technology": "UAM超声薄材叠层 + 减材",
+      "case": "Fabrisonic / NASA JPL铝换热器",
+      "application": "加工弯曲通道后用金属箔封闭",
+      "evidence_status": "NASA Spinoff开发案例；不将该公司照片认作公共领域",
+      "sources": [
+        {
+          "key": "CASE06B",
+          "url": "https://spinoff.nasa.gov/ultrasonic-welding-additive-manufacturing"
+        }
+      ],
+      "images": [
+        "assets/images/case-industrial-uam-real.jpg"
+      ],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-07",
+      "chapter": "06",
+      "technology": "LCM陶瓷光成形",
+      "case": "Lithoz / Safran陶瓷铸造芯能力建设",
+      "application": "用陶瓷芯定义金属铸件内部通道",
+      "evidence_status": "2025 S65安装公告；所配S320示范芯非Safran量产实物",
+      "sources": [
+        {
+          "key": "CASE06C",
+          "url": "https://www.lithoz.com/en/lithoz-has-installed-cerafab-s65-printers-to-build-casting-parts-for-safran-aircraft-engines/"
+        }
+      ],
+      "images": [
+        "assets/images/case-industrial-ceramic-real.jpg",
+        "assets/images/case-industrial-ceramic-core-role.png"
+      ],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-08",
+      "chapter": "06",
+      "technology": "食品材料挤出",
+      "case": "Natural Machines Foodini / Elior实验室",
+      "application": "配方、造型与厨房呈现实验",
+      "evidence_status": "供应商用户证言；不声称完整自动烹饪或临床适宜性",
+      "sources": [
+        {
+          "key": "CASE06D",
+          "url": "https://www.naturalmachines.com/users"
+        }
+      ],
+      "images": [],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-09",
+      "chapter": "06",
+      "technology": "建筑材料挤出",
+      "case": "PERI / COBOD海德堡IT Server Hotel",
+      "application": "真实建筑中的曲面墙体制造",
+      "evidence_status": "2024供应商项目启用报道；纯打印用时不等同总工期",
+      "sources": [
+        {
+          "key": "CASE06E",
+          "url": "https://cobod.com/europes-largest-3d-printed-building-unveiled/"
+        }
+      ],
+      "images": [],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    },
+    {
+      "id": "IND-10",
+      "chapter": "06",
+      "technology": "生物打印 / 牺牲墨水路径",
+      "case": "Harvard Wyss / SEAS SWIFT",
+      "application": "在密集细胞组织中制造可灌流通道",
+      "evidence_status": "2019组织工程研究；非可移植完整心脏",
+      "sources": [
+        {
+          "key": "CASE06F",
+          "url": "https://wyss.harvard.edu/news/a-swifter-way-towards-3d-printed-organs/"
+        }
+      ],
+      "images": [],
+      "editorial_note": "工艺选择、后处理与检查问题为作者教学归纳；项目事实与资料结论在正文就近标注。"
+    }
+  ],
+  "images": [
+    {
+      "file": "assets/images/case-industrial-ramfire-real.jpg",
+      "type": "真实照片",
+      "credit": "NASA / MSFC",
+      "source_page": "https://www.nasa.gov/centers-and-facilities/marshall/nasas-innovative-rocket-nozzle-paves-way-for-deep-space-missions/",
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2023/10/ramfire-nozzle-hot-fire-testing-nasa-msfc.jpg?w=1536",
+      "rights": "NASA署名影像；遵循NASA媒体使用要求，不表示NASA背书，不标为CC许可。",
+      "changes": "按版面缩放；文件图像内容未修改"
+    },
+    {
+      "file": "assets/images/case-industrial-ebm-cups-real.png",
+      "type": "原始研究实物照片图版",
+      "credit": "Dall’Ava, L., Hothi, H., Henckel, J. et al., 2019, Figure 2",
+      "source_page": "https://link.springer.com/article/10.1186/s41205-019-0052-0",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs41205-019-0052-0/MediaObjects/41205_2019_52_Fig2_HTML.png",
+      "rights": "CC BY 4.0，文章Rights and permissions明确说明；图注注明作者、来源、许可及未改动内容。",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "按版面缩放；未修改图像内容",
+      "identity_note": "a、b为EBM，c为另一种激光制造产品；非全部EBM"
+    },
+    {
+      "file": "assets/images/case-industrial-uam-real.jpg",
+      "type": "真实照片",
+      "credit": "Fabrisonic LLC",
+      "source_page": "https://spinoff.nasa.gov/ultrasonic-welding-additive-manufacturing",
+      "image_url": "https://spinoff.nasa.gov/sites/default/files/2021-05/fabrisonic_1a_web_0.jpg",
+      "rights": "第三方版权保留；原页未发现开放许可，不能因NASA刊载视为公共领域。",
+      "changes": "按版面缩放；未修改图像内容"
+    },
+    {
+      "file": "assets/images/case-industrial-ceramic-real.jpg",
+      "type": "真实官方示范件照片",
+      "credit": "© Lithoz",
+      "source_page": "https://www.lithoz.com/en/lithoz-has-installed-cerafab-s65-printers-to-build-casting-parts-for-safran-aircraft-engines/",
+      "image_url": "https://www.lithoz.com/wp-content/uploads/2025/10/Ceramic-Casting-Cores_copyright-Lithoz-1024x675.jpg",
+      "rights": "原页明确Copyright Lithoz；保留版权，未发现开放许可。",
+      "changes": "按版面缩放；未修改图像内容",
+      "identity_note": "官方注明为CeraFab S320打印的示范芯；不是Safran S65量产件"
+    },
+    {
+      "file": "assets/images/case-industrial-metal-applications.png",
+      "type": "原创精确应用示意",
+      "credit": "本书原创",
+      "source_pages": [
+        "https://www.nasa.gov/technology/nasa-3-d-prints-first-full-scale-copper-rocket-engine-part/",
+        "https://www.hp.com/us-en/newsroom/press-releases/2022/new-hp-jet-fusion-s400-metal-jet-s100.html",
+        "https://www.gknpm.com/en/about-us/our-businesses/gkn-additive/",
+        "https://www.trumpf.com/en_INT/solutions/applications/additive-manufacturing/laser-metal-deposition/"
+      ],
+      "script": "scripts/draw_case_industrial.py",
+      "rights": "原创绘制；品牌事实不作为对任何品牌实物图纸的复原。",
+      "purpose": "从冷却、局部补材、批量阀件三种任务理解工艺选择"
+    },
+    {
+      "file": "assets/images/case-industrial-ceramic-core-role.png",
+      "type": "原创精确应用示意",
+      "credit": "本书原创",
+      "source_pages": [
+        "https://www.lithoz.com/en/lithoz-has-installed-cerafab-s65-printers-to-build-casting-parts-for-safran-aircraft-engines/"
+      ],
+      "script": "scripts/draw_case_industrial.py",
+      "rights": "原创绘制；通用简化几何，不是实际叶片铸造工艺规程。",
+      "purpose": "说明中间陶瓷芯如何定义金属铸件内部空腔"
+    }
+  ],
+  "validation": "图像逐张目视核查，PIL.verify与Markdown相对路径检查；只编辑05、06章及本组新增文件。"
+}

@@ -1,0 +1,525 @@
+[
+  {
+    "file": "assets/images/01-cover.jpg",
+    "kind": "ai",
+    "chapters": [
+      "00"
+    ],
+    "sha256": "d8ef3e728c07cadf42ab5cf35ce39cada1147241eaae8d49af81ac4214238c20",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/02-extrusion.jpg",
+    "kind": "ai",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "07f8692fa21d268200713911413bc62f5ffb5ac79f8c7b51321251ef5ae4dbaf",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/03-resin.jpg",
+    "kind": "ai",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "bb176426cf998992f98827360faff3262fd395f9d07d60d0517d5c9e33a232e4",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/04-powder-metal.jpg",
+    "kind": "ai",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "1a96ecf79071ac8fe1dea9c350634ba357ff3833fa12e56bfb253d5bfa9dea61",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/05-materials.jpg",
+    "kind": "ai",
+    "chapters": [
+      "07"
+    ],
+    "sha256": "ff4aacd14cab76a1fce6d30eebf2799a794e90e9190e617dc8ed3c9c306d0fd7",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/06-cnc.jpg",
+    "kind": "ai",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "6806d76499af6f54129fd5d5173f167ea68a8cbd2a84195a72246477dceeb325",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/07-same-part.jpg",
+    "kind": "ai",
+    "chapters": [
+      "10",
+      "16"
+    ],
+    "sha256": "2e3cb14b1daa7514a3673b41da96a87b4a9a1c00993a31b33082738f697266e5",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/08-design.jpg",
+    "kind": "ai",
+    "chapters": [
+      "11"
+    ],
+    "sha256": "71f75f98b242481f6826b750ec01c774b6e99c8dee7dba78dc6a7c1e17d452c8",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/09-special.jpg",
+    "kind": "ai",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "a01a1a80d4594e7cf77b50e3ec626f6add65b0c1226b340d1674294866c183c6",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/10-finishes.jpg",
+    "kind": "ai",
+    "chapters": [
+      "11"
+    ],
+    "sha256": "af965c6e63d80c7ec6edd0d7e423ca9b627360b094eca3b44ce7f27f1e252daf",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/case-industrial-ceramic-core-role.png",
+    "kind": "diagram",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "8fc9c38969811876857ff586cdfb67573b8c24e54c136602008ba8307a72f285",
+    "metadata": "references/application-cases-industrial.json"
+  },
+  {
+    "file": "assets/images/case-industrial-ceramic-real.jpg",
+    "kind": "real",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "761454efd1fdc50f8c7b7051d8c23a8a3bf07e1cc30241a1e9a2c3cf05fda091",
+    "metadata": "references/application-cases-industrial.json"
+  },
+  {
+    "file": "assets/images/case-industrial-ebm-cups-real.png",
+    "kind": "real",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "283f1a02ed58f9cbee93792cc6c648ffd56ba273fd2f024de62be1f818544618",
+    "metadata": "references/application-cases-industrial.json"
+  },
+  {
+    "file": "assets/images/case-industrial-metal-applications.png",
+    "kind": "diagram",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "8db871661ad5b9fce4221a04a754c26d31ad2903cc296a3bd2784935491ad8fb",
+    "metadata": "references/application-cases-industrial.json"
+  },
+  {
+    "file": "assets/images/case-industrial-ramfire-real.jpg",
+    "kind": "real",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "329963e7c923f46de4af8afc1b4c27a8e7fd44cb5025248f3feb7fbdf448fff4",
+    "metadata": "references/application-cases-industrial.json"
+  },
+  {
+    "file": "assets/images/case-industrial-uam-real.jpg",
+    "kind": "real",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "e57666c73ba89c663a9924f735c490057dcb81f0a6c275f467e790e71b4a9acb",
+    "metadata": "references/application-cases-industrial.json"
+  },
+  {
+    "file": "assets/images/case-polymer-fff-positioning.png",
+    "kind": "diagram",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "291387497f076f98dbf286ea42d244c5774a5d7b439ecc8f79fb74f6566269f6",
+    "metadata": "references/application-cases-polymer.json"
+  },
+  {
+    "file": "assets/images/case-polymer-real-aligner-model.jpg",
+    "kind": "real",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "dc69f5cf330854d00244d2f7d4215c87672f14a0b2de4c68b7ac0b9bd95b6313",
+    "metadata": "references/application-cases-polymer.json"
+  },
+  {
+    "file": "assets/images/case-polymer-real-brose-seat-clips.jpg",
+    "kind": "real",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "f20a4a4e81f70a31e60b5dcfcb9b80a18e10b8cced73c743f517bb8bc227ae66",
+    "metadata": "references/application-cases-polymer.json"
+  },
+  {
+    "file": "assets/images/case-polymer-real-davidson-workshop.jpg",
+    "kind": "real",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "088bf09a3baccc604819b32fae0e6b7e5a1d2ee2879e60d6a6002c4a6ea4c77c",
+    "metadata": "references/application-cases-polymer.json"
+  },
+  {
+    "file": "assets/images/case-polymer-real-iorthotics.jpg",
+    "kind": "real",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "c0005fae5a5cfb9d0ab194e50c7506fa3f4e1c3fb407f537247db1a93947910d",
+    "metadata": "references/application-cases-polymer.json"
+  },
+  {
+    "file": "assets/images/case-polymer-resin-indirect.png",
+    "kind": "diagram",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "365e8558183db72bf82dad2d3271e20b389da88d6423cc498dfb0a7fc88423a4",
+    "metadata": "references/application-cases-polymer.json"
+  },
+  {
+    "file": "assets/images/case-subtractive-hybrid-access.png",
+    "kind": "diagram",
+    "chapters": [
+      "10"
+    ],
+    "sha256": "f3fc86d0e1d26d66c4edccf4cadc3dc1143a710e9cdbce416ab943cb566e8072",
+    "metadata": "references/application-cases-subtractive.json"
+  },
+  {
+    "file": "assets/images/case-subtractive-part-features.png",
+    "kind": "diagram",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "74bb5056f07e5ead421e4c153e517936cc1c5262688a44576ba1440014d09651",
+    "metadata": "references/application-cases-subtractive.json"
+  },
+  {
+    "file": "assets/images/case-subtractive-real-etch-design.jpg",
+    "kind": "real",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "038b5be1303602356605474bf2de71446b5e680605a8fae942c96b41ad9c6ee0",
+    "metadata": "references/application-cases-subtractive.json"
+  },
+  {
+    "file": "assets/images/case-subtractive-real-hybrid-impeller.jpg",
+    "kind": "real",
+    "chapters": [
+      "10"
+    ],
+    "sha256": "7d447014a7f528e99dea62d7e3bdc3f8a9443e7bc9d690a369dbd1eedd208eda",
+    "metadata": "references/application-cases-subtractive.json"
+  },
+  {
+    "file": "assets/images/case-workbench-enclosure.jpg",
+    "kind": "ai",
+    "chapters": [
+      "08"
+    ],
+    "sha256": "5be8a44701e4d90e2f65cd7db5456c2d5ef05f7ed7c8a73a961971c56b86c1dc",
+    "metadata": "references/generated-images.json"
+  },
+  {
+    "file": "assets/images/core-fff-orientation.png",
+    "kind": "diagram",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "f3539134f7d20d57ca80fffb9f1a4a8452873c818d2e94d2884e245199a2ca18",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/core-fiber-forms.png",
+    "kind": "diagram",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "e4da1f140585e63d8fb47b1e4b6426f966b93f6554440ee4f631b47a5d5dc48a",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/core-material-properties.png",
+    "kind": "diagram",
+    "chapters": [
+      "07"
+    ],
+    "sha256": "00cc02d5340088ceb03fcd705683e6c0ca10d288924c0ec6b7d1c1eaf7375f03",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/core-resin-exposure.png",
+    "kind": "diagram",
+    "chapters": [
+      "03"
+    ],
+    "sha256": "467c347c1ba419fc9f66268c704fab57869d19489e411f8ad6f95b06e781a072",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/core-sls-mjf.png",
+    "kind": "diagram",
+    "chapters": [
+      "04"
+    ],
+    "sha256": "ea51a12c745eaf5fb9236bc37b298209d01fa14cb13b78a5022b54463b800465",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/diagram-01-routes.png",
+    "kind": "diagram",
+    "chapters": [
+      "01"
+    ],
+    "sha256": "3239b7295b2e7e461f585344f2c7ade2bdb07c5665693a55cdfb0fbc60cd7b48",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/diagram-02-principles.png",
+    "kind": "diagram",
+    "chapters": [
+      "02"
+    ],
+    "sha256": "abc89786e24c5f4b919a221a9a35ef01388471dc249eced4c5c795e2921356c9",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/diagram-03-families.png",
+    "kind": "diagram",
+    "chapters": [
+      "01"
+    ],
+    "sha256": "359628850b2a56456e7e60a776caa6a66c1777818f8c19c06941bf6fb30c8f4f",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/diagram-04-limits.png",
+    "kind": "diagram",
+    "chapters": [
+      "08"
+    ],
+    "sha256": "b3d86caa54fac8716f80228d57eaa84c4d44bd3b5572ad79b9f80a6e3ca36a30",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/diagram-05-greenpart.png",
+    "kind": "diagram",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "7541ffb1a5def8ea89f61401fdd50b31d6a21b75153f9a254b0a6f6c80db8af7",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/diagram-06-quality.png",
+    "kind": "diagram",
+    "chapters": [
+      "08"
+    ],
+    "sha256": "0dfebe8f00709accb3c22396aab8e930a4aacf13447f05746603146144da862f",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/real-carbon-adidas.jpg",
+    "kind": "real",
+    "chapters": [
+      "13"
+    ],
+    "sha256": "2a72e8a6d399338dd586c9dc3065c2cbbd8c421029f89526689f61b121803e6f",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-farsoon-machine.jpg",
+    "kind": "real",
+    "chapters": [
+      "14"
+    ],
+    "sha256": "3c8a07769073176bc45a5a8c6395b2765c69090630c68f4e109a45fed1959a97",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-farsoon-team.jpg",
+    "kind": "real",
+    "chapters": [
+      "14"
+    ],
+    "sha256": "ac8ade1a91754d497904a40bd6d975622d8d7649c281393d73f58b674a10d5dd",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-makera-development.jpg",
+    "kind": "real",
+    "chapters": [
+      "15"
+    ],
+    "sha256": "a4747a8ff4483e37a3fb5f40b4adc78226cdbd5a504efde6918a6e49a9fa8911",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-makera-story.jpg",
+    "kind": "real",
+    "chapters": [
+      "15"
+    ],
+    "sha256": "bc5b5abce5eb43d2de766b1160594bb948f57770c0375318ead10d4a08040c00",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-makera-workshop.jpg",
+    "kind": "real",
+    "chapters": [
+      "15"
+    ],
+    "sha256": "f9180f1121c97bcbfbcf4d067d374e48e3ce8d8ccabb22065cdaa87cd3cc4aff",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-nasa-copper.jpg",
+    "kind": "real",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "a2177dcd20833f81f51c17acd113ee551aa82f57ddac97dc7fc439a82a39af37",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-sovol-model.png",
+    "kind": "real",
+    "chapters": [
+      "12"
+    ],
+    "sha256": "8de4a17b9a889c11453bf31711cd990c4a65e9323ad7ba312bf676b3ee13e1db",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/real-sovol-sv08.jpg",
+    "kind": "real",
+    "chapters": [
+      "12"
+    ],
+    "sha256": "bc839bf80bd1f16af80a3f8693928f780c91b7dcd0ab657d4ae1f2f23bee77be",
+    "metadata": "references/real-images.json"
+  },
+  {
+    "file": "assets/images/supp-industrial-ceramic-chain.png",
+    "kind": "diagram",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "a58d6cf0d6163053680ee78686a76865d6dc1eebabe0e78665ccda780fe277f2",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-industrial-cutting-motion.png",
+    "kind": "diagram",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "e0246ae9f1e6cd9deb28db6d9bc8a2695693bc1377d3feecedb0e507fbe292a2",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-industrial-jet-sheet.png",
+    "kind": "diagram",
+    "chapters": [
+      "06"
+    ],
+    "sha256": "e681ae77981a58f6fa1b41161090b87f008cb97efc5a34e403595f040fc60847",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-industrial-metal-feed.png",
+    "kind": "diagram",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "d2d83b15e64e7b362f35ba47d88f45d4083646f71ab65017f382fa9d36633ce8",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-industrial-metal-postprocess.png",
+    "kind": "diagram",
+    "chapters": [
+      "05"
+    ],
+    "sha256": "a7a2b972ee4a1353369ec482480df2d4d22aebcf82f4df6ad793b17f2222057e",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-industrial-nontraditional-cutting.png",
+    "kind": "diagram",
+    "chapters": [
+      "09"
+    ],
+    "sha256": "b00c9fd3b79f51a5574c87a4a8fca80925ecf63d5469f273a54dc39fcdab1256",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-workflow-01-cad-mesh-slice.png",
+    "kind": "diagram",
+    "chapters": [
+      "08"
+    ],
+    "sha256": "7e12cfcb4f0d5a02f86075d2c1d86c7ceeb8a56f84bead82a8c15de00f7abb6d",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-workflow-02-hybrid-part.png",
+    "kind": "diagram",
+    "chapters": [
+      "10"
+    ],
+    "sha256": "4969601deff3437127fe7e891436159234f2996c0f6f303ecb9e6135c7185be9",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-workflow-03-clear-surface.png",
+    "kind": "diagram",
+    "chapters": [
+      "11"
+    ],
+    "sha256": "4019a3350f77263a7335eed227a93eec825a8eaffabc3a3330e715a778c929c0",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-workflow-04-batch-cost.png",
+    "kind": "diagram",
+    "chapters": [
+      "10"
+    ],
+    "sha256": "ad191c2c36f5cefca05fbbc5b4f69a04bc7e7f7c1cb01037142f3d7c8cd28154",
+    "metadata": "scripts/"
+  },
+  {
+    "file": "assets/images/supp-workflow-05-removal-access.png",
+    "kind": "diagram",
+    "chapters": [
+      "16"
+    ],
+    "sha256": "e45143a474283163c60c09cb75ad2898a02c9c9d8451e04d37fbdaa7322acc57",
+    "metadata": "scripts/"
+  }
+]

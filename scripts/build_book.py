@@ -2,6 +2,9 @@
 from pathlib import Path
 import re, json, html, math, os, argparse
 from urllib.parse import urlparse
+from reportlab import rl_config
+# Binary image streams avoid ASCII85 overhead without changing image quality.
+rl_config.useA85 = False
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont

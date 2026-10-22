@@ -54,5 +54,29 @@
     "provider": "built-in image_gen",
     "production_brief": "Six aesthetic printing concepts: pleated lamp, translucent branching vessel, layered clay vase, architectural arches, lattice cuff, gyroid cube. 3x2 ivory editorial plate.",
     "purpose": "材料、形态或表面观察；不作为性能与可制造性的证据"
+  },
+  {
+    "file": "assets/images/case-workbench-enclosure.jpg",
+    "type": "AI教学情境",
+    "provider": "built-in image_gen",
+    "production_brief": "Use case: illustration-story. Asset type: one landscape editorial illustration for a Chinese illustrated manufacturing book chapter on moving from a digital model to a practical part. Primary request: a beautiful, credible maker workbench showing a small low-voltage desktop sensor enclosure prototype and its fit-check, with a warm ivory background, dark teal and terracotta objects matching an elegant technical atlas. At center a palm-sized rounded rectangular terracotta FFF-printed plastic housing, lid placed beside it with clear visible layer lines, two simple mounting ears and screw holes, no electronics inside; at left a modest pencil dimensional sketch on paper and a laptop with a simple CAD silhouette of the same general housing; at right a caliper resting beside a dark teal first-iteration lid and small plain paper revision notes without legible words. This is a generic author-designed teaching scene, not a real brand product or precision engineering drawing. Natural daylight, eye-level three-quarter close view, extremely refined editorial product-photography aesthetic, believable surfaces, coherent object scale, objects separated and legible, calm composition, no people or hands, no logos, no brand marks, no floating tools, no fantastical machinery, no text or labels, landscape 3:2.",
+    "purpose": "作者假设项目，非真实品牌产品或已验证工程设计；图中几何与尺寸不作为制造图纸。",
+    "prompt_record": "references/application-scene-prompt.json"
+  },
+  {
+    "file": "assets/images/09-special.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Use case: stylized-concept. Landscape beautiful editorial plate for a book on advanced 3D printing. Six conceptual material specimens in 3 columns 2 rows, on warm ivory with consistent natural daylight, every object fully shown: sculptural clay vase with clearly stacked coil layers; a tiny chocolate architectural dome with visible extrusion paths; a fragment of a ribbed concrete wall with coarse horizontal beads; colorful realistic geological teaching model sliced open with strata in different colors; intricate pale blue ceramic lattice cube next to a shrunken fired cream ceramic lattice cube (conceptual, no numeric scale); laminated paper contour sculpture with exposed sheet edges. Elegance and tactile material realism. No text, logos, plants, people or fantasy medical organs. Conceptual educational illustration, no actual brand.",
+    "purpose": "概念外观教学，不作为实物或性能证据",
+    "prompt_record": "references/09-special-prompt.json"
+  },
+  {
+    "file": "assets/images/10-finishes.jpg",
+    "type": "AI教学示意",
+    "provider": "built-in image_gen",
+    "production_brief": "Use case: scientific-educational. Landscape premium material finish comparison plate for Chinese popular science book about 3D printing. Six identical simple hollow cylindrical cups with flat rims in 3 columns 2 rows on warm ivory. Top row orange FFF cup with fine visible horizontal layer lines; same shape in gray resin with smooth satin surface; same shape in white nylon with powdery grain. Bottom row raw dull gray metal printed cup with rough granular surface; polished silver metal cup reflecting soft studio light; deep blue glazed ceramic cup. All six exact same shape and scale, full objects, no handles, gentle shadows, subtle tactile macro detail, beautiful restraint. No text, words, logos. Concept rendering, not measured real samples.",
+    "purpose": "概念外观教学，不作为实物或性能证据",
+    "prompt_record": "references/10-finishes-prompt.json"
   }
 ]
