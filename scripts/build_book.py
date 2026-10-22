@@ -12,6 +12,7 @@ from PIL import Image as PILImage
 from pypdf import PdfReader, PdfWriter
 
 ROOT=Path(__file__).resolve().parents[1];BUILD=ROOT/'build';BUILD.mkdir(exist_ok=True)
+(ROOT/'tmp').mkdir(exist_ok=True)
 font=Path(os.environ.get('BOOK_FONT',str(Path.home()/'.local/share/fonts/NotoSansSC-Regular.ttf')))
 if not font.exists():raise SystemExit('Set BOOK_FONT to a Chinese TrueType font path (e.g. NotoSansSC-Regular.ttf).')
 pdfmetrics.registerFont(TTFont('Book',str(font)))

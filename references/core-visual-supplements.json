@@ -1,0 +1,90 @@
+{
+  "title": "核心工艺教学补图",
+  "method": "Pillow deterministic original diagrams, no invented measurements",
+  "palette": {
+    "background": "#f6f1e8",
+    "ink": "#233c40",
+    "accent": "#c85a34"
+  },
+  "script": "scripts/draw_core_supplements.py",
+  "figures": [
+    {
+      "id": "C02-A",
+      "path": "assets/images/core-fff-orientation.png",
+      "chapter": "chapters/02.md",
+      "purpose": "比较层内方向与跨层方向受拉，解释摆放影响层间失效风险。",
+      "sources": [
+        "https://ultimaker.com/learn/introduction-to-fff-3d-printing/"
+      ],
+      "type": "原创教学图解",
+      "size": [
+        2000,
+        1200
+      ],
+      "qa": "逐图目视核查；非真实比例；无实测或虚构性能数值"
+    },
+    {
+      "id": "C02-B",
+      "path": "assets/images/core-fiber-forms.png",
+      "chapter": "chapters/02.md",
+      "purpose": "区分分散短纤维与规划铺放的连续纤维，避免把所有碳纤维材料混为一种。",
+      "sources": [
+        "https://help.prusa3d.com/article/composite-materials-filled-with-carbon-kevlar-or-glass_167387",
+        "https://markforged.com/resources/10x-stronger"
+      ],
+      "type": "原创教学图解",
+      "size": [
+        2000,
+        1200
+      ],
+      "qa": "逐图目视核查；非真实比例；无实测或虚构性能数值"
+    },
+    {
+      "id": "C03-A",
+      "path": "assets/images/core-resin-exposure.png",
+      "chapter": "chapters/03.md",
+      "purpose": "并排展示激光扫描、DLP投影及LCD掩膜的选区差别，明确上下照不是技术唯一对应。",
+      "sources": [
+        "https://formlabs.com/blog/ultimate-guide-to-stereolithography-sla-3d-printing/"
+      ],
+      "type": "原创教学图解",
+      "size": [
+        2000,
+        1200
+      ],
+      "qa": "逐图目视核查；非真实比例；无实测或虚构性能数值"
+    },
+    {
+      "id": "C04-A",
+      "path": "assets/images/core-sls-mjf.png",
+      "chapter": "chapters/04.md",
+      "purpose": "比较SLS激光供热与MJF功能剂配合红外热能的粉床连接机制。",
+      "sources": [
+        "https://formlabs.com/blog/what-is-selective-laser-sintering/",
+        "https://www.hp.com/us-en/printers/3d-printers/learning-center/3d-print-binder-vs-material-jetting.html"
+      ],
+      "type": "原创教学图解",
+      "size": [
+        2000,
+        1200
+      ],
+      "qa": "逐图目视核查；非真实比例；无实测或虚构性能数值"
+    },
+    {
+      "id": "C07-A",
+      "path": "assets/images/core-material-properties.png",
+      "chapter": "chapters/07.md",
+      "purpose": "用失效、相同条件下的挠度及无数值拉伸曲线区分强度、刚度和韧性。",
+      "sources": [
+        "https://www.princeton.edu/~humcomp/sophlab/m%26mgl_13.htm",
+        "https://courses.ems.psu.edu/matse202/book/export/html/698"
+      ],
+      "type": "原创教学图解",
+      "size": [
+        2000,
+        1200
+      ],
+      "qa": "逐图目视核查；非真实比例；无实测或虚构性能数值"
+    }
+  ]
+}

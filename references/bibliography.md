@@ -84,378 +84,402 @@ https://www.nasa.gov/technology/nasa-3-d-prints-first-full-scale-copper-rocket-e
 
 https://www.eos.info/press-media/press-center/press-releases/2022/eu-project-inshape
 
-[22] 资料：NIST《Directed Energy Deposition》
+[22] EOS 金属后处理
+
+https://www.eos.info/metal-solutions/metal-periphery
+
+[23] NIST DED
 
 https://www.nist.gov/additive-manufacturing/research-areas/technologies/directed-energy-deposition
 
-[23] 资料：TRUMPF《Laser Metal Deposition》
+[24] TRUMPF 激光金属沉积
 
 https://www.trumpf.com/en_INT/solutions/applications/additive-manufacturing/laser-metal-deposition/
 
-[24] 资料：Siemens《Binder jetting》
+[25] 资料：Siemens《Binder jetting》
 
 https://www.siemens.com/en-gb/technology/binder-jetting/
 
-[25] 资料：Stratasys《PolyJet Technology》
+[26] 资料：Stratasys《PolyJet Technology》
 
 https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/polyjet-technology/
 
-[26] 资料：Fabrisonic《What is UAM?》
+[27] Fabrisonic UAM
 
 https://fabrisonic.com/uam/
 
-[27] 资料：Lithoz《LCM Technology》
+[28] Lithoz LCM
 
 https://www.lithoz.com/en/technology/lcm-technology/
 
-[28] 资料：Fraunhofer HTL《Stereolithographic Process》
+[29] 资料：Fraunhofer HTL《Stereolithographic Process》
 
 https://www.htl.fraunhofer.de/en/ResearchAreas/additive-manufacturing/stereolithography-process.html
 
-[29] 资料：Natural Machines《Users》
+[30] 资料：Natural Machines《Users》
 
 https://www.naturalmachines.com/users
 
-[30] 资料：COBOD《How it works》
+[31] 资料：COBOD《How it works》
 
 https://cobod.com/how-it-works/
 
-[31] 资料：CELLINK《Cell and tissue models》
+[32] 资料：CELLINK《Cell and tissue models》
 
 https://www.cellink.com/cell-tissue-models/
 
-[32] Prusa Research，Filament Material Guide
+[33] Princeton 材料术语说明
+
+https://www.princeton.edu/~humcomp/sophlab/m%26mgl_13.htm
+
+[34] Penn State 聚合物力学课程
+
+https://courses.ems.psu.edu/matse202/book/export/html/698
+
+[35] Prusa Research，Filament Material Guide
 
 https://help.prusa3d.com/filament-material-guide
 
-[33] INTAMSYS，Industrial 3D Printing Filaments & Materials
+[36] INTAMSYS，Industrial 3D Printing Filaments & Materials
 
 https://www.intamsys.com/materials?list=1
 
-[34] Prusa Research，Material guide（复合料与各材料专题）
+[37] Prusa Research，Material guide（复合料与各材料专题）
 
 https://help.prusa3d.com/category/material-guide_220
 
-[35] Formlabs，3D printing post-processing FAQs
+[38] Formlabs，3D printing post-processing FAQs
 
 https://formlabs.com/global/support/3d-printing-post-processing-faqs/
 
-[36] EOS，Metal Powder for 3D Printing
+[39] EOS，Metal Powder for 3D Printing
 
 https://www.eos.info/metal-solutions/metal-materials
 
-[37] ExOne，Polymer / ceramic printing process information
+[40] ExOne，Polymer / ceramic printing process information
 
 https://www.exone.com/en/3d-printing-solutions_overview/3dp-solutions_polymer/
 
-[38] 3MF Consortium，FAQ
+[41] 3MF Consortium，FAQ
 
 https://3mf.io/resources/faq/；Core
 
-[39] Prusa Research，Object orientation
-
-https://help.prusa3d.com/article/object-orientation_1658
-
-[40] Prusa Research，Support material
+[42] Prusa Research，Support material
 
 https://help.prusa3d.com/article/support-material_1698
 
-[41] Prusa Research，Drying filament
+[43] Prusa Research，Object orientation
+
+https://help.prusa3d.com/article/object-orientation_1658
+
+[44] Prusa Research，Drying filament
 
 https://help.prusa3d.com/article/drying-filament_332086
 
-[42] Sandvik Coromant，Metal cutting knowledge
+[45] Sandvik Coromant，Metal cutting knowledge
 
 https://www.sandvik.coromant.com/en-gb/knowledge
 
-[43] JLC CNC，What Is EDM? How Electrical Discharge Machining Works
+[46] AgieCharmilles 成形 EDM
 
-https://jlccnc.com/blog/what-is-edm-electrical-discharge-machining
+https://www.agiecharmilles.com/die-sinking-edm
 
-[44] TRUMPF，Laser cutting
+[47] Makino 线切割
+
+https://www.makino.com/resources/content-library/videos/archive/makino-duo-series-wire-edm-with-up-to-62-lower-wire-consumption/166
+
+[48] TRUMPF 激光切割
 
 https://www.trumpf.com/en_US/solutions/applications/laser-cutting/
 
-[45] OMAX，How do waterjets work?
+[49] OMAX 水刀
+
+https://www.omax.com/en/learn/how-does-waterjet-work/
+
+[50] JLC CNC，What Is EDM? How Electrical Discharge Machining Works
+
+https://jlccnc.com/blog/what-is-edm-electrical-discharge-machining
+
+[51] OMAX，How do waterjets work?
 
 https://www.omax.com/en/learn/how-does-waterjet-work/；Abrasive
 
-[46] The Open University，Photochemical Machining
+[52] The Open University，Photochemical Machining
 
 https://www.open.edu/openlearn/science-maths-technology/engineering-technology/manupedia/photochemical-machining-photo-fabrication-chemical-milling
 
-[47] Protolabs，Custom Manufacturing Services
+[53] Protolabs，Custom Manufacturing Services
 
 https://www.protolabs.com/en-gb/services/
 
-[48] DMG MORI，LASERTEC 65 DED hybrid 2nd Generation
+[54] DMG MORI，LASERTEC 65 DED hybrid 2nd Generation
 
 https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid-2nd
 
-[49] ExOne，3D printing solutions overview
+[55] ExOne，3D printing solutions overview
 
 https://www.exone.com/en/3d-printing-solutions_overview/
 
-[50] Nikon SLM Solutions，Metal 3D Printing’s Impact on the Casting Industry
+[56] Nikon SLM Solutions，Metal 3D Printing’s Impact on the Casting Industry
 
 https://nikon-slm-solutions.com/addictive-additive/the-casting-industry-meets-the-future-with-integrated-3d-printing/
 
-[51] Formlabs，Model orientation best practices for SLS printing
+[57] Formlabs，Model orientation best practices for SLS printing
 
 https://formlabs.com/uk/support/Model-orientation-best-practices-for-SLS-printing/
 
-[52] Formlabs，Polishing Clear Resin for a transparent finish
+[58] Formlabs，Polishing Clear Resin for a transparent finish
 
 https://formlabs.com/support/Polishing-Clear-Resin-for-a-Transparent-Finish/
 
-[53] 3MF Consortium，Materials and Properties Extension
+[59] 3MF Consortium，Materials and Properties Extension
 
 https://3mf.io/spec/
 
-[54] Formlabs，Guide to Post-Processing and Finishing SLA Resin 3D Prints
+[60] Formlabs，Guide to Post-Processing and Finishing SLA Resin 3D Prints
 
 https://formlabs.com/blog/post-processing-and-finishing-sla-prints/
 
-[55] Autodesk，Generative Design overview
+[61] Autodesk，Generative Design overview
 
 https://help.autodesk.com/view/fusion360/ENU/?contextId=GD-OVERVIEW
 
-[56] Dassault Systèmes，TA.TAMU Installation
+[62] Dassault Systèmes，TA.TAMU Installation
 
 https://www.3ds.com/design/tatamu
 
-[57] Prusa公司介绍
+[63] Prusa公司介绍
 
 https://www.prusa3d.com/page/about-us_77/
 
-[58] 拓竹公司介绍
+[64] 拓竹公司介绍
 
 https://bambulab.cn/zh-cn/about-us
 
-[59] Anycubic支持中心
+[65] Anycubic支持中心
 
 https://www.anycubic.com/SupportCenter
 
-[60] QIDI产品与文档
+[66] QIDI产品与文档
 
 https://wiki.qidi3d.com/
 
-[61] Flashforge手册
+[67] Flashforge手册
 
 https://wiki.flashforge.com/en/adventurer-series/manual
 
-[62] Prusa十周年回顾
+[68] Prusa十周年回顾
 
 https://blog.prusa3d.com/celebrating-10-years-of-prusa-research_68570/
 
-[63] 创想十周年访谈
+[69] 创想十周年访谈
 
 https://www.creality.com/blog/creality-ceo-on-the-brands-10-year-anniversary
 
-[64] ELEGOO品牌故事
+[70] ELEGOO品牌故事
 
 https://www.elegoo.com/pages/about
 
-[65] 品牌官网
+[71] 品牌官网
 
 https://www.sovol3d.com/products/sovol-sv08-3d-printer
 
-[66] Voron项目介绍
+[72] Voron项目介绍
 
 https://docs.vorondesign.com/about.html
 
-[67] Rat Rig文档
+[73] Rat Rig文档
 
 https://wiki.ratrig.com/
 
-[68] SV08官方仓库
+[74] SV08官方仓库
 
 https://github.com/Sovol3d/SV08
 
-[69] Formlabs
+[75] Formlabs
 
 https://formlabs.com/
 
-[70] Raise3D Pro3
+[76] Raise3D Pro3
 
 https://www.raise3d.com/pro3-series/
 
-[71] Raise3D DF2
+[77] Raise3D DF2
 
 https://raise3d.com/df2/
 
-[72] EOS
+[78] EOS
 
 https://www.eos.info/about-us/who-we-are
 
-[73] HP MJF技术
+[79] HP MJF技术
 
 https://www.hp.com/us-en/printers/3d-printers/products/multi-jet-technology.html
 
-[74] Stratasys工艺目录
+[80] Stratasys工艺目录
 
 https://www.stratasys.com/en/3d-printing-technologies/
 
-[75] 3D Systems材料与工艺
+[81] 3D Systems材料与工艺
 
 https://www.3dsystems.com/materials/metal
 
-[76] Markforged连续纤维资料
+[82] Markforged连续纤维资料
 
 https://web-objects.markforged.com/craft/materials/CompositesV5.2.pdf
 
-[77] MIT对Formlabs的回顾
+[83] MIT对Formlabs的回顾
 
 https://news.mit.edu/2014/affordable-precision-3-d-printing-pros-0603
 
-[78] Formlabs十周年回顾
+[84] Formlabs十周年回顾
 
 https://formlabs.com/blog/formlabs-10-years/
 
-[79] 官方合并公告
+[85] 官方合并公告
 
 https://www.makerbot.com/stories/ultimaker-and-makerbot-announce-closing-of-merger/
 
-[80] Carbon原案例
+[86] Carbon原案例
 
 https://www.carbon3d.com/resources/case-study/adidas
 
-[81] 2017年合作公告
+[87] 2017年合作公告
 
 https://www.carbon3d.com/news/press-releases/adidas-unveils-industrys-first-application-of-digital-light-synthesis-with-futurecraft-4d
 
-[82] Formlabs收购Micronics公告
+[88] Formlabs收购Micronics公告
 
 https://formlabs.com/company/press/formlabs-acquires-micronics/
 
-[83] Meltio公司介绍
+[89] Meltio公司介绍
 
 https://meltio3d.com/about-us/
 
-[84] Airtech合作公告
+[90] Airtech合作公告
 
 https://www.airtech.com/index.php/airtech-and-caracol-announce-their-partnership
 
-[85] Lithoz LCM技术
+[91] Lithoz LCM技术
 
 https://lithoz.com/en/technology/
 
-[86] 2025年完成公告
+[92] 2025年完成公告
 
 https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Announces-Closing-of-Markforged-Acquisition/default.aspx
 
-[87] 2026年拟收购公告
+[93] 2026年拟收购公告
 
 https://investors.stratasys.com/news-events/press-releases/detail/984/stratasys-to-acquire-markforged-inc-expanding-aerospace
 
-[88] Nano关于Desktop Metal破产的声明
+[94] Nano关于Desktop Metal破产的声明
 
 https://investors.nano-di.com/press-releases/news-details/2025/Nano-Dimension-Statement-Regarding-Desktop-Metal-Bankruptcy-and-Strategic-Decision-Not-to-Acquire-Assets/default.aspx
 
-[89] BLT官方
+[95] BLT官方
 
 https://www.xa-blt.com/en/
 
-[90] Farsoon公司介绍
+[96] Farsoon公司介绍
 
 https://www.farsoon-gl.com/about/
 
-[91] Eplus3D公司历史
+[97] Eplus3D公司历史
 
 https://www.eplus3d.com/our-history/
 
-[92] UnionTech
+[98] UnionTech
 
 https://www.uniontech3d.com/
 
-[93] 先临简介
+[99] 先临简介
 
 https://www.shining3d.cn/news/article_xianlinsanweijianjie
 
-[94] LuxCreo技术平台
+[100] LuxCreo技术平台
 
 https://luxcreo.com/technology/
 
-[95] eSUN集团介绍
+[101] eSUN集团介绍
 
 https://www.esungroup.net/about-esun/
 
-[96] Polymaker介绍
+[102] Polymaker介绍
 
 https://polymaker.com/about-polymaker/
 
-[97] BLT公司信息
+[103] BLT公司信息
 
 https://www.xa-blt.com/en/career/
 
-[98] 2026年材料生态公告
+[104] 2026年材料生态公告
 
 https://www.farsoon-gl.com/news/farsoon-expands-open-materials-ecosystem-with-alm-high-performance-polymer-powders-for-industrial-pbf-production/
 
-[99] Eplus3D十周年活动
+[105] Eplus3D十周年活动
 
 https://www.eplus3d.com/eplus3d-celebrates-a-decade-of-innovation-at-the-global-partners-summit-2024.html
 
-[100] UnionTech二十年回顾
+[106] UnionTech二十年回顾
 
 https://www.uniontech3d.com/uniontech-promoting-innovation-with-technology-and-development-with-innovation-for-20-years.html
 
-[101] LuxCreo应用问答
+[107] LuxCreo应用问答
 
 https://luxcreo.com/faq
 
-[102] Makera原文
+[108] Makera原文
 
 https://www.makera.com/pages/about-us
 
-[103] DMG MORI混合加工
+[109] DMG MORI混合加工
 
 https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid
 
-[104] Mazak INTEGREX
+[110] Mazak INTEGREX
 
 https://www.mazak.com/sg-en/products/integrex-i-neo/
 
-[105] FANUC设备目录
+[111] FANUC设备目录
 
 https://www.fanuc.co.jp/en/product/robomachine/
 
-[106] SYIL X7
+[112] SYIL X7
 
 https://in.syil.com/x7
 
-[107] Onefinity
+[113] Onefinity
 
 https://www.onefinitycnc.com/
 
-[108] Langmuir MR-1
+[114] Langmuir MR-1
 
 https://www.langmuirsystems.com/pages/mr1
 
-[109] Haas历史
+[115] Haas历史
 
 https://haascnc.com/about/history
 
-[110] Carbide 3D公司介绍
+[116] Carbide 3D公司介绍
 
 https://carbide3d.com/about/
 
-[111] Okuma技术说明
+[117] Okuma技术说明
 
 https://www.okuma.com/thermo-friendly-concept
 
-[112] DMG MORI产品说明
+[118] DMG MORI产品说明
 
 https://www.dmgmori.co.jp/en/products/machine/?id=3592
 
-[113] help.prusa3d.com
+[119] help.prusa3d.com
 
 https://help.prusa3d.com/
 
-[114] formlabs.com
+[120] formlabs.com
 
 https://formlabs.com/blog/
 
-[115] 3mf.io
+[121] 3mf.io
 
 https://3mf.io/

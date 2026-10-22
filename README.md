@@ -4,13 +4,13 @@
 
 ![造物的加减法：封面概念图](assets/images/01-cover.jpg)
 
-**阅读整本：[PDF（55页）](pdf/Manufacturing_Atlas.pdf)** · [分章PDF](pdf/chapters/) · [图片与引用说明](references/image-rights.md)
+**阅读整本：[完整PDF](pdf/Manufacturing_Atlas.pdf)** · [分章PDF](pdf/chapters/) · [图片与引用说明](references/image-rights.md)
 
 ## 在线主页
 
-[打开《造物的加减法》在线阅读主页](https://manufacturing-atlas.giving-macaw-4424.chatgpt.site)
+[打开《造物的加减法》在线阅读主页](https://yzyexp.github.io/Learn-3D-ASM/)
 
-主页包含工艺导览、全书搜索、18个分章阅读入口、图片放大、字号切换、阅读进度与PDF下载。站点初始采用私密访问。在线内容与PDF使用同一份Markdown主稿，不另外维护重复正文。
+主页包含工艺导览、全书搜索、18个分章阅读入口、图片放大、字号切换、阅读进度与PDF下载。GitHub Pages由仓库中的Actions工作流部署。首次发布需在仓库Settings → Pages中选择GitHub Actions。在线内容与PDF使用同一份Markdown主稿，不另外维护重复正文。
 
 主页源文件位于`web/`，构建方式：
 
@@ -48,7 +48,7 @@ python scripts/build_homepage.py
 
 - `pdf/Manufacturing_Atlas.pdf`：整本阅读版，封面和目录之后使用正文页码。
 - `pdf/chapters/00.pdf` 至 `pdf/chapters/17.pdf`：独立章节PDF。
-- `assets/images/`：实际嵌入的25张图片。10张AI教学示意、6张原创图解、9张真实来源图片。部分图片在不同位置复用。
+- `assets/images/`：实际嵌入的41张图片。10张AI教学示意、22张原创图解、9张真实来源图片。部分图片在不同位置复用。
 - `references/all-sources.json` 与 `bibliography.md`：全书来源索引。
 - `references/real-images.json` 与 `image-rights.md`：真实图片来源与权利说明。
 - `references/generated-images.json` 与单独prompt文件：生成插画的创作简报、用途及提示。
@@ -61,12 +61,11 @@ python scripts/build_homepage.py
 
 ```bash
 python -m pip install -r requirements.txt
-export BOOK_FONT=/path/to/NotoSansSC-Regular.ttf
-python scripts/draw_diagrams.py
+python scripts/prepare_font.py
 python scripts/build_book.py
 ```
 
-使用现有图片时无需再次生成图像。`draw_diagrams.py`只重新绘制6张精确图解，不会调用图像生成API。构建脚本直接写PDF，不生成HTML。
+使用现有图片时无需再次生成图像。`draw_diagrams.py`及三个`draw_*_supplements.py`脚本可复现22张精确图解；无需图像生成API。PDF与阅读页分别由对应构建脚本生成。
 
 源稿与相对图片路径独立于当前运行目录。PDF将当页来源显示在页脚，标题可点击；分章Markdown保留近处链接。字体不随本包再分发，需按字体自身许可安装。
 
@@ -84,3 +83,7 @@ python scripts/sync_pdfs.py
 ```
 
 第三方图片权利不因本仓库公开或共享而转移，详见[图像权利说明](references/image-rights.md)。品牌不是购买排名，真实图与AI图在书中分别标识。
+
+## CI与GitHub Pages
+
+[查看构建与部署](https://github.com/YZYExp/Learn-3D-ASM/actions/workflows/pages.yml)。Push到main自动构建19份PDF、18个在线章节，校验41张图片与全部本地链接，再部署GitHub Pages。PR只构建校验。工作流也支持手动运行；不需要个人访问令牌。首次在[Pages设置](https://github.com/YZYExp/Learn-3D-ASM/settings/pages)将Source设为GitHub Actions。私有仓库需账户套餐支持Pages。

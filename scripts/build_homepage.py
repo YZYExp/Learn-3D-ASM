@@ -52,6 +52,10 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--out',type=Path,default=ROOT/'build/homepage');args=parser.parse_args();out=args.out.resolve();out.mkdir(parents=True,exist_ok=True)
     for p in (ROOT/'web').iterdir():
         if p.is_file():shutil.copy2(p,out/p.name)
+    index=out/'index.html'
+    image_count=len(list((ROOT/'assets/images').glob('*')))
+    source_count=len(json.loads((ROOT/'references/all-sources.json').read_text()))
+    index.write_text(index.read_text().replace('{{IMAGE_COUNT}}',str(image_count)).replace('{{SOURCE_COUNT}}',str(source_count)))
     chapters=[]
     for p in sorted((ROOT/'chapters').glob('[0-9][0-9].md')):
         text=p.read_text();title,content=chapter_html(text,p.stem)

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "supp-industrial-metal-feed",
+    "file": "assets/images/supp-industrial-metal-feed.png",
+    "chapter": "chapters/05.md",
+    "purpose": "LPBF 与送粉/送丝 DED 原理",
+    "type": "原创教学图解",
+    "dimensions": [
+      2200,
+      1300
+    ],
+    "sources": [
+      "https://www.nist.gov/additive-manufacturing/research-areas/technologies/directed-energy-deposition",
+      "https://www.eos.info/press-media/press-center/press-releases/2022/eu-project-inshape",
+      "https://www.trumpf.com/en_INT/solutions/applications/additive-manufacturing/laser-metal-deposition/"
+    ],
+    "source_checked": "2026-10-22",
+    "generator": "scripts/draw_industrial_supplements.py"
+  },
+  {
+    "id": "supp-industrial-metal-postprocess",
+    "file": "assets/images/supp-industrial-metal-postprocess.png",
+    "chapter": "chapters/05.md",
+    "purpose": "金属打印后处理与检验链",
+    "type": "原创教学图解",
+    "dimensions": [
+      2200,
+      1300
+    ],
+    "sources": [
+      "https://www.eos.info/metal-solutions/metal-periphery"
+    ],
+    "source_checked": "2026-10-22",
+    "generator": "scripts/draw_industrial_supplements.py"
+  },
+  {
+    "id": "supp-industrial-jet-sheet",
+    "file": "assets/images/supp-industrial-jet-sheet.png",
+    "chapter": "chapters/06.md",
+    "purpose": "材料喷射与 UAM 片材叠层",
+    "type": "原创教学图解",
+    "dimensions": [
+      2200,
+      1300
+    ],
+    "sources": [
+      "https://www.stratasys.com/en/guide-to-3d-printing/technologies-and-materials/polyjet-technology/",
+      "https://fabrisonic.com/uam/"
+    ],
+    "source_checked": "2026-10-22",
+    "generator": "scripts/draw_industrial_supplements.py"
+  },
+  {
+    "id": "supp-industrial-ceramic-chain",
+    "file": "assets/images/supp-industrial-ceramic-chain.png",
+    "chapter": "chapters/06.md",
+    "purpose": "陶瓷光成形到脱脂烧结",
+    "type": "原创教学图解",
+    "dimensions": [
+      2200,
+      1300
+    ],
+    "sources": [
+      "https://www.lithoz.com/en/technology/lcm-technology/"
+    ],
+    "source_checked": "2026-10-22",
+    "generator": "scripts/draw_industrial_supplements.py"
+  },
+  {
+    "id": "supp-industrial-cutting-motion",
+    "file": "assets/images/supp-industrial-cutting-motion.png",
+    "chapter": "chapters/09.md",
+    "purpose": "车铣钻磨运动对照",
+    "type": "原创教学图解",
+    "dimensions": [
+      2200,
+      1300
+    ],
+    "sources": [
+      "https://www.sandvik.coromant.com/en-gb/knowledge"
+    ],
+    "source_checked": "2026-10-22",
+    "generator": "scripts/draw_industrial_supplements.py"
+  },
+  {
+    "id": "supp-industrial-nontraditional-cutting",
+    "file": "assets/images/supp-industrial-nontraditional-cutting.png",
+    "chapter": "chapters/09.md",
+    "purpose": "EDM 激光水刀导电性与机制对照",
+    "type": "原创教学图解",
+    "dimensions": [
+      2200,
+      1300
+    ],
+    "sources": [
+      "https://www.agiecharmilles.com/die-sinking-edm",
+      "https://www.makino.com/resources/content-library/videos/archive/makino-duo-series-wire-edm-with-up-to-62-lower-wire-consumption/166",
+      "https://www.trumpf.com/en_US/solutions/applications/laser-cutting/",
+      "https://www.omax.com/en/learn/how-does-waterjet-work/"
+    ],
+    "source_checked": "2026-10-22",
+    "generator": "scripts/draw_industrial_supplements.py"
+  }
+]

@@ -1,18 +1,19 @@
 {
   "edition": "1.0",
   "date": "2026-10-22",
-  "physical_pdf_pages": 55,
+  "physical_pdf_pages": 65,
   "main_chapters": 16,
   "chapter_files_including_guide_and_appendix": 18,
-  "unique_embedded_images": 25,
+  "unique_embedded_images": 41,
   "AI_illustrations": 10,
-  "original_diagrams": 6,
+  "original_diagrams": 22,
   "real_source_images": 9,
-  "source_urls": 115,
-  "source_head_200": 101,
-  "source_head_other_or_blocked": 14,
+  "source_urls": 121,
   "missing_images": 0,
   "replacement_glyphs": 0,
-  "html_generated": false,
-  "version_control": "GitHub: YZYExp/Learn-3D-ASM, main; first commit contains only an empty README.md"
+  "html_generated": true,
+  "version_control": "GitHub: YZYExp/Learn-3D-ASM; initial empty README preserved",
+  "added_teaching_diagrams": 16,
+  "ci_workflow": ".github/workflows/pages.yml",
+  "pages_deployment": "Configured in workflow; requires repository Pages source: GitHub Actions"
 }

@@ -11,13 +11,23 @@ python -m pip install -r requirements.txt
 python scripts/build_homepage.py
 ```
 
-默认生成`build/homepage/`。可用`--out /absolute/output/directory`切换输出目录。静态输出自带18份Markdown、19份PDF、25张图片和资料说明，部署到子目录时也无需重写根路径。浏览器使用hash章节地址，刷新章节链接不依赖服务器路由。
+默认生成`build/homepage/`。可用`--out /absolute/output/directory`切换输出目录。静态输出自带18份Markdown、19份PDF、41张图片和资料说明，部署到子目录时也无需重写根路径。浏览器使用hash章节地址，刷新章节链接不依赖服务器路由。
 
 ## 发布与维护
 
-当前Sites身份与地址保存在`site.json`；后续更新复用同一project_id。Sites托管仓库保存构建后的发布快照；本GitHub仓库保存规范书稿与主页源码。通过Sites维护既有站点时先获取该站点及其源仓库凭据，再用Sites工作流同步同一版本、打包、保存并部署。
+GitHub Actions工作流见`../.github/workflows/pages.yml`。Push到main后自动构建PDF和静态站、验证本地图片与下载链接，并部署到GitHub Pages；PR仅做构建校验。
 
-当前站点采用owner-private访问。调整访问范围应通过站点分享设置进行，不需要修改正文、把GitHub仓库改为公开或在页面内添加自行实现的鉴权。
+首次在仓库Settings → Pages → Build and deployment中将Source设置为GitHub Actions。运行成功后从Actions的github-pages环境打开部署地址。项目子目录部署使用相对资源路径，章节使用hash路由，无需服务器重写。
+
+本地完整验证：
+
+```bash
+python scripts/prepare_font.py
+python scripts/build_book.py
+python scripts/sync_pdfs.py
+python scripts/build_homepage.py
+python scripts/validate_site.py
+```
 
 ## 内容与功能
 

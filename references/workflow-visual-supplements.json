@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "creator": "原创程序化教学示意",
+  "script": "scripts/draw_workflow_supplements.py",
+  "dimensions": [
+    2100,
+    1250
+  ],
+  "font": "NotoSansSC-Regular",
+  "palette": [
+    "#f6f1e8",
+    "#233c40",
+    "#c85a34"
+  ],
+  "figures": [
+    {
+      "file": "assets/images/supp-workflow-01-cad-mesh-slice.png",
+      "chapter": "08",
+      "purpose": "CAD实体、三角网格和逐层路径的区别",
+      "sources": [
+        "https://3mf.io/resources/faq/",
+        "https://3mf.io/spec/",
+        "https://help.prusa3d.com/article/support-material_1698"
+      ],
+      "image_type": "original_instructional_diagram",
+      "accuracy_note": "定性机制示意，不是测量数据、制造参数或特定设备工程图。",
+      "visual_qa": "逐图检查：中文清晰，无重叠或裁切；几何、箭头与图注核对。"
+    },
+    {
+      "file": "assets/images/supp-workflow-02-hybrid-part.png",
+      "chapter": "10",
+      "purpose": "同一支架的近净成形、精加工与检查",
+      "sources": [
+        "https://en.dmgmori.com/products/machines/additive-manufacturing/powder-nozzle/lasertec-65-ded-hybrid-2nd"
+      ],
+      "image_type": "original_instructional_diagram",
+      "accuracy_note": "定性机制示意，不是测量数据、制造参数或特定设备工程图。",
+      "visual_qa": "逐图检查：中文清晰，无重叠或裁切；几何、箭头与图注核对。"
+    },
+    {
+      "file": "assets/images/supp-workflow-03-clear-surface.png",
+      "chapter": "11",
+      "purpose": "透明件表面起伏与定性散射",
+      "sources": [
+        "https://formlabs.com/support/Polishing-Clear-Resin-for-a-Transparent-Finish/"
+      ],
+      "image_type": "original_instructional_diagram",
+      "accuracy_note": "定性机制示意，不是测量数据、制造参数或特定设备工程图。",
+      "visual_qa": "逐图检查：中文清晰，无重叠或裁切；几何、箭头与图注核对。"
+    },
+    {
+      "file": "assets/images/supp-workflow-04-batch-cost.png",
+      "chapter": "10",
+      "purpose": "一次性准备与重复的每件成本",
+      "sources": [
+        "https://www.protolabs.com/en-gb/services/"
+      ],
+      "image_type": "original_instructional_diagram",
+      "accuracy_note": "定性机制示意，不是测量数据、制造参数或特定设备工程图。",
+      "visual_qa": "逐图检查：中文清晰，无重叠或裁切；几何、箭头与图注核对。"
+    },
+    {
+      "file": "assets/images/supp-workflow-05-removal-access.png",
+      "chapter": "16",
+      "purpose": "支撑拆除通道与空腔排粉出口",
+      "sources": [
+        "https://help.prusa3d.com/article/support-material_1698",
+        "https://formlabs.com/global/support/3d-printing-post-processing-faqs/"
+      ],
+      "image_type": "original_instructional_diagram",
+      "accuracy_note": "定性机制示意，不是测量数据、制造参数或特定设备工程图。",
+      "visual_qa": "逐图检查：中文清晰，无重叠或裁切；几何、箭头与图注核对。"
+    }
+  ]
+}

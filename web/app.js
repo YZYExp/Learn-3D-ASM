@@ -76,4 +76,22 @@ document.addEventListener('keydown',e=>{
 window.addEventListener('hashchange',render);
 window.addEventListener('scroll',updateProgress,{passive:true});window.addEventListener('resize',updateProgress);
 const large=recall('manufacturing-atlas-large')==='true';document.body.classList.toggle('large-type',large);$('font-size').setAttribute('aria-pressed',String(large));
+// Make a network failure visible instead of leaving an empty image panel.
+function imageFailure(img){
+ if(img.dataset.failed || !img.getAttribute('src'))return;
+ img.dataset.failed='true';
+ const retry=document.createElement('button');
+ retry.type='button';retry.className='image-retry';
+ retry.textContent='图片未加载，点击重试 ↻';
+ retry.addEventListener('click',e=>{
+  e.preventDefault();e.stopPropagation();
+  const src=img.getAttribute('src');
+  delete img.dataset.failed;retry.remove();
+  const url=new URL(src,document.baseURI);url.searchParams.set('retry',Date.now());
+  img.src=url.href;
+ });
+ img.after(retry);
+}
+document.addEventListener('error',e=>{if(e.target instanceof HTMLImageElement)imageFailure(e.target);},true);
+document.querySelectorAll('img[src]').forEach(img=>{if(img.complete && !img.naturalWidth)imageFailure(img);});
 drawDirectory();refreshResume();render();
